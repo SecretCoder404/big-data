@@ -1,0 +1,45 @@
+._2aZlo29m,
+._3KcXyP0F {
+    display: inline-block;
+    fill-rule: evenodd;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: text-top
+}
+
+._3KcXyP0F {
+    fill: var(--bubbleIcon)
+}
+
+._2aZlo29m {
+    fill: var(--starIconEmpty)
+}
+
+.VpneZOS_ {
+    fill: var(--starIconFilled)
+}
+
+._2-JBovPw {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%
+}
+
+._2hV25aNZ {
+    white-space: normal
+}
+
+._1OCEzaP2 {
+    color: var(--primaryText)
+}
+
+._1OCEzaP2:hover {
+    text-decoration: underline
+}
