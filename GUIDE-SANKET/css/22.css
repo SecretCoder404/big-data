@@ -178,7 +178,10 @@
 ._3mLX8jwB:focus,
 ._3mLX8jwB:hover {
     color: var(--secondaryText);
-    outline: none
+    outline: none;
+    transition: border-color .2s;
+    border: 2px solid;
+    border-radius: 12px;
 }
 
 ._3mLX8jwB:active {
@@ -211,7 +214,7 @@
         display: block;
         right: 48px;
         color: var(--tertiaryText);
-        font-size: 16px
+        font-size: 16px;
     }
 }
 
@@ -290,11 +293,12 @@
 }
 
 ._3mLX8jwB._2obQobO0 {
-    display: grid;
-    width: 48px;
-    height: 48px;
-    font-size: 24px;
-    color: inherit
+    display: flex;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
 }
 
 @media (max-width:767px) {

@@ -24,7 +24,7 @@
 
 @media (max-width:767px) {
     .c35hjqC_ {
-        height: 100px;
+        height: 70px;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -55,11 +55,12 @@
 }
 
 ._1AlVlFFs {
-    display: block;
     /* width: 132px;
     height: 100%; */
-    width: 90px;
-    height: 90px;
+    display: block;
+    width: 50px;
+    height: 55px;
+    margin-top: 5px;
 }
 
 @media (min-width:768px) {
@@ -82,8 +83,8 @@
     ._3_CFaclw {
         -webkit-flex: 0 0 56px;
         -ms-flex: 0 0 56px;
-        flex: 0 0 56px;
-        margin-left: 12px
+        flex: 0 0 50px;
+        margin-left: 0px;
     }
 }
 
@@ -93,7 +94,7 @@
         -ms-flex: 1 1 0px;
         flex: 1 1 0;
         opacity: 1;
-        transition: opacity .15s ease-in
+        transition: opacity .15s ease-in;
     }
     .WmEK0bU8 {
         width: 100%;
@@ -145,21 +146,79 @@
     position: relative;
     cursor: pointer;
     font-size: 24px;
-    line-height: 0;
-    text-align: center;
-    color: var(--primaryIcon);
-    -webkit-appearance: none;
+    /* line-height: 0; */
+    /* text-align: center; */
+    color: white;
+    /* -webkit-appearance: none; */
     -moz-appearance: none;
-    appearance: none;
-    background: none;
-    border: none;
+    appearance: 60px;
+    background: black;
+    border: NONE;
+    border-radius: 8px;
     margin: 0;
-    padding: 0
+    padding: 10px 0px 10px 0px;
 }
 
 @media (min-width:768px) {
     ._3tKR4Vlr {
-        display: none
+        display: inline;
+        -webkit-flex: 0 0 68px;
+        -ms-flex: 0 0 68px;
+        flex: 0 0 68px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: none;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+        font-size: 24px;
+        /* line-height: 0; */
+        /* text-align: center; */
+        color: white;
+        /* -webkit-appearance: none; */
+        -moz-appearance: none;
+        appearance: 60px;
+        background: black;
+        border: NONE;
+        border-radius: 8px;
+        margin: 0;
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media (max-width:400px) {
+    ._3tKR4Vlr {
+        /* -webkit-flex: 0 0 68px; */
+        -ms-flex: 0 0 68px;
+        flex: 0 0 55px;
+        /* display: -webkit-flex; */
+        display: -ms-flexbox;
+        display: flex;
+        /* -webkit-align-items: center; */
+        -ms-flex-align: center;
+        align-items: center;
+        /* -webkit-justify-content: center; */
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+        font-size: 25px;
+        /* line-height: 0; */
+        /* text-align: center; */
+        color: white;
+        /* -webkit-appearance: none; */
+        -moz-appearance: none;
+        appearance: 60px;
+        background: black;
+        border: NONE;
+        border-radius: 8px;
+        margin: 0;
+        padding: 10px 0px 10px 0px;
     }
 }
 
@@ -169,7 +228,7 @@
 
 @media (max-width:767px) {
     ._1_6Nwle6 {
-        display: none
+        display: inline;
     }
 }
 
@@ -317,7 +376,7 @@
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    margin-left: 16px
+    /* margin-left: 16px */
 }
 
 .i06MAC5x {
@@ -399,7 +458,7 @@
 ._6zkbCr5n {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: inline;
     height: 36px;
     margin-right: 6px;
     padding: 0 10px;
@@ -411,7 +470,28 @@
     border-radius: 12px;
     box-sizing: content-box;
     cursor: pointer;
-    transition: border-color .2s
+    transition: border-color .2s;
+    font: icon;
+}
+
+@media (max-width:767px) {
+    ._6zkbCr5n {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: none;
+        height: 36px;
+        margin-right: 6px;
+        padding: 0 10px;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 2px solid rgba(0, 0, 0, 0);
+        background: none;
+        border-radius: 12px;
+        box-sizing: content-box;
+        cursor: pointer;
+        transition: border-color .2s
+    }
 }
 
 ._6zkbCr5n,
@@ -425,7 +505,7 @@
 (-ms-high-contrast:none),
 (hover:hover) {
     ._6zkbCr5n:hover {
-        color: var(--primaryLinkHover);
+        color: white;
         text-decoration: none;
         border: 2px solid
     }
