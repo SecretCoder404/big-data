@@ -265,7 +265,7 @@
     -moz-appearance: none;
     appearance: none;
     border: none;
-    color: var(--primaryLink);
+    color: white;
     cursor: pointer;
     display: inline-block;
     position: relative;

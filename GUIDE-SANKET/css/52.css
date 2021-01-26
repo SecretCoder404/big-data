@@ -5,11 +5,11 @@
 
 ._3f0ubBYC,
 .wPY_WYJH {
-    color: var(--primaryText)
+    color: white
 }
 
 .wPY_WYJH {
-    background-color: var(--creamBackground);
+    background-color: black;
     padding: 32px 0
 }
 
@@ -290,7 +290,7 @@
 ._21Svy2O1 {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex
+    display: none;
 }
 
 ._1Oa2efjc,

@@ -34,7 +34,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 128px;
+    margin-bottom: 65px;
     /* padding: 72px 0 108px; */
     position: relative;
     box-sizing: border-box
@@ -91,7 +91,7 @@
         justify-content: center
     }
     .U2O9sR7- {
-        background-color: var(--green90Background)
+        /* background-color: var(--green90Background) */
     }
 }
 
