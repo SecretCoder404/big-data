@@ -196,7 +196,7 @@
     font-size: 20px;
     line-height: 22px;
     text-align: center;
-    color: var(--primaryIcon);
+    color: white;
     -webkit-tap-highlight-color: transparent;
     border-radius: 50%;
     transition: color .1s linear, background-color .1s linear

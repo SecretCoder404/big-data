@@ -894,7 +894,7 @@
 }
 
 ._1iYwzxn3 {
-    background: var(--green10Background);
+    background: darkred;
     color: var(--onDarkText);
     overflow: hidden
 }
@@ -926,7 +926,7 @@
 
 ._2KXOeTO5 {
     font-weight: var(--trip-sans-bold);
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
     width: 350px;
 }
@@ -937,7 +937,7 @@
 
 @media (max-width:767px) {
     ._22L-pCeu {
-        background: url(/img2/brand/feed/tc_cards_mobile.jpeg) no-repeat bottom;
+        /* background: url(/img2/brand/feed/tc_cards_mobile.jpeg) no-repeat bottom; */
         background-size: auto var(--_2udvqHcT);
         padding-bottom: var(--_2udvqHcT);
         margin-left: calc(-1*var(--page-margin));
@@ -1058,7 +1058,8 @@
 }
 
 ._1iYwzxn3._2-ZVGiB5 ._22L-pCeu {
-    background-image: none
+    background-image: none;
+    height: 0px;
 }
 
 ._3FjEMx_9 {
