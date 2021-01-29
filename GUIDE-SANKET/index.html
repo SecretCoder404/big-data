@@ -1,600 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-language" content="en">
+    <link rel="icon" id="favicon" href="icon/map1.png" type="image/x-icon">
 
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <meta http-equiv="content-language" content="en">
-        <link rel="icon" id="favicon" href="https://static.tacdn.com/favicon.ico?v2" type="image/x-icon">
-        <link rel="mask-icon" sizes="any" href="https://static.tacdn.com/img2/brand_refresh/application_icons/mask-icon.svg" color="#000000">
-        <meta name="theme-color" content="#34e0a1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-        <meta name="format-detection" content="telephone=no">
-        <meta property="al:ios:app_name" content="TripAdvisor">
-        <meta property="al:ios:app_store_id" content="284876795">
-        <meta property="twitter:app:id:ipad" name="twitter:app:id:ipad" content="284876795">
-        <meta property="twitter:app:id:iphone" name="twitter:app:id:iphone" content="284876795">
-        <meta property="al:ios:url" content="tripadvisor://www.tripadvisor.in/?m=33762">
-        <meta property="twitter:app:url:ipad" name="twitter:app:url:ipad" content="tripadvisor://www.tripadvisor.in/?m=33762">
-        <meta property="twitter:app:url:iphone" name="twitter:app:url:iphone" content="tripadvisor://www.tripadvisor.in/?m=33762">
-        <meta property="fb:admins" content="100000982334629">
-        <meta property="fb:app_id" content="162729813767876">
-        <link rel="canonical" href="https://www.tripadvisor.in/">
-        <meta name="yandex-verification" content="72f2dede0d56da88">
-        <meta name="yandex-verification" content="478f888399155318">
-        <meta http-equiv="pragma" content="no-cache">
-        <meta http-equiv="cache-control" content="no-cache,must-revalidate">
-        <meta http-equiv="expires" content="0">
-        <script src="https://cdn.ampproject.org/rtv/012010270040000/amp4ads-host-v0.js"></script>
-        <script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script>
-        <script async="" src="//c.evidon.com/sitenotice/1402/translations/en.js" charset="utf-8"></script>
-        <script>
-            ! function() {
-                if ("PerformanceLongTaskTiming" in window) {
-                    var e = window.__tti = {
-                        e: []
-                    };
-                    e.o = new PerformanceObserver((function(n) {
-                        e.e = e.e.concat(n.getEntries())
-                    })), e.o.observe({
-                        entryTypes: ["longtask"]
-                    })
-                }
-            }(), window.performance && performance.mark && (performance.setResourceTimingBufferSize && performance.setResourceTimingBufferSize(1e3), performance.mark("visible" === document.visibilityState ? "visible" : "hidden"), document.addEventListener && document.addEventListener("visibilitychange", (function() {
-                    performance.mark("visible" === document.visibilityState ? "visible" : "hidden")
-                }), !1), window.addEventListener("load", (function() {
-                    performance.mark("load")
-                }), !0)),
-                function(e, n) {
-                    var i, t, o, r = [],
-                        c = {
-                            passive: !0,
-                            capture: !0
-                        },
-                        a = new Date,
-                        f = "pointerup",
-                        s = "pointercancel";
-
-                    function u(e, r) {
-                        i || (i = r, t = e, o = new Date, p(n), m())
-                    }
-
-                    function m() {
-                        t >= 0 && t < o - a && (r.forEach((function(e) {
-                            e(t, i)
-                        })), r = [])
-                    }
-
-                    function d(i) {
-                        if (i.cancelable) {
-                            var t = (i.timeStamp > 1e12 ? new Date : performance.now()) - i.timeStamp;
-                            "pointerdown" == i.type ? function(i, t) {
-                                function o() {
-                                    u(i, t), a()
-                                }
-
-                                function r() {
-                                    a()
-                                }
-
-                                function a() {
-                                    n(f, o, c), n(s, r, c)
-                                }
-                                e(f, o, c), e(s, r, c)
-                            }(t, i) : u(t, i)
-                        }
-                    }
-
-                    function p(e) {
-                        ["click", "mousedown", "keydown", "touchstart", "pointerdown"].forEach((function(n) {
-                            e(n, d, c)
-                        }))
-                    }
-                    p(e), self.perfMetrics = self.perfMetrics || {}, self.perfMetrics.onFirstInputDelay = function(e) {
-                        r.push(e), m()
-                    }
-                }(addEventListener, removeEventListener);
-        </script>
-        <link rel="stylesheet" href="css/1.css" crossorigin="">
-        <link rel="stylesheet" href="css/2.css" crossorigin="">
-        <link rel="stylesheet" href="css/3.css" crossorigin="">
-        <link rel="stylesheet" href="css/4.css" crossorigin="">
-        <link rel="stylesheet" href="css/5.css" crossorigin="">
-        <link rel="stylesheet" href="css/6.css" crossorigin="">
-        <link rel="stylesheet" href="css/7.css" crossorigin="">
-        <link rel="stylesheet" href="css/8.css" crossorigin="">
-        <link rel="stylesheet" href="css/9.css" crossorigin="">
-        <link rel="stylesheet" href="css/10.css" crossorigin="">
-        <link rel="stylesheet" href="css/11.css" crossorigin="">
-        <link rel="stylesheet" href="css/12.css" crossorigin="">
-        <link rel="stylesheet" href="css/13.css" crossorigin="">
-        <link rel="stylesheet" href="css/14.css" crossorigin="">
-        <link rel="stylesheet" href="css/15.css" crossorigin="">
-        <link rel="stylesheet" href="css/16.css" crossorigin="">
-        <link rel="stylesheet" href="css/17.css" crossorigin="">
-        <link rel="stylesheet" href="css/18.css" crossorigin="">
-        <link rel="stylesheet" href="css/19.css" crossorigin="">
-        <link rel="stylesheet" href="css/20.css" crossorigin="">
-        <link rel="stylesheet" href="css/21.css" crossorigin="">
-        <link rel="stylesheet" href="css/22.css" crossorigin="">
-        <link rel="stylesheet" href="css/23.css" crossorigin="">
-        <link rel="stylesheet" href="css/24.css" crossorigin="">
-        <link rel="stylesheet" href="css/25.css" crossorigin="">
-        <link rel="stylesheet" href="css/26.css" crossorigin="">
-        <link rel="stylesheet" href="css/27.css" crossorigin="">
-        <link rel="stylesheet" href="css/28.css" crossorigin="">
-        <link rel="stylesheet" href="css/29.css" crossorigin="">
-        <link rel="stylesheet" href="css/30.css" crossorigin="">
-        <link rel="stylesheet" href="css/31.css" crossorigin="">
-        <link rel="stylesheet" href="css/32.css" crossorigin="">
-        <link rel="stylesheet" href="css/33.css" crossorigin="">
-        <link rel="stylesheet" href="css/34.css" crossorigin="">
-        <link rel="stylesheet" href="css/35.css" crossorigin="">
-        <link rel="stylesheet" href="css/36.css" crossorigin="">
-        <link rel="stylesheet" href="css/37.css" crossorigin="">
-        <link rel="stylesheet" href="css/38.css" crossorigin="">
-        <link rel="stylesheet" href="css/39.css" crossorigin="">
-        <link rel="stylesheet" href="css/40.css" crossorigin="">
-        <link rel="stylesheet" href="css/41.css" crossorigin="">
-        <link rel="stylesheet" href="css/42.css" crossorigin="">
-        <link rel="stylesheet" href="css/43.css" crossorigin="">
-        <link rel="stylesheet" href="css/44.css" crossorigin="">
-        <link rel="stylesheet" href="css/45.css" crossorigin="">
-        <link rel="stylesheet" href="css/46.css" crossorigin="">
-        <link rel="stylesheet" href="css/47.css" crossorigin="">
-        <link rel="stylesheet" href="css/48.css" crossorigin="">
-        <link rel="stylesheet" href="css/49.css" crossorigin="">
-        <link rel="stylesheet" href="css/50.css" crossorigin="">
-        <link rel="stylesheet" href="css/51.css" crossorigin="">
-        <link rel="stylesheet" href="css/52.css" crossorigin="">
-        <link rel="stylesheet" href="css/53.css" crossorigin="">
-        <link rel="stylesheet" href="css/54.css" crossorigin="">
-        <link rel="stylesheet" href="css/55.css" crossorigin="">
-        <link rel="stylesheet" href="css/56.css" crossorigin="">
-        <link rel="stylesheet" href="css/57.css" crossorigin="">
-        <link rel="stylesheet" href="css/58.css" crossorigin="">
-        <link rel="stylesheet" href="css/59.css" crossorigin="">
-        <link rel="stylesheet" href="css/60.css" crossorigin="">
-        <link rel="stylesheet" href="css/61.css" crossorigin="">
-        <link rel="stylesheet" href="css/62.css" crossorigin="">
-        <script src="js/3.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/DDGchX.8ccbbd1e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/qI7zTb.b38fcf5d.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/cDcdfi.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/faye7n.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/xZoNdB.dc53be4e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/jmIMrC.97436684.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/tdPslR.96484a38.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/2R4xv2.fd229c8a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/0DsHEV.d149bfac.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/QZqymc.74b4702c.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/ylqI3R.cb945312.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/E8NZou.6ca61d41.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/OnmvvE.bc28ac5f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/pLbCP4.34f31dc7.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/UWCmG6.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/5X2em-.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/DbN8HP.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/b3xEaf.6ecc77cd.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/gsKhh7.bcdab5e6.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/YwNsO_.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/vWxBAe.aafe0af5.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/T7FcVR.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/F8raOV.059efb9f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/w31zLi.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/gGW5sO.26f84d10.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/oo669z.890d2ac5.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/b57PJQ.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/nIW_Rw.60da925e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/n3D4ip.9106243b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/-i3PJS.8e66dbfe.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/UhC_bI.e312caab.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/lMO0v3.5a17157e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/PCLJ0D.49f76e85.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/30t50h.80ec950e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/fsml46.be7ab19c.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/jb_4W2.741dac33.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/I81Q5L.8e7023d7.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/vq6MSq.edde2d40.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/mv7yXI.9716e718.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/5-GvUO.19f3ff7f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/VANuRt.7323db3f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/O8LbtK.545da81f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/V08PS7.3e811e85.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Dg5_-9.eeb54ec1.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/m5ZZFI.9db01718.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/f9x1OV.df4a85b4.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/yfS4GB.fa6192fd.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/hA1RHn.a80c900e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/wId9j-.ad3529cb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/eFikmI.2a5e3100.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/jaCyxS.ab0e9f58.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/jSLlaY.bf2ae0d4.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/rSqx0N.e4c198d8.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/OMqGt0.807ef96d.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/gt5mGS.5c33a27b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/iuYvTO.7866b32b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/DjNvou.c1a2c34b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/xegF5W.a5d17213.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/_cZwhS.650143a9.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/8xs-IB.ff2a70d3.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/W3_c4H.b327c656.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/5-GvUO/_q6t87.19f3ff7f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/vmXh3M.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/6NeHQy.a087aadd.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/NJheb1.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/PCLJ0D/-EYc4Q.49f76e85.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Igs38q.e1f9bc9f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/nr-ggU.583f31ba.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/w9qBuv.9effab84.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/mlRREX.8cee9a0a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Kv5xL1.e311f8d9.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/thFMrK.824c41e1.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/PZaU1O.6ec9a1bc.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/-xj2Ol.90dda1c4.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/9EJgVJ.0a400c63.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/nPqO2d.4019871d.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Q7TAd7.a164ca44.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/zrGIpk.d2a7b350.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/mxARhC.58d9f63c.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/uWZ6Id.2115d71a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/4Z07E2.d61aee43.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/qKFflQ.b599ad36.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/6RAaot.5935a80a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/FgJHmE.7fbbb5d0.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/BLrxBS.7bfb1aab.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/-2hM2s.1a7ff095.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/eDFcUX.1295b13c.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/w4JHTr.5a615563.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Xi-2HZ.3c1c8e3b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/MHKLZN.6f5b5830.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/_Z-1K3.cd6f21d5.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/vd4nty.65e7def4.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/z2XL6d.8d0c6b83.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/_g8cls.b66ad785.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/38xMQJ.eb1ac7b0.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/-02Lut.f0045ecd.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/1yEXVQ.4f1ce75a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/ABlMo4.aae89540.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/KwOV1Z.82568237.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/AoLEtg.82fda7d7.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/tV1cF7.ff720bf3.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/eSDIZ_.02291068.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/h_gtfy.b191b930.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/HZtvHO.f6466125.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/1pCAFN.c8235998.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/A8AD3f.74bf5b9e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/-qDq4b.42a3a46b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/JV62dD.95541f7c.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/oiya90.2c0f9a2d.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/miRpRf.bff9e551.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/gzYJv3.6829140b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/LYUOY4.bfe7f83b.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/hlPWhn.8d929fb4.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/3mlAaP.045ebeb0.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/6m_xYI.ba93d6f0.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/XDyWKx.4d8aff91.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/WkP2XE.83192257.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/dROhDJ.c83f730a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/4kVXmt.30539069.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/eFKnUp.67c8d508.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/vLhQxP.803d2c46.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/RXx5aI.19025609.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/U-DhDC.1e6c5982.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/PiTJFd.aaa059c8.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/fTyhRT.80159c7a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/JFHNGL.7e09c51d.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/9I0t-6.9fb314c8.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/6nM-E7.b568fd2f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/c_rvp5.19d9ef11.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/LFeTN6.06bb908f.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/6KWcSB.8a303128.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/O-HcBE.068b6cde.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/_pymO0.f112aa61.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/wwtmHV.5ff7cfc7.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/fAPg3f.7ddb8dfe.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/XtxvfD.7be3f5b9.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/8rGRxX.017ab46c.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/dX3eZQ.317a1c54.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/4CrHtN.584e43a4.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Rjj6BZ.c66ef2bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/uHkdMH.f9e88092.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/NGIiZD.65a4fc75.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/omn1My.f8a18325.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/u6QS-O.ff487da7.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/R-djYN.c385369e.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/16tLUw.9656596a.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/meOI_T.cbe661fe.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/MNKFIS.f86306e7.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/xsqNye.d0ec7d41.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/griB9b.5f9a7928.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/a4q8MG.04f69166.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/QRwZD2.042eefcb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/2NwMnm.ff3899f8.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/0uWw9s.b45258e5.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/nPD67q.39daf371.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/mHPUmd.607238ad.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Z7U8sN.388606dd.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/G9idyf.5bd68c40.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/XS7t-Q.d4e22b05.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/wLDeDm.71aa28bb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/zPgUM0.56caa7af.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/Erjc5t.d1bb9081.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/h7E4Ym.70bc88cb.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/qfSfGN.d9d5af03.js" async="" crossorigin=""></script>
-        <script src="https://static.tacdn.com/assets/rf6OMe.71aa28bb.js" async="" crossorigin=""></script>
-        <style>
-            @media (max-width: 768px) {
-                .mobile-alert {
-                    display: -webkit-flex;
-                    display: -ms-flexbox;
-                    display: inline;
-                    height: 46px;
-                    margin-top: 10px;
-                    margin-right: 10px;
-                    padding: 0 10px;
-                    -webkit-align-items: center;
-                    -ms-flex-align: center;
-                    align-items: center;
-                    border: 2px solid rgba(0, 0, 0, 0);
-                    background: none;
-                    border-radius: 12px;
-                    box-sizing: content-box;
-                    cursor: pointer;
-                    transition: border-color .2s;
-                    font: icon;
-                }
+    <script src="https://cdn.ampproject.org/rtv/012010270040000/amp4ads-host-v0.js"></script>
+    <script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script>
+    <script async="" src="//c.evidon.com/sitenotice/1402/translations/en.js" charset="utf-8"></script>
+    <script>
+        ! function() {
+            if ("PerformanceLongTaskTiming" in window) {
+                var e = window.__tti = {
+                    e: []
+                };
+                e.o = new PerformanceObserver((function(n) {
+                    e.e = e.e.concat(n.getEntries())
+                })), e.o.observe({
+                    entryTypes: ["longtask"]
+                })
             }
-            
-            .gap2 {
-                width: 0;
-                height: 0;
+        }(), window.performance && performance.mark && (performance.setResourceTimingBufferSize && performance.setResourceTimingBufferSize(1e3), performance.mark("visible" === document.visibilityState ? "visible" : "hidden"), document.addEventListener && document.addEventListener("visibilitychange", (function() {
+                performance.mark("visible" === document.visibilityState ? "visible" : "hidden")
+            }), !1), window.addEventListener("load", (function() {
+                performance.mark("load")
+            }), !0)),
+            function(e, n) {
+                var i, t, o, r = [],
+                    c = {
+                        passive: !0,
+                        capture: !0
+                    },
+                    a = new Date,
+                    f = "pointerup",
+                    s = "pointercancel";
+
+                function u(e, r) {
+                    i || (i = r, t = e, o = new Date, p(n), m())
+                }
+
+                function m() {
+                    t >= 0 && t < o - a && (r.forEach((function(e) {
+                        e(t, i)
+                    })), r = [])
+                }
+
+                function d(i) {
+                    if (i.cancelable) {
+                        var t = (i.timeStamp > 1e12 ? new Date : performance.now()) - i.timeStamp;
+                        "pointerdown" == i.type ? function(i, t) {
+                            function o() {
+                                u(i, t), a()
+                            }
+
+                            function r() {
+                                a()
+                            }
+
+                            function a() {
+                                n(f, o, c), n(s, r, c)
+                            }
+                            e(f, o, c), e(s, r, c)
+                        }(t, i) : u(t, i)
+                    }
+                }
+
+                function p(e) {
+                    ["click", "mousedown", "keydown", "touchstart", "pointerdown"].forEach((function(n) {
+                        e(n, d, c)
+                    }))
+                }
+                p(e), self.perfMetrics = self.perfMetrics || {}, self.perfMetrics.onFirstInputDelay = function(e) {
+                    r.push(e), m()
+                }
+            }(addEventListener, removeEventListener);
+    </script>
+    <link rel="stylesheet" href="css/1.css" crossorigin="">
+    <link rel="stylesheet" href="css/2.css" crossorigin="">
+    <link rel="stylesheet" href="css/3.css" crossorigin="">
+    <link rel="stylesheet" href="css/4.css" crossorigin="">
+    <link rel="stylesheet" href="css/5.css" crossorigin="">
+    <link rel="stylesheet" href="css/6.css" crossorigin="">
+    <link rel="stylesheet" href="css/7.css" crossorigin="">
+    <link rel="stylesheet" href="css/8.css" crossorigin="">
+    <link rel="stylesheet" href="css/9.css" crossorigin="">
+    <link rel="stylesheet" href="css/10.css" crossorigin="">
+    <link rel="stylesheet" href="css/11.css" crossorigin="">
+    <link rel="stylesheet" href="css/12.css" crossorigin="">
+    <link rel="stylesheet" href="css/13.css" crossorigin="">
+    <link rel="stylesheet" href="css/14.css" crossorigin="">
+    <link rel="stylesheet" href="css/15.css" crossorigin="">
+    <link rel="stylesheet" href="css/16.css" crossorigin="">
+    <link rel="stylesheet" href="css/17.css" crossorigin="">
+    <link rel="stylesheet" href="css/18.css" crossorigin="">
+    <link rel="stylesheet" href="css/19.css" crossorigin="">
+    <link rel="stylesheet" href="css/20.css" crossorigin="">
+    <link rel="stylesheet" href="css/21.css" crossorigin="">
+    <link rel="stylesheet" href="css/22.css" crossorigin="">
+    <link rel="stylesheet" href="css/23.css" crossorigin="">
+    <link rel="stylesheet" href="css/24.css" crossorigin="">
+    <link rel="stylesheet" href="css/25.css" crossorigin="">
+    <link rel="stylesheet" href="css/26.css" crossorigin="">
+    <link rel="stylesheet" href="css/27.css" crossorigin="">
+    <link rel="stylesheet" href="css/28.css" crossorigin="">
+    <link rel="stylesheet" href="css/29.css" crossorigin="">
+    <link rel="stylesheet" href="css/30.css" crossorigin="">
+    <link rel="stylesheet" href="css/31.css" crossorigin="">
+    <link rel="stylesheet" href="css/32.css" crossorigin="">
+    <link rel="stylesheet" href="css/33.css" crossorigin="">
+    <link rel="stylesheet" href="css/34.css" crossorigin="">
+    <link rel="stylesheet" href="css/35.css" crossorigin="">
+    <link rel="stylesheet" href="css/36.css" crossorigin="">
+    <link rel="stylesheet" href="css/37.css" crossorigin="">
+    <link rel="stylesheet" href="css/38.css" crossorigin="">
+    <link rel="stylesheet" href="css/39.css" crossorigin="">
+    <link rel="stylesheet" href="css/40.css" crossorigin="">
+    <link rel="stylesheet" href="css/41.css" crossorigin="">
+    <link rel="stylesheet" href="css/42.css" crossorigin="">
+    <link rel="stylesheet" href="css/43.css" crossorigin="">
+    <link rel="stylesheet" href="css/44.css" crossorigin="">
+    <link rel="stylesheet" href="css/45.css" crossorigin="">
+    <link rel="stylesheet" href="css/46.css" crossorigin="">
+    <link rel="stylesheet" href="css/47.css" crossorigin="">
+    <link rel="stylesheet" href="css/48.css" crossorigin="">
+    <link rel="stylesheet" href="css/49.css" crossorigin="">
+    <link rel="stylesheet" href="css/50.css" crossorigin="">
+    <link rel="stylesheet" href="css/51.css" crossorigin="">
+    <link rel="stylesheet" href="css/52.css" crossorigin="">
+    <link rel="stylesheet" href="css/53.css" crossorigin="">
+    <link rel="stylesheet" href="css/54.css" crossorigin="">
+    <link rel="stylesheet" href="css/55.css" crossorigin="">
+    <link rel="stylesheet" href="css/56.css" crossorigin="">
+    <link rel="stylesheet" href="css/57.css" crossorigin="">
+    <link rel="stylesheet" href="css/58.css" crossorigin="">
+    <link rel="stylesheet" href="css/59.css" crossorigin="">
+    <link rel="stylesheet" href="css/60.css" crossorigin="">
+    <link rel="stylesheet" href="css/61.css" crossorigin="">
+    <link rel="stylesheet" href="css/62.css" crossorigin="">
+
+
+    <script src=".js" async="" crossorigin=""></script>
+
+    <style>
+        @media (max-width: 768px) {
+            .mobile-alert {
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: inline;
+                height: 46px;
+                margin-top: 10px;
+                margin-right: 10px;
+                padding: 0 10px;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                border: 2px solid rgba(0, 0, 0, 0);
+                background: none;
+                border-radius: 12px;
+                box-sizing: content-box;
+                cursor: pointer;
+                transition: border-color .2s;
+                font: icon;
             }
-            
+        }
+        
+        .gap2 {
+            width: 0;
+            height: 0;
+        }
+        
+        .gap1 {
+            height: 510px;
+            display: flex;
+            background-size: cover;
+            background-image: url(img/main1.jpg);
+            /* background: black; */
+        }
+        
+        @media (max-width: 460px) {
             .gap1 {
                 height: 510px;
                 background-size: cover;
-                background-image: url(img/main1.jpg);
+                background-image: url(img/main12.jpg);
                 /* background: black; */
             }
-            
-            @media (max-width: 460px) {
-                .gap1 {
-                    height: 510px;
-                    background-size: cover;
-                    background-image: url(img/main12.jpg);
-                    /* background: black; */
-                }
+        }
+        
+        @media (max-width: 400px) {
+            .gap1 {
+                height: 510px;
+                background-size: cover;
+                background-image: url(img/main13.jpg);
+                /* background: black; */
             }
-            
-            @media (max-width: 400px) {
-                .gap1 {
-                    height: 510px;
-                    background-size: cover;
-                    background-image: url(img/main13.jpg);
-                    /* background: black; */
-                }
-            }
-            
-            ._3emE9--dark-theme .-S-tR--ff-downloader {
-                background: rgba(30, 30, 30, .93);
-                border: 1px solid rgba(82, 82, 82, .54);
-                box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
-                color: #fff
-            }
-            
-            ._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn {
-                background: #3d4b52
-            }
-            
-            ._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover {
-                background: #131415
-            }
-            
-            ._3emE9--dark-theme .-S-tR--ff-downloader ._10vpG--footer {
-                background: rgba(30, 30, 30, .93)
-            }
-            
-            ._2mDEx--white-theme .-S-tR--ff-downloader {
-                background: #fff;
-                border: 1px solid rgba(82, 82, 82, .54);
-                box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
-                color: #314c75
-            }
-            
-            ._2mDEx--white-theme .-S-tR--ff-downloader ._6_Mtt--header {
-                font-weight: 700
-            }
-            
-            ._2mDEx--white-theme .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice {
-                border: 0;
-                color: rgba(0, 0, 0, .88)
-            }
-            
-            ._2mDEx--white-theme .-S-tR--ff-downloader ._10vpG--footer {
-                background: #fff
-            }
-            
-            .-S-tR--ff-downloader {
-                display: block;
-                overflow: hidden;
-                position: fixed;
-                bottom: 20px;
-                right: 7.1%;
-                width: 330px;
-                height: 180px;
-                background: rgba(30, 30, 30, .93);
-                border-radius: 2px;
-                color: #fff;
-                z-index: 99999999;
-                border: 1px solid rgba(82, 82, 82, .54);
-                box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
-                transition: .5s
-            }
-            
-            .-S-tR--ff-downloader._3M7UQ--minimize {
-                height: 62px
-            }
-            
-            .-S-tR--ff-downloader._3M7UQ--minimize .nxuu4--file-info,
-            .-S-tR--ff-downloader._3M7UQ--minimize ._6_Mtt--header {
-                display: none
-            }
-            
-            .-S-tR--ff-downloader ._6_Mtt--header {
-                padding: 10px;
-                font-size: 17px;
-                font-family: sans-serif
-            }
-            
-            .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn {
-                float: right;
-                background: #f1ecec;
-                height: 20px;
-                width: 20px;
-                text-align: center;
-                padding: 2px;
-                margin-top: -10px;
-                cursor: pointer
-            }
-            
-            .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover {
-                background: #e2dede
-            }
-            
-            .-S-tR--ff-downloader ._13XQ2--error {
-                color: red;
-                padding: 10px;
-                font-size: 12px;
-                line-height: 19px
-            }
-            
-            .-S-tR--ff-downloader ._2dFLA--container {
-                position: relative;
-                height: 100%
-            }
-            
-            .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info {
-                padding: 6px 15px 0;
-                font-family: sans-serif
-            }
-            
-            .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info div {
-                margin-bottom: 5px;
-                width: 100%;
-                overflow: hidden
-            }
-            
-            .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice {
-                margin-top: 21px;
-                font-size: 11px
-            }
-            
-            .-S-tR--ff-downloader ._10vpG--footer {
-                width: 100%;
-                bottom: 0;
-                position: absolute;
-                font-weight: 700
-            }
-            
-            .-S-tR--ff-downloader ._10vpG--footer ._2V73d--loader {
-                -webkit-animation: n0BD1--rotation 3.5s linear forwards;
-                animation: n0BD1--rotation 3.5s linear forwards;
-                position: absolute;
-                top: -120px;
-                left: calc(50% - 35px);
-                border-radius: 50%;
-                border: 5px solid #fff;
-                border-top-color: #a29bfe;
-                height: 70px;
-                width: 70px;
-                display: flex;
-                justify-content: center;
-                align-items: center
-            }
-            
-            .-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar {
-                width: 100%;
-                height: 18px;
-                background: #dfe6e9;
-                border-radius: 5px
-            }
-            
-            .-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar ._1FVu9--progress-bar {
-                height: 100%;
-                background: #8bc34a;
-                border-radius: 5px
-            }
-            
-            .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status {
-                margin-top: 10px
-            }
-            
-            .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1XilH--state {
-                float: left;
-                font-size: .9em;
-                letter-spacing: 1pt;
-                text-transform: uppercase;
-                width: 100px;
-                height: 20px;
-                position: relative
-            }
-            
-            .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1jiaj--percentage {
-                float: right
-            }
-        </style>
-        <script type="text/javascript" src="//c.evidon.com/sitenotice/evidon-sitenotice-tag.js" async=""></script>
-        <script type="text/javascript" src="//c.evidon.com/geo/country.js" async=""></script>
-        <script type="text/javascript" src="//c.evidon.com/sitenotice/1402/snthemes.js" async=""></script>
-        <script type="text/javascript" src="//c.evidon.com/sitenotice/1402/tripadvisor/settings.js" async=""></script>
-        <link rel="stylesheet" href="https://static.tacdn.com/assets/8rGRxX/VcsofC.017ab46c.css" type="text/css">
-        <script type="text/javascript" src="https://static.tacdn.com/assets/8rGRxX/VcsofC.017ab46c.js" async=""></script>
-        <script type="text/javascript" src="https://static.tacdn.com/assets/MWFqPp.5bbd9881.js" async=""></script>
-        <script type="text/javascript" src="https://static.tacdn.com/assets/Oc3sTL.78962d00.js" async=""></script>
-        <script type="text/javascript" src="https://static.tacdn.com/assets/wU942v.91d9568e.js" async=""></script>
-        <script type="text/javascript" src="https://static.tacdn.com/assets/w2XwHO.adadc65f.js" async=""></script>
-        <script type="text/javascript" src="https://static.tacdn.com/assets/HDgDKt.1ad9e6e7.js" async=""></script>
-        <link rel="stylesheet" href="https://static.tacdn.com/assets/8rGRxX/pbOqVW.017ab46c.css" type="text/css">
-        <script type="text/javascript" src="https://static.tacdn.com/assets/8rGRxX/pbOqVW.017ab46c.js" async=""></script>
-        <link rel="stylesheet" href="https://static.tacdn.com/assets/lMO0v3/GzJMLX.5a17157e.css" type="text/css">
-        <script type="text/javascript" src="https://static.tacdn.com/assets/lMO0v3/GzJMLX.5a17157e.js" async=""></script>
-        <title>Tripadvisor Official Site‎</title>
-        <script type="text/javascript" src="//securepubads.g.doubleclick.net/tag/js/gpt.js" async="" data-owner="WP"></script>
-        <script type="text/javascript" src="//c.amazon-adsystem.com/aax2/apstag.js" async="" data-owner="WP"></script>
-        <meta http-equiv="origin-trial" content="A2shzsdPO+RKe83bUqT9oVkYwGZN6j9O7nrcOASNFPuQz8HefgVYb9qAqn6coNCSDIRtXoi6ybCrjEsYh3caFgIAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MTM0OTU4NjgsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-        <script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021011204.js" async=""></script>
-        <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-        <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-        <link rel="prefetch" href="https://b96df230164d9361198bb2c32c478543.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html">
-        <link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html">
-        <script type="text/javascript" src="https://static.tacdn.com/assets/xJD91H.71aa28bb.js" async=""></script>
-        <script type="text/javascript" src="https://static.tacdn.com/assets/17wlKY.71aa28bb.js" async=""></script>
-        <script type="text/javascript" src="https://static.tacdn.com/assets/a3FWKi.71aa28bb.js" async=""></script>
-        <script type="text/javascript" src="//ads.rubiconproject.com/prebid/13406_Desktop_Display.js" async="" data-owner="WP"></script>
-        <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-        <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-        <link rel="stylesheet" href="https://static.tacdn.com/assets/8rGRxX/4wLoK0.017ab46c.css" type="text/css">
-        <script type="text/javascript" src="https://static.tacdn.com/assets/8rGRxX/4wLoK0.017ab46c.js" async=""></script>
-        <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-        <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-        <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-        <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
-        <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
-    </head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        }
+        
+        ._3emE9--dark-theme .-S-tR--ff-downloader {
+            background: rgba(30, 30, 30, .93);
+            border: 1px solid rgba(82, 82, 82, .54);
+            box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
+            color: #fff
+        }
+        
+        ._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn {
+            background: #3d4b52
+        }
+        
+        ._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover {
+            background: #131415
+        }
+        
+        ._3emE9--dark-theme .-S-tR--ff-downloader ._10vpG--footer {
+            background: rgba(30, 30, 30, .93)
+        }
+        
+        ._2mDEx--white-theme .-S-tR--ff-downloader {
+            background: #fff;
+            border: 1px solid rgba(82, 82, 82, .54);
+            box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
+            color: #314c75
+        }
+        
+        ._2mDEx--white-theme .-S-tR--ff-downloader ._6_Mtt--header {
+            font-weight: 700
+        }
+        
+        ._2mDEx--white-theme .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice {
+            border: 0;
+            color: rgba(0, 0, 0, .88)
+        }
+        
+        ._2mDEx--white-theme .-S-tR--ff-downloader ._10vpG--footer {
+            background: #fff
+        }
+        
+        .-S-tR--ff-downloader {
+            display: block;
+            overflow: hidden;
+            position: fixed;
+            bottom: 20px;
+            right: 7.1%;
+            width: 330px;
+            height: 180px;
+            background: rgba(30, 30, 30, .93);
+            border-radius: 2px;
+            color: #fff;
+            z-index: 99999999;
+            border: 1px solid rgba(82, 82, 82, .54);
+            box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
+            transition: .5s
+        }
+        
+        .-S-tR--ff-downloader._3M7UQ--minimize {
+            height: 62px
+        }
+        
+        .-S-tR--ff-downloader._3M7UQ--minimize .nxuu4--file-info,
+        .-S-tR--ff-downloader._3M7UQ--minimize ._6_Mtt--header {
+            display: none
+        }
+        
+        .-S-tR--ff-downloader ._6_Mtt--header {
+            padding: 10px;
+            font-size: 17px;
+            font-family: sans-serif
+        }
+        
+        .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn {
+            float: right;
+            background: #f1ecec;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            padding: 2px;
+            margin-top: -10px;
+            cursor: pointer
+        }
+        
+        .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover {
+            background: #e2dede
+        }
+        
+        .-S-tR--ff-downloader ._13XQ2--error {
+            color: red;
+            padding: 10px;
+            font-size: 12px;
+            line-height: 19px
+        }
+        
+        .-S-tR--ff-downloader ._2dFLA--container {
+            position: relative;
+            height: 100%
+        }
+        
+        .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info {
+            padding: 6px 15px 0;
+            font-family: sans-serif
+        }
+        
+        .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info div {
+            margin-bottom: 5px;
+            width: 100%;
+            overflow: hidden
+        }
+        
+        .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice {
+            margin-top: 21px;
+            font-size: 11px
+        }
+        
+        .-S-tR--ff-downloader ._10vpG--footer {
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            font-weight: 700
+        }
+        
+        .-S-tR--ff-downloader ._10vpG--footer ._2V73d--loader {
+            -webkit-animation: n0BD1--rotation 3.5s linear forwards;
+            animation: n0BD1--rotation 3.5s linear forwards;
+            position: absolute;
+            top: -120px;
+            left: calc(50% - 35px);
+            border-radius: 50%;
+            border: 5px solid #fff;
+            border-top-color: #a29bfe;
+            height: 70px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+        
+        .-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar {
+            width: 100%;
+            height: 18px;
+            background: #dfe6e9;
+            border-radius: 5px
+        }
+        
+        .-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar ._1FVu9--progress-bar {
+            height: 100%;
+            background: #8bc34a;
+            border-radius: 5px
+        }
+        
+        .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status {
+            margin-top: 10px
+        }
+        
+        .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1XilH--state {
+            float: left;
+            font-size: .9em;
+            letter-spacing: 1pt;
+            text-transform: uppercase;
+            width: 100px;
+            height: 20px;
+            position: relative
+        }
+        
+        .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1jiaj--percentage {
+            float: right
+        }
+    </style>
+    <script type="text/javascript" src="//c.evidon.com/sitenotice/evidon-sitenotice-tag.js" async=""></script>
+    <script type="text/javascript" src="//c.evidon.com/geo/country.js" async=""></script>
+    <script type="text/javascript" src="//c.evidon.com/sitenotice/1402/snthemes.js" async=""></script>
+    <script type="text/javascript" src="//c.evidon.com/sitenotice/1402/tripadvisor/settings.js" async=""></script>
+    <link rel="stylesheet" href="https://static.tacdn.com/assets/8rGRxX/VcsofC.017ab46c.css" type="text/css">
+    <script type="text/javascript" src="https://static.tacdn.com/assets/8rGRxX/VcsofC.017ab46c.js" async=""></script>
+    <script type="text/javascript" src="https://static.tacdn.com/assets/MWFqPp.5bbd9881.js" async=""></script>
+    <script type="text/javascript" src="https://static.tacdn.com/assets/Oc3sTL.78962d00.js" async=""></script>
+    <script type="text/javascript" src="https://static.tacdn.com/assets/wU942v.91d9568e.js" async=""></script>
+    <script type="text/javascript" src="https://static.tacdn.com/assets/w2XwHO.adadc65f.js" async=""></script>
+    <script type="text/javascript" src="https://static.tacdn.com/assets/HDgDKt.1ad9e6e7.js" async=""></script>
+    <link rel="stylesheet" href="https://static.tacdn.com/assets/8rGRxX/pbOqVW.017ab46c.css" type="text/css">
+    <script type="text/javascript" src="https://static.tacdn.com/assets/8rGRxX/pbOqVW.017ab46c.js" async=""></script>
+    <link rel="stylesheet" href="https://static.tacdn.com/assets/lMO0v3/GzJMLX.5a17157e.css" type="text/css">
+    <script type="text/javascript" src="https://static.tacdn.com/assets/lMO0v3/GzJMLX.5a17157e.js" async=""></script>
+    <title>Tripadvisor Official Site‎</title>
+    <script type="text/javascript" src="//securepubads.g.doubleclick.net/tag/js/gpt.js" async="" data-owner="WP"></script>
+    <script type="text/javascript" src="//c.amazon-adsystem.com/aax2/apstag.js" async="" data-owner="WP"></script>
+    <meta http-equiv="origin-trial" content="A2shzsdPO+RKe83bUqT9oVkYwGZN6j9O7nrcOASNFPuQz8HefgVYb9qAqn6coNCSDIRtXoi6ybCrjEsYh3caFgIAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MTM0OTU4NjgsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+    <script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021011204.js" async=""></script>
+    <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
+    <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
+    <link rel="prefetch" href="https://b96df230164d9361198bb2c32c478543.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html">
+    <link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html">
+    <script type="text/javascript" src="https://static.tacdn.com/assets/xJD91H.71aa28bb.js" async=""></script>
+    <script type="text/javascript" src="https://static.tacdn.com/assets/17wlKY.71aa28bb.js" async=""></script>
+    <script type="text/javascript" src="https://static.tacdn.com/assets/a3FWKi.71aa28bb.js" async=""></script>
+    <script type="text/javascript" src="//ads.rubiconproject.com/prebid/13406_Desktop_Display.js" async="" data-owner="WP"></script>
+    <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
+    <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
+    <link rel="stylesheet" href="https://static.tacdn.com/assets/8rGRxX/4wLoK0.017ab46c.css" type="text/css">
+    <script type="text/javascript" src="https://static.tacdn.com/assets/8rGRxX/4wLoK0.017ab46c.js" async=""></script>
+    <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
+    <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
+    <link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=www.tripadvisor.in"></script>
+    <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in" as="script">
+    <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script>
 </head>
+<link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documents</title>
+
 
 <body>
 
@@ -671,24 +493,30 @@
                 }
             }]
         </script>
-        <div id="mainpage" class="gap1"></div>
+
+        <div id="mainpage" class="gap1">
+
+            <div class="_3-KjE8YR">
+                <div class="i3bZ_gBa _3TPJs5_m" data-test-attribute="typeahead-SINGLE_SEARCH_HERO">
+                    <div class="_3sXsAqz5"></div>
+                    <form class="R1IsnpX3" action="/index2.html"><input type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" required="" name="q" class="_3qLQ-U8m" placeholder="Where to?" title="Search" aria-label="Search" value="">
+
+                        <input type="hidden" name="searchSessionId" value="2DEC7AE881D9E93502D764B1C89504561611683566491ssid"><input type="hidden" name="searchNearby" value="false">
+                        <button type="button" class="_3mLX8jwB _3djzE9Mn" title="Back" aria-label="Back"><svg viewBox="0 0 24 24" width="1em" height="1em" class="_2HBN-k68 _2JndpOur"><path d="M10.304 3.506l-8.048 8.047a.644.644 0 000 .895l8.048 8.047a.624.624 0 00.883 0l.882-.883a.624.624 0 000-.883l-5.481-5.48h14.714a.625.625 0 00.623-.625v-1.248a.624.624 0 00-.623-.624H6.588l5.481-5.481a.624.624 0 000-.883l-.882-.883a.623.623 0 00-.883-.004c-.001.002-.002.003 0 .005z"></path></svg></button>
+                        <button type="submit" formaction="/Search" class="_3mLX8jwB _2a_Ua4Qv" title="Search" aria-label="Search" tabindex="-1"><svg viewBox="0 0 24 24" width="1em" height="1em" class="_2HBN-k68 _2JndpOur"><path d="M22 20.514l-5.517-5.519a8.023 8.023 0 001.674-4.904c0-4.455-3.624-8.079-8.079-8.079C5.624 2.012 2 5.636 2 10.091s3.624 8.079 8.079 8.079a8.03 8.03 0 004.933-1.695l5.512 5.514L22 20.514zm-11.921-4.431c-3.305 0-5.993-2.688-5.993-5.992s2.688-5.992 5.993-5.992a6 6 0 015.992 5.992 6 6 0 01-5.992 5.992z"></path></svg></button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <div class="U2O9sR7-">
             <div class="_1anKb-nl">
                 <div class="_28p19QX0">
                     <!-- <div class="_123AOi4l"></div> -->
                     <!-- <div class="_12nbOYJX"> -->
                     <!-- <div class="_3ltpazuV">Find the good out there.</div> -->
-                    <div class="_3-KjE8YR">
-                        <div class="i3bZ_gBa _3TPJs5_m" data-test-attribute="typeahead-SINGLE_SEARCH_HERO">
-                            <div class="_3sXsAqz5"></div>
-                            <form class="R1IsnpX3" action="/Search"><input type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" required="" name="q" class="_3qLQ-U8m" placeholder="Where to?" title="Search" aria-label="Search" value="">
-                                <a class="" href="/index2.html" title="">
-                                    <input type="hidden" name="searchSessionId" value="2DEC7AE881D9E93502D764B1C89504561611683566491ssid"><input type="hidden" name="searchNearby" value="false">
-                                </a><button type="button" class="_3mLX8jwB _3djzE9Mn" title="Back" aria-label="Back"><svg viewBox="0 0 24 24" width="1em" height="1em" class="_2HBN-k68 _2JndpOur"><path d="M10.304 3.506l-8.048 8.047a.644.644 0 000 .895l8.048 8.047a.624.624 0 00.883 0l.882-.883a.624.624 0 000-.883l-5.481-5.48h14.714a.625.625 0 00.623-.625v-1.248a.624.624 0 00-.623-.624H6.588l5.481-5.481a.624.624 0 000-.883l-.882-.883a.623.623 0 00-.883-.004c-.001.002-.002.003 0 .005z"></path></svg></button>
-                                <button type="submit" formaction="/Search" class="_3mLX8jwB _2a_Ua4Qv" title="Search" aria-label="Search" tabindex="-1"><svg viewBox="0 0 24 24" width="1em" height="1em" class="_2HBN-k68 _2JndpOur"><path d="M22 20.514l-5.517-5.519a8.023 8.023 0 001.674-4.904c0-4.455-3.624-8.079-8.079-8.079C5.624 2.012 2 5.636 2 10.091s3.624 8.079 8.079 8.079a8.03 8.03 0 004.933-1.695l5.512 5.514L22 20.514zm-11.921-4.431c-3.305 0-5.993-2.688-5.993-5.992s2.688-5.992 5.993-5.992a6 6 0 015.992 5.992 6 6 0 01-5.992 5.992z"></path></svg></button>
-                            </form>
-                        </div>
-                    </div>
+
+
+
                 </div>
             </div>
         </div>
@@ -1394,6 +1222,7 @@
             </div>
         </div>
     </footer>
+
 
 
 </body>

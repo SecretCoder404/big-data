@@ -34,7 +34,7 @@
 ._1ZteHrEy {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: list-item;
     padding-top: 16px;
     padding-bottom: 16px
 }
@@ -321,7 +321,8 @@
         width: 169px;
         color: var(--primaryIcon);
         opacity: 0;
-        transition: opacity .1s linear
+        transition: opacity .1s linear;
+        display: none;
     }
     ._36dvRZj9 {
         background: linear-gradient(90deg, var(--scrimPrimaryBackgroundStart) 16px, var(--scrimPrimaryBackgroundEnd));
@@ -351,7 +352,8 @@
     }
     ._1ztkOKzL ._36dvRZj9,
     ._295aLcoT ._13q4cr55 {
-        opacity: 1
+        opacity: 1;
+        display: none;
     }
     ._1ztkOKzL ._36dvRZj9 ._1CEP7lha,
     ._295aLcoT ._13q4cr55 ._1CEP7lha {

@@ -22,8 +22,8 @@
     z-index: 0;
     position: relative;
     height: 44px;
-    margin: 0 auto;
-    text-align: left
+    margin: 18px 25px 0px 25px;
+    text-align: left;
 }
 
 @media (min-width:768px) {
