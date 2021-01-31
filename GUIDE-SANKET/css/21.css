@@ -4,5 +4,6 @@
     padding-right: var(--page-margin);
     margin-left: auto;
     margin-right: auto;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background-color: #21201e;
 }
