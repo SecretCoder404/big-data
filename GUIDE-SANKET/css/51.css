@@ -1,6 +1,6 @@
     ._3wrX4B4P {
         position: relative;
-        background-color: black;
+        background-color: darkred;
         color: var(--primaryText)
     }
     
@@ -226,7 +226,7 @@
             /* -webkit-appearance: none; */
             -moz-appearance: none;
             appearance: 60px;
-            background: black;
+            background: darkred;
             border: NONE;
             border-radius: 8px;
             margin: 0 0px 0 0;
