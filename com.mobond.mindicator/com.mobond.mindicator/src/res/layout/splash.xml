@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+		<ImageView android:layout_gravity="0x1" android:id="false" android:layout_width="220dp" android:layout_height="170dp" android:src="res/drawable/logo3.png" />
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:background="ffffff" android:paddingTop="5dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="35sp" android:textStyle="0x1" android:textColor="ff00" android:background="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="m-" />
+			<TextView android:textSize="35sp" android:textStyle="0x1" android:textColor="00ff" android:background="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="Indicator" />
+		</LinearLayout>
+		<TextView android:textSize="15sp" android:textColor="969696" android:gravity="0x11" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:text="v11.0.72 Spider, 14 Apr 2015" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="10dp" android:baselineAligned="false" android:layout_alignParentBottom="true">
+		<LinearLayout android:orientation="1" android:id="false" android:background="d510" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+		<LinearLayout android:orientation="1" android:id="false" android:background="d3980" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1077936128}" />
+	</LinearLayout>
+	<ImageView android:id="false" android:background="ffffff" android:layout_width="-2" android:layout_height="32dp" android:layout_marginBottom="13dp" android:src="res/drawable-xhdpi-v4/mumbai_pune_delhi_text.png" android:layout_above="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

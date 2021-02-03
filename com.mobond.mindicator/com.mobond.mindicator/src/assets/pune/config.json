@@ -1,0 +1,54 @@
+{
+  "version":"2017050101",//2017040401 ddMMyy01-99
+  "minversion":"86",
+  "latlon":"18.5204300,73.8567440",
+  "facilites": [
+    "bus",
+    "local",
+    "express",
+    "msrtc",
+    "auto",
+    "pune chat",
+    "penalty"
+  ],
+  "other": [
+    "jobs",
+    "emergency",
+    "safety",
+    "picnic",
+    "natak"
+  ],
+  "bus": [
+    {
+      "name": "PMPML",
+      "fullname": "Pune Mahanagar Parivahan Mahamandal ltd.",
+      "selected": "1"
+    }
+  ],
+  "local": [
+    "P"
+  ],
+  "auto": {
+    "info": "FARES W.E.F - 15/10/2013\n\nFare:\nRs 18/- for first 1.5 Kilometer and thereafter Rs. 12.31/- per Kilometer for every additional Kilometer.\n\nNight Charges:\n25% of the fare (12:00 AM to 5:00 AM)\n\nLuggage:\nRs. 3/- shall be charged as extra luggage on every package of size greater tha 60*40 cm charges, whereas the driver/ operator shall not charge and money for a shopping bag or a small suitcase\n\nFor Compalinets call Toll Free No. 18002330012. Please mention Vehicle no., Vehicle Type, Driver's Billa no., Place, Date , Time",
+    "bound1": "18.4982917, 73.8715069",
+    "bound2": "18.5321491, 73.8412945",
+    "complaint": [
+      {
+        "name": "RTO PUNE",
+        "no": "18002330012"
+      },
+      {
+        "name": "RTO PUNE",
+        "no": "020-26058080"
+      },
+      {
+        "name": "RTO PUNE",
+        "no": "020-26058090"
+      },
+      {
+        "name": "RTO PIMPARI-CHINCHWAD",
+        "no": "020-27492828"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1" android:layout_above="false">
+		<com.google.android.material.appbar.AppBarLayout android:theme="resourceId:0x7f110008" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+				<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+				<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+			</LinearLayout>
+			<RelativeLayout android:background="c11921" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/multicity_drawer_icon.png" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="Mumbai" android:maxLines="1" android:layout_toLeftOf="false" android:layout_toRightOf="false" />
+				<LinearLayout android:id="false" android:padding="6dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+					<TextView android:textSize="10sp" android:textColor="ffffff" android:background="res/drawable/news_selector.xml" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" android:text="NEWS" />
+				</LinearLayout>
+				<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+		</com.google.android.material.appbar.AppBarLayout>
+		<androidx.viewpager.widget.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

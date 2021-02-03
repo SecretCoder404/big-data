@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+	<TextView android:textSize="9sp" android:textColor="ffffff" android:background="res/drawable/ad_attribution_bg.xml" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="2dp" android:text="Ad" />
+</LinearLayout>

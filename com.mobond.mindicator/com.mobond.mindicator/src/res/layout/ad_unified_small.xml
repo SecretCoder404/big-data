@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.UnifiedNativeAdView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="50dp" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="4dp" android:src="res/drawable-xxxhdpi-v4/icon.png" android:adjustViewBounds="true" android:layout_centerVertical="true" />
+		<RelativeLayout android:id="false" android:paddingTop="11dp" android:paddingRight="8dp" android:paddingBottom="11dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="7dp" android:baselineAligned="false" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true">
+			<TextView android:textSize="16sp" android:textColor="resourceId:0x106000c" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="IndiGo - Air Flight" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+			<TextView android:textSize="14sp" android:textColor="707070" android:ellipsize="3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:text="The all new IndiGo app multiple payment options. Air through" android:maxLines="1" android:layout_below="false" />
+		</RelativeLayout>
+		<FrameLayout android:layout_gravity="0x800005" android:id="false" android:background="res/drawable/rounded_corner_update_button.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="7dp" android:minWidth="64dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<TextView android:theme="resourceId:0x7f11000a" android:textSize="13sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="{2:2130969014}" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:text="INSTALL" android:lineSpacingExtra="2dp" />
+		</FrameLayout>
+	</RelativeLayout>
+	<include layout="res/layout/ad_attribution_text_layout.xml" />
+</com.google.android.gms.ads.formats.UnifiedNativeAdView>

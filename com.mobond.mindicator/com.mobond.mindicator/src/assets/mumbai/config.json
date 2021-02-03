@@ -1,0 +1,115 @@
+{
+  "version":"2018013101",
+  "latlon":"19.0759840,72.8776560",
+  "irversion":"1",
+  "minversion":"86",
+  "facilites": [
+    "local",
+    "bus",
+    "express",
+    "msrtc",
+    "train chat",
+    "mono",
+    "metro",
+    "auto",
+    "cab",
+    "ferry",
+    "jobs",
+    "map"
+  ],
+  "other": [
+    "exhibition",
+    "natak",
+    "penalty",
+    "property",
+    "picnic",
+    "emergency",
+    "ambulance",
+    "safety",
+    "police"
+
+  ],
+  "other_header": [
+    "Mumbai Exhibitions",
+    "Natak - Marathi Hindi Gujarati",
+    "Penalty - Traffic and Railway",
+    "Property",
+    "Picnic",
+    "Emergency Contacts",
+    "Ambulance Booking",
+    "Women Safety",
+    "Police Station Locator"
+
+  ],"local":[
+    "W","C","H","T","U","MM1WD","DPR","DVP","NM"
+  ],
+  "bus": [
+    {
+      "name": "BEST",
+      "fullname": "BEST",
+      "selected": "1"
+    },
+    {
+      "name": "NMMT",
+      "fullname": "Navi Mumbai Muncipal Transport",
+      "selected": "0"
+    },
+    {
+      "name": "TMT",
+      "fullname": "Thane Muncipal Transport",
+      "selected": "0"
+    },
+    {
+      "name": "KDMT",
+      "fullname": "Kalyan Dombivali Muncipal Transport",
+      "selected": "0"
+    },
+    {
+      "name": "MBMT",
+      "fullname": "Mira Bhayandar Muncipal Transport",
+      "selected": "0"
+    },
+    {
+      "name": "VVMT",
+      "fullname": "Virar Vasai Muncipal Transport",
+      "selected": "0"
+    },
+    {
+      "name": "KMT",
+      "fullname": "Khopoli Muncipal Transport",
+      "selected": "0"
+    }
+  ],
+  "auto": {
+    "info": "TARRIF CARD FOR AUTORICKSHAW FOR MUMBAI METROPOLITAN REGION WITH EFFECT FROM DATE 24.06.2015 \n(a)  Minimum Fare Rs. 18.00           \n(b)  Fare per Kilometer Rs. 12.18  (For Fare Calculation method, pl. see the note below)           \n(c)  25% Additional Fare for journey from 12.00 midnight to 5.00 am.           \n(d)  Luggage charges Rs.3.00 for every package of size greater than 60 X 40 cm other than a briefcase, handbag, attche case.\n\nNote- Fare is payable for a stages of 200 mtrs. till the meters are calibrated as per revised fare \nComplaints : For any complaint about refusal, excess fare, rude behavior etc. against the driver Contact- Toll Free No. 1800 220 110 or write to RTO , Wadala (MH03) or RTO Andheri (MH02) in writing giving date, time and place of offence, nature of the complaint and correct vehicle number.\n\nFor complaints of Thane Region, RTO Thane (MH04),Toll Free No.-1800 225 335\n \nFare Calculation Method- Fare = Distance X Fare Per KM & rounding off to nearest rupee i.e. up to 49 paise to be neglected & 50 paise & above to be rounded to next rupee. eg. For 3.80 KM the fare will be 11.33 X 2.7 = 30.59 i.e. Rs.31, For 3.30 KM the fare will be 11.33 X 3.30 = 37.39 i.e. Rs.37",
+    "bound1": "19.0759840, 72.8776560",
+    "bound2": "19.3405388, 73.1076822",
+    "complaint": [
+      {
+        "name": "Mumbai: Call from MTNL Phone",
+        "no": "1800220110"
+      },
+      {
+        "name": "MH-01 Tardeo RTO",
+        "no": "02223532337"
+      },
+      {
+        "name": "MH-02 Andheri RTO",
+        "no": "02226366957"
+      },
+      {
+        "name": "MH-03 Wadala RTO",
+        "no": "02224036479"
+      },
+      {
+        "name": "Thane: Call from MTNL Phone",
+        "no": "1800225335"
+      }
+    ]
+  },
+  "taxi": {
+    "info": "Tariff Card for Black and Yellow Meter Taxi For Mumbai Metropolitan Region with effect from 24.06.2015. \n\n(a)  Minimum fare Rs. 22.00 \n(b)  Fare per km.Rs. 14.84 (Rounded off to nearest rupee) \n(c)  25% additional fare for journey from 12.00 midnight to 05.00 a.m. \n(d)  Luggage charges Rs. 6.00 for every package of size greater than 60x 40 cm other than a briefcase, handbag,attach case.\n\nCompalaints :  For any complaint about refusal, excess fare, rude behavior  of driver,  etc,  contact  Toll Free No.1800220110  or write to Regional Transport Office, Mumbai (Central)  (MH-01), Regional Transport Office, Mumbai (West)  (MH-02) or Regional Transport Office, Mumbai (East)  (MH-03), giving date, time and place of offence, nature of the complaints and correct vehicle number.",
+    "bound1": "19.0759840, 72.8776560",
+    "bound2": "19.3405388, 73.1076822"
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:background="414042" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp">
+	<View android:id="false" android:background="ff909090" android:padding="2dp" android:layout_width="-1" android:layout_height="1dp" android:layout_weight="{4:1065353216}" />
+</TableRow>

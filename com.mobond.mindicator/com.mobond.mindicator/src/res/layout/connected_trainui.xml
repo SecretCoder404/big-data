@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="35dp">
+	<TextView android:textSize="16sp" android:textStyle="0x0" android:textColor="ffffff" android:ellipsize="4" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="" android:ems="4" android:layout_centerVertical="true" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:layout_toRightOf="false" android:layout_centerInParent="true">
+		<RelativeLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="35dp">
+			<View android:id="false" android:background="222b4f" android:visibility="0" android:layout_width="1dp" android:layout_height="-2" android:layout_centerHorizontal="true" />
+			<ImageView android:visibility="1" android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable/white_circle.xml" android:tint="ffffff" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="DONOTREMOVE" />
+		</RelativeLayout>
+		<TextView android:textSize="16sp" android:textStyle="0x0" android:ellipsize="3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:text="ABC" android:singleLine="true" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+	</RelativeLayout>
+</RelativeLayout>

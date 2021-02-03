@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:background="res/drawable/selector.xml" android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2">
+	<TextView android:textAppearance="{2:16842816}" android:textSize="32sp" android:textColor="212121" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="23" />
+	<LinearLayout android:orientation="1" android:paddingLeft="4dp" android:layout_width="-2" android:layout_height="-2">
+		<TextView android:textAppearance="{2:16842816}" android:textSize="14sp" android:textColor="212121" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="SEP" />
+		<TextView android:textAppearance="{2:16842816}" android:textSize="9sp" android:textColor="212121" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="THU" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:paddingLeft="4dp" android:layout_width="-2" android:layout_height="-2">
+		<TextView android:textAppearance="{2:16842816}" android:textSize="11sp" android:textColor="c62828" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="50dp" android:text="" android:maxLines="1" />
+		<TextView android:textAppearance="{2:16842816}" android:textSize="11sp" android:textColor="c62828" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="50dp" android:text="" />
+	</LinearLayout>
+</LinearLayout>

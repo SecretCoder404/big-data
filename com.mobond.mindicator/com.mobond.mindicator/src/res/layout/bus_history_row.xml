@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:background="res/drawable/list_row_bg_element.9.png" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:background="res/drawable/icon_delete.png" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="false">
+		<TextView android:textSize="22sp" android:textColor="ffffff" android:ellipsize="3" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="TextView" android:singleLine="true" />
+		<TextView android:textSize="14sp" android:textColor="adadad" android:ellipsize="3" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="A : Churchgate" android:singleLine="true" />
+		<TextView android:textSize="14sp" android:textColor="adadad" android:ellipsize="3" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="B : Backbay" android:singleLine="true" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.UnifiedNativeAdView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<com.mobond.mindicator.ui.AnimatedGifImageView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" />
+				<ImageView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:adjustViewBounds="true" />
+			</LinearLayout>
+		</ScrollView>
+		<FrameLayout android:id="false" android:background="res/drawable/search_source_destination_selector.xml" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:theme="resourceId:0x7f11000a" android:textSize="15sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="{2:2130969014}" android:padding="12dp" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="50dp" android:text="INSTALL" />
+		</FrameLayout>
+	</LinearLayout>
+	<include android:id="false" layout="res/layout/ad_attribution_text_layout.xml" />
+</com.google.android.gms.ads.formats.UnifiedNativeAdView>

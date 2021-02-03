@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp">
+	<TextView android:textAppearance="{2:16842817}" android:textSize="11sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" android:text="3A" />
+	<RelativeLayout android:orientation="1" android:id="false" android:background="666666" android:layout_width="-2" android:layout_height="-2">
+		<TextView android:textAppearance="{2:16842817}" android:textSize="4sp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="b4b4b4" android:padding="1dp" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:minWidth="20dp" android:text="RELOAD" android:layout_alignLeft="false" android:layout_alignRight="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:paddingLeft="4dp" android:paddingTop="1dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_below="false">
+			<TextView android:textAppearance="{2:16842817}" android:textSize="9sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+			<TextView android:textAppearance="{2:16842817}" android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:minWidth="20dp" android:layout_below="false" android:layout_centerHorizontal="true" />
+		</LinearLayout>
+		<ImageView android:id="false" android:visibility="1" android:layout_width="20dp" android:layout_height="2dp" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:adjustViewBounds="true" android:layout_below="false" android:layout_centerHorizontal="true" app:srcCompat="res/drawable-xhdpi-v4/dots_red.png" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="4sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:minWidth="20dp" android:text="OLD" android:layout_alignBottom="false" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<TextView android:textAppearance="{2:16842817}" android:textSize="9sp" android:textColor="e0e0e0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="₹800" />
+</LinearLayout>

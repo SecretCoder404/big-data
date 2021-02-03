@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:gravity="0x10" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp" android:layout_below="false">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="22dp" android:layout_marginLeft="9dp" android:text="m-Indicator" android:layout_alignParentLeft="true" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="22dp" android:text="Mumbai" android:layout_toRightOf="false" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="30000" android:paddingLeft="24dp" android:paddingRight="24dp" android:clickable="true" android:layout_width="-2" android:layout_height="22dp" android:text="?" android:layout_alignParentRight="true" android:onClick="onHowitworksClicked" />
+	</RelativeLayout>
+	<ScrollView android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:background="151515" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:padding="7dp" android:layout_width="-1" android:layout_height="-2" android:text="WOMEN SECURITY IN LOCAL TRAIN" />
+			<LinearLayout android:orientation="0" android:background="151515" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1073741824}">
+				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+					<TextView android:textColor="ffffff" android:gravity="0x11" android:background="353535" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:text="WESTERN" android:layout_weight="{4:1065353216}" />
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:onClick="onwesternbuttoncallclick">
+						<ImageView android:gravity="0x11" android:paddingTop="3dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/call.png" />
+						<TextView android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2" android:text="182" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:onClick="onwesternpanicbuttonclick">
+						<ImageView android:gravity="0x11" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/sms.png" />
+						<TextView android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2" android:text="Panic SMS" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:onClick="onwesternwhatsappclick">
+						<ImageView android:gravity="0x11" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/whatsapp.png" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="1dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textColor="ffffff" android:gravity="0x11" android:background="353535" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:text="CENTRAL" android:layout_weight="{4:1065353216}" />
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:onClick="oncentralbuttoncallclick">
+						<ImageView android:gravity="0x11" android:paddingTop="3dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/call.png" />
+						<TextView android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2" android:text="182" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:onClick="oncentralpanicbuttonclick">
+						<ImageView android:gravity="0x11" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/sms.png" />
+						<TextView android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2" android:text="Panic SMS" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:onClick="oncentralwhatsappclick">
+						<ImageView android:gravity="0x11" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/whatsapp.png" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<TextView android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:padding="7dp" android:layout_width="-1" android:layout_height="-2" android:text="SETTINGS" />
+			<LinearLayout android:orientation="1" android:background="151515" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:orientation="0" android:background="151515" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1073741824}">
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1dp" android:layout_weight="{4:1065353216}" android:onClick="onsettrainclick">
+						<ImageView android:gravity="0x11" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/train_big_icon.png" />
+						<TextView android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2" android:text="Set Train" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:background="res/drawable/safety_ui_red_button_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:layout_weight="{4:1065353216}" android:onClick="oneditprofilebuttonclick">
+						<ImageView android:gravity="0x11" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-hdpi-v4/settings.png" />
+						<TextView android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2" android:text="Edit Profie" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

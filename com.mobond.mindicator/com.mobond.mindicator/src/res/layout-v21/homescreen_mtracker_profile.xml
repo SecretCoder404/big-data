@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="res/drawable/light_grey_selector2.xml" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" android:layout_toLeftOf="false" android:layout_centerVertical="true">
+			<TextView android:textSize="10dp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="m-Tracker" />
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" android:lines="1" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="20sp" android:layout_marginRight="15dp" android:layout_toLeftOf="false" android:layout_centerVertical="true">
+			<ImageView android:layout_gravity="0x11" android:layout_width="15dp" android:layout_height="15dp" android:src="res/drawable/blessings.png" />
+			<TextView android:textSize="13dp" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3sp" android:text="20" />
+		</LinearLayout>
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:tint="ffffff" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="res/drawable/ic_chevron_right_black_24dp.xml" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<ImageView android:id="false" android:layout_width="35sp" android:layout_height="35sp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:tint="c11921" android:layout_centerVertical="true" app:srcCompat="res/drawable-hdpi-v4/train_big_icon.png" />
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="04:03 AM CSMT S" android:lines="1" />
+			<TextView android:textSize="13dp" android:textColor="868686" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="S:KHANDESHWAR D:GTB NAGAR" android:lines="1" android:textAllCaps="true" />
+			<TextView android:textSize="13dp" android:textColor="868686" android:ellipsize="3" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" android:lines="1" />
+		</LinearLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable/rounded_corner_update_button.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="30dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:backgroundTint="68a228">
+			<TextView android:theme="resourceId:0x7f110185" android:textSize="13dp" android:textColor="ffffff" android:id="false" android:background="{2:2130969014}" android:paddingLeft="10dp" android:paddingTop="3dp" android:paddingRight="10dp" android:paddingBottom="3dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="YES" />
+		</RelativeLayout>
+		<ImageView android:id="false" android:background="{2:2130969014}" android:padding="2dp" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="2dp" android:tint="868686" android:layout_alignParentRight="true" app:srcCompat="res/drawable/ic_clear_black_24dp.xml" />
+		<TextView android:textSize="13dp" android:textStyle="0x1" android:textColor="c11921" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="50sp" android:layout_height="-2" android:layout_marginRight="10dp" android:text="LIVE" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+</RelativeLayout>

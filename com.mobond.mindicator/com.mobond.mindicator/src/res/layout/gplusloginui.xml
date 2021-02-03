@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="ee222222" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:orientation="1" android:paddingBottom="10dp" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" android:onClick="onLoginClicked">
+		<TextView android:textSize="30sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Login" />
+	</LinearLayout>
+</RelativeLayout>

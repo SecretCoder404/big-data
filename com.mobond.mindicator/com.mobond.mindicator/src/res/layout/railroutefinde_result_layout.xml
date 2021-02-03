@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="151515" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:numColumns="2" />
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp" android:layout_below="false">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:id="false" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_centerVertical="true" />
+				<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true">
+					<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:paddingRight="8dp" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:text="Nerul" android:lines="1" android:layout_toRightOf="false" />
+				</LinearLayout>
+				<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="17dp" android:text="1hr 26min" android:lines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+		</FrameLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1082130432}" android:layout_below="false">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:text="&lt; Prev" android:layout_weight="{4:1065353216}" android:onClick="onPreviousClicked" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:background="res/drawable/slow_fast_all_selector.xml" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:text="Next &gt;" android:layout_weight="{4:1065353216}" android:onClick="onNextClicked" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:text="Via" android:layout_weight="{4:1065353216}" android:onClick="onChangeRouteClicked" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:text="Speed it !" android:layout_weight="{4:1065353216}" android:onClick="onSpeeditClicked" />
+	</LinearLayout>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<TextView android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="-1" android:layout_height="-2" android:text="TICKET FARE" android:layout_above="false" android:onClick="onTicketFareClicked" />
+	<ExpandableListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:groupIndicator="resourceId:0x0" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_above="false" android:layout_below="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

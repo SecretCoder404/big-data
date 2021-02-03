@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:background="{2:2130969014}" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:background="{2:2130969014}" android:padding="18dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" app:srcCompat="res/drawable-xhdpi-v4/ic_star_border_black_24px.png" />
+		<TextView android:textSize="16sp" android:textColor="616161" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Palm Beach Road, Sector- 32, C.B.D. Belapur, Navi Mumbai" android:maxLines="2" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:lineSpacingExtra="2dp" />
+		<ImageView android:id="false" android:background="{2:2130969014}" android:padding="18dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:contentDescription="Delete Recent Location" app:srcCompat="res/drawable-xhdpi-v4/ic_delete_black_24px.png" />
+	</RelativeLayout>
+	<View android:background="e6e6e6" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="35dp" android:layout_marginRight="0dp" />
+</LinearLayout>

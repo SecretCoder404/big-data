@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="18dp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Specify Your Daily Journey" />
+			<View android:background="000" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginTop="15dp" />
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="18dp">
+				<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Train : 94210   CSMT - PANVEL" android:singleLine="true" />
+				<TextView android:textSize="12dp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:text="Source" />
+				<Spinner android:id="false" android:layout_width="-1" android:layout_height="30dp" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp" />
+				<TextView android:textSize="12dp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="7dp" android:text="Destination" />
+				<Spinner android:id="false" android:layout_width="-1" android:layout_height="30dp" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp" />
+			</LinearLayout>
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_marginLeft="15dp" android:layout_marginTop="18dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:text="ADD" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

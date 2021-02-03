@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="212121" android:gravity="0x11" android:id="false" android:background="ffffff" android:padding="10dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="Download Data" android:layout_alignParentTop="true" />
+	<View android:id="false" android:background="d6d6d6" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_below="false" />
+	<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<TextView android:textSize="18dp" android:id="false" android:padding="12dp" android:layout_width="-1" android:layout_height="-2" android:text="To access data offline you need to install delhi data file from play store." />
+		<com.mobond.mindicator.ui.ExpandableHeightListView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:cacheColorHint="0000" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<Button android:textSize="15sp" android:textStyle="0x1" android:textColor="333333" android:id="false" android:background="res/drawable/popup_button_selector.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Download Data File" android:layout_below="false" android:onClick="buttonHandler" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="c11921" android:padding="4dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="15sp" android:textStyle="0x2" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text="Train is running from 15th August, 2018 to 23rd September, 2018" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<TextView android:textSize="18sp" android:textColor="555555" android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Loading.." />
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16dp" style="{2:16842874}" />
+	<Button android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:text="RETRY" />
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:divider="0000" />
+</LinearLayout>

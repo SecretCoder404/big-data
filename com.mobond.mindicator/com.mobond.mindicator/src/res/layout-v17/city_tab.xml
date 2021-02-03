@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2" android:layout_above="false" android:layout_alignParentTop="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:background="303030" android:padding="8dp" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textColor="ffffff" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="New Version Available!" />
+				<FrameLayout android:background="res/drawable/rounded_corner_update_button.xml" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true">
+					<TextView android:theme="resourceId:0x7f110185" android:textColor="ffffff" android:id="false" android:background="{2:2130969014}" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Update" />
+				</FrameLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="303030" android:padding="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textColor="ffffff" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="New Timetable Available!" />
+				<TextView android:textColor="ffffff" android:id="false" android:background="2e7d32" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="Update Timetable" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:orientation="1" android:paddingLeft="8dp" android:paddingTop="6dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2">
+				<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<include android:id="false" layout="res/layout/homescreen_mtracker_register.xml" />
+					<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:layout_below="false">
+						<include android:id="false" android:visibility="0" layout="res/layout/homescreen_mtracker_profile.xml" />
+					</RelativeLayout>
+				</RelativeLayout>
+				<com.mobond.mindicator.ui.ExpandableHeightGridView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:numColumns="4" android:isScrollContainer="false" />
+				<com.mobond.mindicator.ui.ExpandableHeightGridView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:numColumns="4" android:isScrollContainer="false" />
+				<LinearLayout android:orientation="1" android:id="false" android:background="202020" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp">
+					<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/nearbybg.xml" android:layout_width="-1" android:layout_height="-2">
+						<com.mobond.mindicator.ui.ExpandableHeightListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" />
+				<TextView android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="32dp" android:text="OTHER" />
+				<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" />
+				<TextView android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="32dp" android:text="SAFETY" />
+				<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" />
+				<TextView android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="32dp" android:text="EXPLORE MUMBAI" />
+				<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<RelativeLayout android:id="false" android:background="444444" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:layout_alignParentBottom="true">
+		<TextView android:textSize="16sp" android:textColor="aaaaaa" android:ellipsize="4" android:gravity="0x10" android:id="false" android:paddingLeft="0dp" android:paddingRight="0dp" android:fadingEdge="0x1000" android:layout_width="-2" android:layout_height="50dp" android:text="Loading news ...." android:scrollHorizontally="true" android:singleLine="true" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:marqueeRepeatLimit="1" />
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/multicity_arrow.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="{4:1060320051}" />
+		<TextView android:textSize="17sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:paddingLeft="10dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="50dp" android:text="News:" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+	</RelativeLayout>
+	<RelativeLayout android:gravity="0x11" android:id="false" android:background="80000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="300dp" android:layout_height="-2">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="212121" android:gravity="0x1" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="UPDATE REQUIRED" />
+			<View android:id="false" android:background="d6d6d6" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_below="false" />
+			<TextView android:textSize="16sp" android:textColor="000" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="m-Indicator will not work without update." />
+			<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="333333" android:gravity="0x1" android:id="false" android:background="res/drawable/popup_button_selector.xml" android:padding="13dp" android:layout_width="-1" android:layout_height="-2" android:text="OPEN PLAY STORE" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_alignParentLeft="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="31dp" android:text="Select Line" />
+		</LinearLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<ScrollView android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_above="false" android:layout_below="false">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/train_line_selector.xml" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:background="202020" android:layout_width="-1" android:layout_height="1dp" />
+					<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:paddingLeft="6dp" android:layout_width="-1" android:layout_height="48dp">
+						<ImageView android:padding="12dp" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/train_icon.png" android:scaleType="3" />
+						<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="48dp" android:text="URAN LINE" />
+					</LinearLayout>
+					<View android:background="202020" android:layout_width="-1" android:layout_height="1dp" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/train_line_selector.xml" android:layout_width="-1" android:layout_height="-1">
+					<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:paddingLeft="6dp" android:layout_width="-1" android:layout_height="48dp">
+						<ImageView android:padding="12dp" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/train_icon.png" android:scaleType="3" />
+						<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="48dp" android:text="DIVA - ROHA" />
+					</LinearLayout>
+					<View android:background="202020" android:layout_width="-1" android:layout_height="1dp" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/train_line_selector.xml" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:paddingLeft="6dp" android:layout_width="-1" android:layout_height="48dp">
+						<ImageView android:padding="12dp" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/train_icon.png" android:scaleType="3" />
+						<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="48dp" android:text="DAHANU - VIRAR - PANVEL" />
+					</LinearLayout>
+					<TextView android:background="202020" android:layout_width="-1" android:layout_height="1dp" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/train_line_selector.xml" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:paddingLeft="6dp" android:layout_width="-1" android:layout_height="48dp">
+						<ImageView android:padding="12dp" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/train_icon.png" android:scaleType="3" />
+						<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="48dp" android:text="NERAL - MATHERAN" />
+					</LinearLayout>
+					<TextView android:background="202020" android:layout_width="-1" android:layout_height="1dp" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/train_line_selector.xml" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:paddingLeft="6dp" android:layout_width="-1" android:layout_height="48dp">
+						<ImageView android:padding="12dp" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/train_icon.png" android:scaleType="3" />
+						<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="48dp" android:text="LONAVALA - PUNE" />
+					</LinearLayout>
+					<TextView android:background="202020" android:layout_width="-1" android:layout_height="1dp" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:id="false" android:background="res/drawable/local_gradient.xml" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:layout_alignParentLeft="true">
+				<RelativeLayout android:id="false" android:background="res/drawable/wcht_selector.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" android:onClick="next">
+					<ImageView android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/circle_dark_blue.xml" android:scaleType="3" android:layout_alignTop="false" android:layout_alignBottom="false" />
+					<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Western" android:layout_below="false" android:layout_alignParentLeft="true" />
+					<TextView android:textSize="32sp" android:typeface="1" android:textStyle="0x1" android:textColor="fcfcfc" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="84dp" android:text="W" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+				</RelativeLayout>
+				<RelativeLayout android:id="false" android:background="res/drawable/wcht_selector.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="1dp" android:layout_weight="{4:1065353216}" android:onClick="next">
+					<ImageView android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/circle_dark_blue.xml" android:scaleType="3" android:layout_alignTop="false" android:layout_alignBottom="false" />
+					<TextView android:textSize="32sp" android:typeface="1" android:textStyle="0x1" android:textColor="fcfcfc" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="84dp" android:text="C" />
+					<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Central" android:layout_below="false" android:layout_alignParentLeft="true" />
+				</RelativeLayout>
+				<RelativeLayout android:id="false" android:background="res/drawable/wcht_selector.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="1dp" android:layout_weight="{4:1065353216}">
+					<ImageView android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/circle_dark_blue.xml" android:scaleType="3" android:layout_alignTop="false" android:layout_alignBottom="false" />
+					<TextView android:textSize="32sp" android:typeface="1" android:textStyle="0x1" android:textColor="fcfcfc" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="84dp" android:text="H" />
+					<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Harbour" android:layout_below="false" android:layout_alignParentLeft="true" />
+				</RelativeLayout>
+				<RelativeLayout android:id="false" android:background="res/drawable/wcht_selector.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="1dp" android:layout_weight="{4:1065353216}" android:onClick="next">
+					<ImageView android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/circle_dark_blue.xml" android:scaleType="3" android:layout_alignTop="false" android:layout_alignBottom="false" />
+					<TextView android:textSize="32sp" android:typeface="1" android:textStyle="0x1" android:textColor="fcfcfc" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="84dp" android:text="T" />
+					<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Trans" android:layout_below="false" android:layout_alignParentLeft="true" />
+				</RelativeLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="202020" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:background="202020" android:paddingLeft="6dp" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textAppearance="{2:16842817}" android:textSize="17sp" android:textStyle="0x1" android:textColor="cccccc" android:gravity="0x11" android:paddingLeft="16dp" android:layout_width="-2" android:layout_height="48dp" android:text="Favourite Trains" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:background="202020" android:paddingBottom="50dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+					<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/nearbybg.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp">
+						<com.mobond.mindicator.ui.ExpandableHeightListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</RelativeLayout>
+	</ScrollView>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

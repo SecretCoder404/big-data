@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="20sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="222b4f" android:padding="10dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="TERMS &amp; CONDITIONS" android:layout_alignParentTop="true" android:onClick="onTermsUrlClicked" />
+	<ScrollView android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_above="false" android:layout_below="false">
+		<TextView android:textSize="16sp" android:textColor="686868" android:id="false" android:paddingLeft="10dp" android:paddingTop="20dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2" />
+	</ScrollView>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}" android:layout_alignParentBottom="true">
+		<Button android:textSize="15sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/green_button_selector.xml" android:layout_width="-2" android:layout_height="-2" android:text="ACCEPT" android:layout_weight="{4:1065353216}" android:onClick="buttonHandler" />
+		<View android:background="ffffff" android:layout_width="1dp" android:layout_height="-1" />
+		<Button android:textSize="15sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/terms_button_selector.xml" android:layout_width="-2" android:layout_height="-2" android:text="REJECT" android:layout_weight="{4:1065353216}" android:onClick="buttonHandler" />
+	</LinearLayout>
+</RelativeLayout>

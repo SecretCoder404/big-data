@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="300dp" android:layout_height="-1">
+	<TextView android:textSize="18sp" android:textStyle="0x1" android:gravity="0x11" android:id="false" android:padding="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="FOOD IN TRAIN" android:textAllCaps="true" />
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="300dp" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<EditText android:textSize="18sp" android:textColor="212121" android:textColorHint="9e9e9e" android:layout_gravity="0x10" android:id="false" android:background="0000" android:paddingLeft="24dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:hint="Enter PNR number" android:maxLength="10" android:layout_weight="{4:1065353216}" android:imeOptions="0x3">
+				<requestFocus />
+			</EditText>
+			<Button android:textColor="ff4081" android:id="false" android:background="0000" android:layout_width="-2" android:layout_height="-2" android:text="SEND" />
+		</LinearLayout>
+		<ScrollView android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

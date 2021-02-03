@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape android:shape="1">
+			<size android:height="12dp" android:width="12dp" />
+			<solid android:color="resourceId:0x106000b" />
+		</shape>
+	</item>
+	<item android:drawable="res/drawable/ic_close.xml" />
+</layer-list>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18dp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="12:15" android:layout_toLeftOf="false" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+			<TextView android:textSize="21sp" android:textColor="ffffff" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:ems="3" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_toRightOf="false">
+				<RelativeLayout android:layout_width="-2" android:layout_height="-1">
+					<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true">
+						<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/circle_down_arrow.xml" android:layout_alignTop="false" android:layout_alignBottom="false" android:layout_centerHorizontal="true" />
+						<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}" android:layout_centerHorizontal="true">
+							<View android:id="false" android:background="ffffff" android:layout_width="1dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+							<View android:id="false" android:background="ffffff" android:layout_width="1dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+						</LinearLayout>
+						<ImageView android:id="false" android:padding="2dp" android:layout_width="5dp" android:layout_height="-2" android:src="res/drawable/circle_red_trace_train.xml" android:layout_alignLeft="false" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_alignBottom="false" />
+						<ImageView android:id="false" android:padding="49152unknown unit:0x21" android:layout_width="-2" android:layout_height="-2" android:layout_alignLeft="false" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_alignBottom="false" app:srcCompat="res/drawable/ic_close.xml" />
+					</RelativeLayout>
+					<RelativeLayout android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true">
+						<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+							<View android:id="false" android:background="3f4970" android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+							<View android:id="false" android:background="3f4970" android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+						</LinearLayout>
+						<ImageView android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/circle_blue.xml" android:layout_centerInParent="true" />
+					</RelativeLayout>
+					<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true">
+						<View android:id="false" android:background="res/drawable/red_line_circle_white_bg.xml" android:layout_width="25sp" android:layout_height="25sp" />
+						<ImageView android:background="res/drawable/red_line_circle_white_bg.xml" android:padding="2sp" android:layout_width="25sp" android:layout_height="25sp" android:src="res/drawable-hdpi-v4/train_big_icon.png" android:tint="c11921" />
+					</RelativeLayout>
+				</RelativeLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginRight="2dp" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true">
+				<TextView android:textSize="18dp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="DADAR" android:singleLine="true" />
+				<TextView android:textSize="13dp" android:textColor="ffffff" android:gravity="0x50" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="PF6 LEFT" />
+			</LinearLayout>
+			<TextView android:textSize="16dp" android:textStyle="0x0" android:textColor="ca3c2c" android:ellipsize="4" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="15sp" android:layout_marginBottom="5dp" android:text="12:16" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			<RelativeLayout android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15sp" android:layout_toRightOf="false" android:layout_centerVertical="true">
+				<RelativeLayout android:background="68a228" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="15sp" android:layout_centerVertical="true" android:rotation="{4:1110704128}" />
+				<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15sp">
+					<RelativeLayout android:id="false" android:background="res/drawable/greenbglayout.xml" android:paddingLeft="10sp" android:paddingTop="5sp" android:paddingRight="10sp" android:paddingBottom="5sp" android:layout_width="-2" android:layout_height="-2">
+						<TextView android:textSize="11sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="5 min late" android:singleLine="true" />
+						<TextView android:textSize="11sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Crossed Station" android:singleLine="true" android:layout_below="false" android:layout_alignParentLeft="true" />
+						<TextView android:textSize="11sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="(JUST NOW)" android:maxLines="1" android:singleLine="true" android:layout_below="false" android:layout_alignParentLeft="true" />
+					</RelativeLayout>
+				</RelativeLayout>
+			</RelativeLayout>
+		</RelativeLayout>
+	</LinearLayout>
+</FrameLayout>

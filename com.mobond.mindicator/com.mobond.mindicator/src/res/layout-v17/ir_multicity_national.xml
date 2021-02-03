@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="e6e7e8" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="1b83d6" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentTop="true">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator - Indian Railways" />
+		<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:layout_gravity="0x800005" android:background="25000" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="11sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="{2:16843534}" android:paddingLeft="18dp" android:paddingRight="18dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:text="NEWS" />
+			</RelativeLayout>
+		</FrameLayout>
+	</LinearLayout>
+	<ScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" android:layout_toRightOf="false" android:layout_below="false" android:layout_toEndOf="false">
+		<LinearLayout android:orientation="1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:background="303030" android:padding="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="15sp" android:textColor="ffffff" android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="New Update Available!" android:layout_toLeftOf="false" />
+				<FrameLayout android:id="false" android:background="res/drawable/rounded_corner_update_button.xml" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true">
+					<TextView android:theme="resourceId:0x7f110185" android:textColor="resourceId:0x106000b" android:id="false" android:background="{2:2130969014}" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Update" />
+				</FrameLayout>
+			</RelativeLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:layout_marginBottom="16dp">
+				<androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="6dp" android:layout_marginRight="2dp" app:cardCornerRadius="0dp" app:cardElevation="2dp" app:cardUseCompatPadding="true">
+					<HorizontalScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:baselineAligned="false">
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:minWidth="64dp">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/train_ic.png" android:tint="8c8c8c" />
+								<TextView android:textSize="12sp" android:textColor="929292" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Cancelled" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:minWidth="64dp" android:layout_weight="{4:1065353216}">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/checklist_icon.png" />
+								<TextView android:textSize="12sp" android:textColor="c11921" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Packing" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:minWidth="64dp" android:layout_weight="{4:1065353216}">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/alarm.png" android:tint="8c8c8c" />
+								<TextView android:textSize="12sp" android:textColor="929292" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Alarms" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-2" android:minWidth="64dp" android:layout_weight="{4:1065353216}">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/multicity_phone.png" android:tint="8c8c8c" />
+								<TextView android:textSize="12sp" android:textColor="929292" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Help" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:minWidth="64dp" android:layout_weight="{4:1067030938}">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/feedback_icon.png" android:tint="8c8c8c" />
+								<TextView android:textSize="12sp" android:textColor="929292" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Feedback" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-2" android:minWidth="64dp" android:layout_weight="{4:1065353216}">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/multicity_hotel.png" android:tint="8c8c8c" />
+								<TextView android:textSize="12sp" android:textColor="929292" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Hotel" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:minWidth="64dp" android:layout_weight="{4:1065353216}">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/multicity_food.png" android:tint="8c8c8c" />
+								<TextView android:textSize="12sp" android:textColor="929292" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Food" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:minWidth="64dp" android:layout_weight="{4:1067030938}">
+								<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/penalty.png" android:tint="8c8c8c" />
+								<TextView android:textSize="12sp" android:textColor="929292" android:gravity="0x11" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Penalties" />
+							</LinearLayout>
+						</LinearLayout>
+					</HorizontalScrollView>
+				</androidx.cardview.widget.CardView>
+				<androidx.cardview.widget.CardView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" app:cardCornerRadius="4dp" app:cardElevation="2dp" app:cardUseCompatPadding="true">
+					<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+				</androidx.cardview.widget.CardView>
+				<androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" app:cardCornerRadius="4dp" app:cardElevation="2dp" app:cardUseCompatPadding="true">
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+						<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+							<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/ir_selector_white_bg.xml" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="50dp">
+								<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="000" android:gravity="0x10" android:padding="4dp" android:layout_width="60dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="From" />
+								<TextView android:textSize="16sp" android:textColor="757575" android:textColorHint="757575" android:ellipsize="3" android:gravity="0x10" android:id="false" android:background="0000" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-1" android:text="Source" android:maxLines="1" android:singleLine="true" />
+							</LinearLayout>
+							<View android:id="false" android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:layout_below="false" />
+							<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/ir_selector_white_bg.xml" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="1dp" android:layout_below="false">
+								<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="000" android:gravity="0x10" android:padding="4dp" android:layout_width="60dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="To" />
+								<TextView android:textSize="16sp" android:textColor="757575" android:textColorHint="757575" android:ellipsize="3" android:gravity="0x10" android:id="false" android:background="0000" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-1" android:text="Destination" android:maxLines="1" android:singleLine="true" />
+							</LinearLayout>
+							<ImageView android:id="false" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="25dp" android:layout_marginRight="25dp" android:src="res/drawable-mdpi-v4/shuffle.png" android:scaleType="3" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_marginEnd="25dp" android:layout_alignEnd="false" />
+						</RelativeLayout>
+						<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:weightSum="{4:1073741824}">
+							<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+								<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/indian_rail_btn_selector.xml" android:padding="8dp" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="50dp" android:layout_marginRight="1dp" android:text="SEAT AVAILABILITY" android:maxLines="1" android:singleLine="true" />
+							</RelativeLayout>
+							<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+								<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="res/drawable/ir_select_train_btn_selector.xml" android:padding="8dp" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="50dp" android:text="SEARCH TRAINS" android:maxLines="1" android:singleLine="true" />
+							</RelativeLayout>
+						</LinearLayout>
+					</LinearLayout>
+				</androidx.cardview.widget.CardView>
+				<androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" app:cardCornerRadius="4dp" app:cardElevation="2dp" app:cardUseCompatPadding="true">
+					<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/ir_selector_white_bg.xml" android:layout_width="-1" android:layout_height="50dp">
+						<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:background="res/drawable/ir_pnr_shape.xml" android:layout_width="-2" android:layout_height="-1" android:text="PNR" android:ems="4" />
+						<TextView android:textSize="16sp" android:textColor="757575" android:gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="0dp" android:layout_height="-1" android:layout_margin="4dp" android:text="Get PNR Status" android:layout_weight="{4:1065353216}" />
+					</LinearLayout>
+				</androidx.cardview.widget.CardView>
+				<androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" app:cardCornerRadius="4dp" app:cardElevation="2dp" app:cardUseCompatPadding="true">
+					<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/ir_selector_white_bg.xml" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:background="res/drawable/ir_pnr_shape.xml" android:layout_width="-2" android:layout_height="-1" android:text="TRAIN" android:ems="4" />
+						<TextView android:textSize="16sp" android:textColor="757575" android:gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="0dp" android:layout_height="-1" android:layout_margin="4dp" android:text="Train-Number or Name" android:maxLines="1" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+					</LinearLayout>
+				</androidx.cardview.widget.CardView>
+				<androidx.cardview.widget.CardView android:id="false" android:background="resourceId:0x106000c" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" app:cardCornerRadius="0dp" app:cardElevation="2dp" app:cardUseCompatPadding="true">
+					<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" />
+				</androidx.cardview.widget.CardView>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<RelativeLayout android:gravity="0x11" android:id="false" android:background="80000" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="300dp" android:layout_height="-2">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="212121" android:gravity="0x1" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="UPDATE REQUIRED" />
+			<View android:id="false" android:background="d6d6d6" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" />
+			<TextView android:textSize="16sp" android:textColor="000" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Express Section will not work without update." />
+			<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="333333" android:gravity="0x1" android:id="false" android:background="res/drawable/popup_button_selector.xml" android:padding="13dp" android:layout_width="-1" android:layout_height="-2" android:text="OPEN PLAY STORE" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

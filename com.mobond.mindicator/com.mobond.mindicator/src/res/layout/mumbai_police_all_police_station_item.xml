@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:layout_gravity="0x11" android:id="false" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="24dp" android:src="res/drawable/circle_white.xml" android:layout_alignBottom="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+	<TextView android:textSize="21sp" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:paddingTop="10dp" android:paddingRight="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Churchgate abcd gg hlffd this is lon" android:singleLine="true" android:layout_toRightOf="false" />
+	<TextView android:textColor="adadad" android:id="false" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="2222" android:layout_below="false" android:layout_alignLeft="false" />
+</RelativeLayout>

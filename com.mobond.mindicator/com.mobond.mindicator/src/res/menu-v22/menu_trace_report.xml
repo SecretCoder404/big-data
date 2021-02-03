@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/drawable/ic_delete_button.xml" android:id="false" android:title="Train is Cancelled" android:iconTint="ffffff" app:showAsAction="0x0" />
+	<item android:icon="res/drawable/ic_error_outline_grey_24dp.xml" android:id="false" android:title="Report Timing Error" app:showAsAction="0x0" />
+	<item android:icon="res/drawable/ic_add_black_24dp.xml" android:id="false" android:title="Add to Regular Trains" app:showAsAction="0x0" />
+</menu>

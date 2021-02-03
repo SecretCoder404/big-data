@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-1" android:layout_above="false">
+		<include layout="res/layout/ir_app_bar_indian_railways.xml" />
+		<androidx.appcompat.widget.Toolbar android:theme="resourceId:0x7f110144" android:id="false" android:background="2196f3" android:layout_width="-1" android:layout_height="-2" android:title="ABCD" android:titleTextAppearance="resourceId:0x7f110201" />
+		<TextView android:textStyle="0x1" android:textColor="999999" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="112dp" android:text="NO ALARMS SET" />
+		<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

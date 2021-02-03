@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+			<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		</LinearLayout>
+		<RelativeLayout android:layout_width="-1" android:layout_height="45dp" android:layout_marginLeft="15sp">
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_centerVertical="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x13" android:id="false" android:paddingRight="0dp" android:layout_width="-2" android:layout_height="-1" android:text="TITLE" android:lines="1" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<RelativeLayout android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="30sp" android:layout_marginLeft="15sp" android:layout_marginRight="15sp" android:layout_marginBottom="10sp">
+			<TextView android:textSize="17sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Are you inside this train" />
+			<TextView android:textSize="17sp" android:textColor="ffffff" android:id="false" android:paddingLeft="5sp" android:layout_width="-2" android:layout_height="-2" android:text="?" android:layout_toRightOf="false" />
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+				<TextView android:textSize="15sp" android:textColor="resourceId:0x106000b" android:id="false" android:paddingLeft="6dp" android:layout_width="-2" android:layout_height="-2" android:text="NO" />
+				<androidx.appcompat.widget.SwitchCompat android:gravity="0x11" android:id="false" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="-2" />
+				<TextView android:textSize="15sp" android:textColor="resourceId:0x106000b" android:id="false" android:paddingRight="6dp" android:layout_width="-2" android:layout_height="-2" android:text="YES" />
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="40sp" android:layout_below="false">
+		<TextView android:textSize="13sp" android:textColor="ffffff" android:ellipsize="4" android:id="false" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginBottom="5dp" android:text="" android:layout_centerVertical="true" />
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:src="res/drawable/ic_chevron_right_black_24dp.xml" android:tint="ffffff" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+		<View android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="4" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="" android:layout_centerVertical="true" />
+		<View android:background="ffffff" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="4" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="SCHEDULED" android:layout_centerVertical="true" />
+			<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="4" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="15sp" android:layout_marginBottom="5dp" android:text="EXPECTED" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<View android:background="ffffff" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" />
+	</LinearLayout>
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" />
+	<com.google.android.material.floatingactionbutton.FloatingActionButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25dp" android:layout_marginBottom="25dp" android:tint="ffffff" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:backgroundTint="c11921" app:backgroundTint="c11921" app:borderWidth="0dp" app:srcCompat="res/drawable-xhdpi-v4/ic_refresh_white_36dp.png" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="ffffff" android:layout_width="-1" android:layout_height="150dp">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true">
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+			<TextView android:textStyle="0x0" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Refresh" />
+			<ImageView android:layout_width="-2" android:layout_height="-2" android:tint="000" app:srcCompat="res/drawable-xhdpi-v4/ic_refresh_white_36dp.png" />
+		</LinearLayout>
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:tint="000" app:srcCompat="res/drawable/ic_clear_black_24dp.xml" />
+	</LinearLayout>
+	<WebView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+	<TextView android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="LOADING..." android:layout_below="false" />
+</RelativeLayout>

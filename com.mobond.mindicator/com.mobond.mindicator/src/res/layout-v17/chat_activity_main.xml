@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/chat_bg.xml" android:layout_width="-1" android:layout_height="-1">
+	<HorizontalScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-2" android:layout_height="-1" android:layout_marginBottom="0dp" android:layout_above="false" android:layout_below="false">
+		<RelativeLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1">
+			<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentLeft="true">
+				<ListView android:id="false" android:layout_width="-2" android:layout_height="-2" android:divider="0000" />
+				<ImageButton android:id="false" android:background="res/drawable-hdpi-v4/chat_down_arrow.png" android:visibility="0" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="10dp" android:layout_marginBottom="15dp" android:scaleType="3" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="cf05e54" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="false">
+				<TextView android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="-2" android:layout_height="-2" android:text="MOST LIKED CHATS" />
+				<ListView android:id="false" android:layout_width="-2" android:layout_height="-2" android:divider="0000" />
+			</LinearLayout>
+		</RelativeLayout>
+	</HorizontalScrollView>
+	<ListView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:divider="0000" android:layout_above="false" android:layout_below="false" android:layout_alignParentLeft="true" />
+	<Button android:textStyle="0x1" android:id="false" android:background="d0d0d0" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Chat Reconnect" android:layout_above="false" />
+	<ProgressBar android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" />
+	<ProgressBar android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" />
+	<RelativeLayout android:gravity="0x10" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="25000" android:paddingLeft="9dp" android:layout_width="-1" android:layout_height="22dp" android:layout_marginRight="4194304unknown unit:0x31" android:text="m-Indicator" android:layout_toLeftOf="false" android:layout_alignParentLeft="true" />
+		<FrameLayout android:id="false" android:background="25000" android:visibility="0" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="4194304unknown unit:0x31" android:layout_marginRight="4194304unknown unit:0x31" android:layout_toLeftOf="false">
+			<RelativeLayout android:layout_gravity="0x800005" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="{2:16843534}" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="-2" android:layout_height="22dp" android:text="NEWS" />
+			</RelativeLayout>
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="25000" android:visibility="0" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="4194304unknown unit:0x31" android:layout_marginRight="4194304unknown unit:0x31" android:layout_toLeftOf="false">
+			<RelativeLayout android:layout_gravity="0x800005" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="{2:16843534}" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="-2" android:layout_height="22dp" android:text="Help" />
+			</RelativeLayout>
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="25000" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="4194304unknown unit:0x31" android:layout_alignParentRight="true">
+			<RelativeLayout android:layout_gravity="0x800005" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="{2:16843534}" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="-2" android:layout_height="22dp" android:text="Logout" />
+			</RelativeLayout>
+		</FrameLayout>
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<RelativeLayout android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="45dp" android:text="PL - CSMT S (04:41 PM)" android:maxLines="1" android:singleLine="true" android:layout_centerHorizontal="true" />
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:background="c11921" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingBottom="6dp" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+			<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+				<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="8dp" />
+				<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="8dp" />
+			</FrameLayout>
+			<TextView android:textSize="17sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:paddingRight="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Sachin Teke" android:layout_toRightOf="false" android:layout_alignTop="false" />
+			<TextView android:textSize="12sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp" android:text="Nerul" android:layout_toRightOf="false" android:layout_below="false" />
+		</RelativeLayout>
+	</LinearLayout>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="20000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<LinearLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+		<RelativeLayout android:id="false" android:background="981c1e" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+			<TextView android:textSize="16sp" android:textColor="resourceId:0x106000b" android:ellipsize="4" android:gravity="0x10" android:id="false" android:paddingLeft="0dp" android:paddingRight="0dp" android:fadingEdge="0x1000" android:layout_width="-2" android:layout_height="50dp" android:text="				ट्रेन चैट पर किसी भी प्रकार के असामाजिक/आपत्तिजनक संदेश पोस्ट करने पर पुलिस कारवाई हो सकती है. कृपया अपने मैसेजेस ट्रेन जानकारी तक ही सीमित रखें।" android:scrollHorizontally="true" android:singleLine="true" android:layout_toRightOf="false" android:marqueeRepeatLimit="2" />
+			<TextView android:textSize="17sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:paddingLeft="10dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="50dp" android:text="चेतावनी:" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:background="c5c5c5" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+		<LinearLayout android:gravity="0x10" android:orientation="1" android:id="false" android:background="res/drawable/chat_edittext_bg.xml" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:layout_toLeftOf="false" android:layout_centerVertical="true">
+			<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:orientation="1" android:background="48bcbec0" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp">
+					<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="e03424" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:text="" />
+					<TextView android:textSize="12sp" android:textColor="202020" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:text="" />
+					<TextView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="8dp" />
+				</LinearLayout>
+				<FrameLayout android:layout_gravity="0x11" android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignParentRight="true">
+					<ImageView android:layout_gravity="0x10" android:id="false" android:background="res/drawable/ic_close_black_24dp.png" android:layout_width="-1" android:layout_height="-1" />
+				</FrameLayout>
+			</RelativeLayout>
+			<EditText android:textSize="16sp" android:textColorHint="4c8e87" android:gravity="0x10" android:id="false" android:background="res/drawable/chat_edittext_bg.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="46dp" android:maxHeight="80dp" android:hint="Type a message" android:maxLines="1" android:editable="false" android:inputType="0x20001" android:textCursorDrawable="res/drawable/text_cursor.xml" />
+		</LinearLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable/shape_oval.xml" android:visibility="0" android:layout_width="46dp" android:layout_height="46dp" android:layout_marginRight="8dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<ImageView android:id="false" android:background="res/drawable-hdpi-v4/white_send_icon.png" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="14dp" android:layout_marginTop="12dp" android:layout_marginRight="10dp" android:layout_marginBottom="12dp" android:scaleType="7" />
+		</RelativeLayout>
+		<TextView android:textSize="9sp" android:gravity="0x10" android:id="false" android:background="0000" android:padding="8dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" android:text="Sending" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+		<RelativeLayout android:id="false" android:background="res/drawable/chat_login_button_selector.xml" android:paddingTop="15dp" android:paddingBottom="15dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16sp" android:textColor="resourceId:0x106000b" android:layout_width="-2" android:layout_height="-2" android:text="LOGIN TO SEND MESSAGE" android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_alignTop="false" android:layout_alignBottom="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

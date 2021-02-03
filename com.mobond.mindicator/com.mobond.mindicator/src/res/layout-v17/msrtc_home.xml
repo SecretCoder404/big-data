@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="212121" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+			<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		</LinearLayout>
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+				<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+					<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="2dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+						<TextView android:textSize="15dp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="20dp" android:text="मराठी" android:lines="1" android:popupBackground="ffffff" android:layout_centerVertical="true" />
+						<TextView android:textSize="15dp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:id="false" android:background="res/drawable/msrtc_language_selector.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:text="English" android:lines="1" android:popupBackground="ffffff" android:layout_centerVertical="true" />
+						<ImageView android:id="false" android:background="res/drawable/notification_icon_selector_msrtc.xml" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="2" android:layout_width="45dp" android:layout_height="-1" android:layout_marginLeft="30px" android:layout_marginRight="30px" android:src="res/drawable/tab_alert.png" />
+					</LinearLayout>
+					<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="8dp" android:src="res/drawable-hdpi-v4/msrtc_72x72_white.png" android:layout_centerVertical="true" />
+					<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="32dp">
+						<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x13" android:id="false" android:paddingRight="0dp" android:layout_width="-2" android:layout_height="-1" android:text="MSRTC" android:lines="1" android:popupBackground="ffffff" android:layout_centerVertical="true" />
+					</LinearLayout>
+				</RelativeLayout>
+				<RelativeLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:src="res/drawable/ic_action_back.png" android:layout_centerVertical="true" />
+					<EditText android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" android:hint="Search" android:lines="1" android:layout_toRightOf="false" android:layout_centerVertical="true" android:inputType="0xb1" android:textCursorDrawable="res/drawable/color_cursor.xml" />
+				</RelativeLayout>
+			</androidx.appcompat.widget.Toolbar>
+			<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+		</RelativeLayout>
+		<ScrollView android:id="false" android:paddingBottom="10dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<RelativeLayout android:id="false" android:background="303030" android:padding="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textColor="ffffff" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="New Timetable Available!" />
+					<TextView android:textColor="ffffff" android:id="false" android:background="2e7d32" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="Update Timetable" android:layout_alignParentRight="true" />
+				</RelativeLayout>
+				<LinearLayout android:orientation="1" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:layout_gravity="0x11" android:id="false" android:background="res/drawable/msrtc_card_view.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp">
+						<LinearLayout android:orientation="1" android:background="303030" android:focusableInTouchMode="true" android:descendantFocusability="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp">
+							<TextView android:background="3a3a3a" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+							<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+								<TextView android:textColor="757575" android:gravity="0x10" android:id="false" android:background="res/drawable-mdpi-v4/textview_border.xml" android:padding="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginBottom="1dp" android:text="SOURCE" />
+								<TextView android:textColor="757575" android:gravity="0x10" android:id="false" android:background="res/drawable-mdpi-v4/textview_border.xml" android:padding="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="0dp" android:layout_marginBottom="1dp" android:text="DESTINATION" android:layout_below="false" />
+								<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="25dp" android:layout_marginRight="25dp" android:src="res/drawable-mdpi-v4/shuffle.png" android:scaleType="3" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_marginEnd="25dp" android:layout_alignEnd="false" />
+							</RelativeLayout>
+							<Button android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="e0e0e0" android:id="false" android:background="res/drawable/search_source_destination_selector.xml" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Search Buses" android:textAlignment="4" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:paddingTop="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+						<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/msrtc_card_view.xml" android:layout_width="-1" android:layout_height="-2">
+							<LinearLayout android:orientation="1" android:background="303030" android:focusableInTouchMode="true" android:descendantFocusability="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp">
+								<TextView android:background="3a3a3a" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+								<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+									<TextView android:textColor="757575" android:gravity="0x10" android:id="false" android:background="res/drawable-mdpi-v4/textview_border.xml" android:padding="8dp" android:layout_width="-1" android:layout_height="50dp" android:text="BUSES PASSING THROUGH STOP" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+									<ImageView android:id="false" android:background="res/drawable/msrtc_search_button_selector.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-mdpi-v4/msrtc_search_icon_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+								</RelativeLayout>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable-ldpi-v4/msrtc_card_view_ac.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="0dp" android:onClick="acServices">
+						<RelativeLayout android:id="false" android:background="res/drawable-ldpi-v4/ac_selector_msrtc.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="3dp" android:layout_marginTop="1dp" android:layout_marginRight="3dp" android:layout_marginBottom="1dp">
+							<ImageView android:id="false" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:src="res/drawable-xhdpi-v4/white_bus.png" />
+							<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="ffffff" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:text="AC Services" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+						</RelativeLayout>
+					</LinearLayout>
+					<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/msrtc_card_view.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14dp" android:layout_marginBottom="0dp">
+						<RelativeLayout android:id="false" android:background="res/drawable/call_st_depot_msrtc.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="3dp" android:layout_marginTop="1dp" android:layout_marginRight="3dp" android:layout_marginBottom="1dp">
+							<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-hdpi-v4/call.png" />
+							<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="c6c6c6" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Call ST Depot" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+						</RelativeLayout>
+					</LinearLayout>
+					<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/msrtc_card_view.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14dp" android:layout_marginBottom="0dp">
+						<RelativeLayout android:id="false" android:background="res/drawable/call_st_depot_msrtc.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="3dp" android:layout_marginTop="1dp" android:layout_marginRight="3dp" android:layout_marginBottom="1dp">
+							<ImageView android:id="false" android:paddingLeft="10dp" android:paddingRight="16dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/msrtc_seat.png" />
+							<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="c6c6c6" android:layout_width="-1" android:layout_height="-2" android:text="MSRTC Bus Booking" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+						</RelativeLayout>
+					</LinearLayout>
+					<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/msrtc_card_view.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14dp" android:layout_marginBottom="0dp" android:onClick="feedBack">
+						<RelativeLayout android:id="false" android:background="res/drawable/call_st_depot_msrtc.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="3dp" android:layout_marginTop="1dp" android:layout_marginRight="3dp" android:layout_marginBottom="1dp">
+							<ImageView android:id="false" android:paddingLeft="10dp" android:paddingRight="16dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-hdpi-v4/feedback.png" />
+							<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="c6c6c6" android:layout_width="-1" android:layout_height="-2" android:text="Feedback" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+						</RelativeLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+						<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/msrtc_card_view.xml" android:padding="0dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:layout_marginBottom="105dp">
+							<LinearLayout android:orientation="1" android:background="303030" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_marginTop="1dp" android:layout_marginRight="3dp" android:layout_marginBottom="1dp">
+								<CheckBox android:textStyle="0x1" android:textColor="c6c6c6" android:id="false" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:checked="true" android:text="Subscribe For News Notification" />
+								<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0dp" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:background="444444" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:layout_above="false">
+		<TextView android:textSize="16sp" android:textColor="aaaaaa" android:ellipsize="4" android:gravity="0x10" android:id="false" android:paddingLeft="0dp" android:paddingRight="0dp" android:fadingEdge="0x1000" android:layout_width="-2" android:layout_height="50dp" android:text="Loading news ...." android:lines="1" android:scrollHorizontally="true" android:singleLine="true" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:marqueeRepeatLimit="1" />
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/multicity_arrow.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="{4:1060320051}" />
+		<TextView android:textSize="17sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:paddingLeft="10dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="50dp" android:text="News:" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

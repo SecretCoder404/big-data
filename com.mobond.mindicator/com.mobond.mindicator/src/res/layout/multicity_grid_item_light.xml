@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="1" android:background="res/drawable/multicity_grid_selector.xml" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="55dp" android:layout_marginTop="10dp" android:src="res/drawable-xhdpi-v4/multicity_local.png" />
+	<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingTop="6dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Taxi" />
+</LinearLayout>

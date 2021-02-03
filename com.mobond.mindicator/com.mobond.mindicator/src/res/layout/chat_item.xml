@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/chat_bubble.xml" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+				<RelativeLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+					<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="false" android:layout_alignParentLeft="true">
+						<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textStyle="0x1" android:textColor="212121" android:id="false" android:paddingLeft="8dp" android:paddingTop="5dp" android:paddingRight="48dp" android:layout_width="-2" android:layout_height="-2" android:text="Mobond Test" android:singleLine="true" />
+						<LinearLayout android:orientation="0" android:id="false" android:background="48bcbec0" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp">
+							<LinearLayout android:background="e03424" android:layout_width="5dp" android:layout_height="-1" android:layout_marginTop="3dp" android:layout_marginRight="5dp" android:layout_marginBottom="3dp" />
+							<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+								<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="e03424" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:text="Mobond" />
+								<TextView android:textSize="11sp" android:textColor="202020" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:text="message" />
+							</LinearLayout>
+						</LinearLayout>
+						<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="000" android:id="false" android:paddingLeft="8dp" android:paddingRight="0dp" android:layout_width="-2" android:layout_height="-2" android:text="msg" />
+					</LinearLayout>
+					<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_alignParentRight="true">
+						<TextView android:textSize="14dp" android:id="false" android:paddingLeft="5dp" android:paddingTop="4dp" android:paddingRight="5dp" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="Reply" />
+						<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingTop="4dp" android:paddingRight="12dp" android:layout_width="-2" android:layout_height="-2">
+							<ImageView android:id="false" android:layout_width="18dp" android:layout_height="18dp" android:src="res/drawable/thumbupgray.png" />
+							<TextView android:textSize="10dp" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+						</LinearLayout>
+						<ImageView android:id="false" android:paddingLeft="4dp" android:paddingRight="7dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/dotsvertical.png" />
+					</LinearLayout>
+				</RelativeLayout>
+				<TextView android:textAppearance="{2:16842818}" android:textSize="12sp" android:textColor="666666" android:gravity="0x800005" android:id="false" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:text="2:30PM" />
+			</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_alignTop="false" android:layout_alignBottom="false" />
+</RelativeLayout>

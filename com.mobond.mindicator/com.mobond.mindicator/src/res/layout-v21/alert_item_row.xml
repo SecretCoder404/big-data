@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="-2" android:elevation="10dp" app:cardCornerRadius="5dp">
+			<LinearLayout android:orientation="1" android:background="res/drawable/alertbgcorner.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="0dp" android:layout_marginBottom="2dp">
+				<ImageView android:id="false" android:layout_width="-1" android:layout_height="-2" android:adjustViewBounds="true" />
+				<TextView android:textAppearance="{2:16842816}" android:textSize="18sp" android:textStyle="0x0" android:textColor="000" android:ellipsize="3" android:gravity="0x3" android:id="false" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="-1" android:layout_height="-2" android:text="Title" android:maxLines="2" android:lineSpacingMultiplier="{4:1067869798}" />
+				<com.mobond.mindicator.util.EllipsizingTextView android:textSize="15sp" android:textColor="565656" android:ellipsize="3" android:gravity="0x3" android:id="false" android:background="res/drawable/news_alert_selector.xml" android:paddingLeft="16dp" android:paddingTop="2dp" android:paddingRight="16dp" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2" android:text="Scale the image uniformly (maintain the image&apos;s aspect ratio) so that both dimensions (width and height) of the image will be equal to or larger than the corresponding dimension of the view (minus padding). The image is then centered in the view. From XML, use this synta" android:maxLines="4" android:singleLine="false" android:lineSpacingMultiplier="{4:1067869798}" app:fontFamily="sans-serif-light" />
+				<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:id="false" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="30dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:onClick="onShareAlertNewsClicked">
+						<ImageView android:clickable="true" android:layout_width="18dp" android:layout_height="18dp" android:tint="a0a0a0" android:scaleX="{4:3212836864}" app:srcCompat="res/drawable/ic_reply_black_24dp.xml" />
+						<TextView android:textAppearance="{2:16842818}" android:textSize="10sp" android:textColor="a0a0a0" android:layout_gravity="0x11" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:text="Share" android:layout_weight="{4:1065353216}" />
+					</LinearLayout>
+					<TextView android:textAppearance="{2:16842818}" android:textSize="10sp" android:textColor="a0a0a0" android:gravity="0x800005" android:id="false" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="12-12-2020" android:maxLines="1" android:layout_weight="{4:1065353216}" />
+				</LinearLayout>
+			</LinearLayout>
+		</androidx.cardview.widget.CardView>
+		<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:elevation="10dp" app:cardCornerRadius="5dp">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</androidx.cardview.widget.CardView>
+	</LinearLayout>
+</LinearLayout>

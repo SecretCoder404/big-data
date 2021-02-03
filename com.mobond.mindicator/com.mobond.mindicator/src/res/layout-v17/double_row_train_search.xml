@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:background="161d19" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator " />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+		<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" android:maxLines="1" android:singleLine="true" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:layout_marginRight="8dp" android:layout_marginBottom="6dp">
+				<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/left_rounded_corder.xml" android:layout_width="80dp" android:layout_height="40dp" android:text="DISTRICT" />
+				<Spinner android:theme="resourceId:0x7f110175" android:textSize="16sp" android:textColor="b4b4b4" android:ellipsize="3" android:gravity="0x10" android:id="false" android:tag="-1" android:background="res/drawable/right_rounded_corner.xml" android:paddingLeft="16dp" android:layout_width="-1" android:layout_height="40dp" android:text="Select Start Stop" android:lines="1" android:singleLine="true" android:layout_toRightOf="false" />
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="0dp" android:layout_marginRight="8dp" android:layout_marginBottom="6dp">
+				<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/left_rounded_corder.xml" android:layout_width="80dp" android:layout_height="40dp" android:text="TALUKA" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+				<Spinner android:theme="resourceId:0x7f110175" android:textSize="16sp" android:textColor="b4b4b4" android:ellipsize="3" android:gravity="0x10" android:id="false" android:tag="-1" android:background="res/drawable/right_rounded_corner.xml" android:paddingLeft="16dp" android:layout_width="-1" android:layout_height="40dp" android:text="Select Start Stop" android:lines="1" android:singleLine="true" android:layout_toRightOf="false" />
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="0dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp">
+				<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/left_rounded_corder.xml" android:layout_width="80dp" android:layout_height="40dp" android:text="VILLAGE" />
+				<EditText android:textSize="16sp" android:textColor="b4b4b4" android:ellipsize="3" android:gravity="0x10" android:id="false" android:tag="-1" android:background="res/drawable/right_rounded_corner.xml" android:paddingLeft="16dp" android:layout_width="-1" android:layout_height="40dp" android:hint="Select Bus Stop" android:lines="1" android:singleLine="true" android:layout_toRightOf="false" />
+			</RelativeLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}" />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<ImageView android:id="false" android:background="{2:2130969015}" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/map_white.png" />
+				<ImageView android:id="false" android:background="{2:2130969015}" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/favoff.png" />
+				<ImageView android:id="false" android:background="{2:2130969015}" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/ic_action_time.png" />
+				<ImageView android:id="false" android:background="{2:2130969015}" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/filter2.png" />
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="0" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/ic_search_white_24dp.png" />
+			</LinearLayout>
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_centerVertical="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x13" android:id="false" android:paddingRight="0dp" android:layout_width="-2" android:layout_height="-1" android:text="MUMBAI CENTRAL MUMBAI" android:lines="1" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<RelativeLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:src="res/drawable/ic_action_back.png" android:layout_centerVertical="true" />
+			<EditText android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" android:hint="Search" android:lines="1" android:layout_toRightOf="false" android:layout_centerVertical="true" android:inputType="0xb1" android:textCursorDrawable="res/drawable/color_cursor.xml" />
+		</RelativeLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<LinearLayout android:orientation="0" android:id="false" android:background="353535" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" />
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" android:layout_above="false" android:layout_below="false" />
+	<ProgressBar android:id="false" android:background="151515" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:indeterminate="true" android:layout_below="false" style="{2:16842872}" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+		<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textColor="8f8f8f" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:padding="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="SLOW" android:layout_weight="{4:1065353216}" android:onClick="onClickSlowTrains" />
+			<TextView android:textColor="8f8f8f" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:padding="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="FAST" android:layout_weight="{4:1065353216}" android:onClick="onClickFastTrains" />
+			<TextView android:textColor="8f8f8f" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:padding="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="AC" android:layout_weight="{4:1065353216}" android:onClick="onClickAcTrains" />
+			<TextView android:textStyle="0x1" android:textColor="8f8f8f" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:padding="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="NEXT" android:layout_weight="{4:1065353216}" android:onClick="setNextArrivingList" />
+			<TextView android:textStyle="0x1" android:textColor="8f8f8f" android:gravity="0x11" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:padding="5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="ALL" android:layout_weight="{4:1065353216}" android:onClick="onClickAllTrains" />
+		</LinearLayout>
+	</LinearLayout>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="4d557a" android:visibility="2" android:layout_width="-1" android:layout_height="2dp" android:layout_alignTop="false" />
+	<TextView android:textSize="18dp" android:textColor="ffffff" android:id="false" android:padding="15dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="MSG MSG" android:layout_below="false" android:layout_centerHorizontal="true" />
+	<LinearLayout android:gravity="0x10" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+		<ImageButton android:id="false" android:background="resourceId:0x0" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" android:onClick="button1Action" />
+		<ImageButton android:id="false" android:background="resourceId:0x0" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:onClick="button2Action" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+		<LinearLayout android:textSize="16sp" android:textStyle="0x1" android:gravity="0x10" android:orientation="1" android:id="false" android:background="res/drawable/msrtc_chat_button_selector.xml" android:visibility="2" android:layout_width="-1" android:layout_height="45dp">
+			<View android:textAppearance="{2:16842817}" android:background="cccccc" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="16sp" android:textStyle="0x1" android:gravity="0x11" android:id="false" android:paddingLeft="20dp" android:layout_width="-2" android:layout_height="45dp" android:text="PASSENGER CHAT ROOM" android:layout_centerHorizontal="true" />
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="-2" android:src="res/drawable-hdpi-v4/chatrect.png" android:layout_toLeftOf="false" android:layout_centerVertical="true" />
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<TextView android:textSize="15sp" android:textStyle="0x0" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="ca3c2c" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Turn on internet to get live train status" android:singleLine="true" android:layout_above="false" android:layout_centerHorizontal="true" />
+	<com.google.android.material.floatingactionbutton.FloatingActionButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25dp" android:layout_marginBottom="25dp" android:tint="ffffff" android:layout_above="false" android:layout_alignParentRight="true" app:backgroundTint="c11921" app:borderWidth="0dp" app:srcCompat="res/drawable-xhdpi-v4/ic_refresh_white_36dp.png" />
+</RelativeLayout>

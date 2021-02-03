@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="resourceId:0x106000c" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:background="151515" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="1b83d6" android:layout_width="-1" android:layout_height="22dp">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		</LinearLayout>
+		<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="{2:2130968579}">
+			<androidx.appcompat.widget.Toolbar android:theme="resourceId:0x7f110152" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:foreground="{2:16842841}" app:titleTextAppearance="resourceId:0x7f110200" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="{2:2130968579}">
+				<EditText android:textSize="18sp" android:textColor="212121" android:textColorHint="9e9e9e" android:layout_gravity="0x10" android:id="false" android:background="0000" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:hint="Cancelled/Rescheduled Trains" android:layout_weight="{4:1065353216}" android:inputType="0x1" android:imeOptions="0x3">
+					<requestFocus />
+				</EditText>
+				<ImageButton android:id="false" android:padding="12dp" android:visibility="2" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-ldpi-v4/ic_clear_grey600_18dp.png" android:scaleType="3" style="resourceId:0x7f1101fe" />
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<TextView android:textSize="18sp" android:textColor="555555" android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Loading.." />
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16dp" style="{2:16842874}" />
+	<Button android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:text="RETRY" />
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:divider="0000" />
+	<WebView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

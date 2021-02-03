@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/ir_selector_white_bg.xml" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:padding="8dp" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="4dp" android:src="res/drawable/ic_directions_train_grey600_48dp.png" android:layout_centerVertical="true" android:contentDescription="Train ICON Image" />
+	<RelativeLayout android:id="false" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true">
+		<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="444444" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginRight="8dp" />
+		<TextView android:textSize="16sp" android:textColor="444444" android:ellipsize="3" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:singleLine="true" android:layout_toRightOf="false" android:textAllCaps="true" />
+		<TextView android:textSize="12sp" android:textColor="444444" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:layout_marginRight="8dp" android:layout_below="false" />
+	</RelativeLayout>
+	<RelativeLayout android:gravity="0x10" android:id="false" android:background="res/drawable/ir_live_btn_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="false" android:layout_alignBottom="false" android:layout_alignParentRight="true">
+		<ImageView android:id="false" android:paddingTop="8dp" android:layout_width="50dp" android:layout_height="35dp" android:src="res/drawable/live_icon.png" android:contentDescription="Live Button Image" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:paddingTop="2dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2" android:text="LIVE" android:layout_below="false" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+</RelativeLayout>

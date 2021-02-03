@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<View android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<RelativeLayout android:gravity="0x10" android:id="false" android:background="ef4836" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="22dp" android:layout_marginLeft="9dp" android:text="m-Indicator - Police Station Locator" android:layout_alignParentLeft="true" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="e03424" android:paddingLeft="16dp" android:paddingRight="16dp" android:clickable="true" android:layout_width="-2" android:layout_height="22dp" android:text="Terms" android:layout_alignParentRight="true" android:onClick="showTerms" />
+	</RelativeLayout>
+	<View android:id="false" android:layout_width="-1" android:layout_height="60dp" android:layout_above="false" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<fragment android:name="com.mobond.policestationlocator.util.CustomMapFragment" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="82dp" android:src="res/drawable-hdpi-v4/mapmarker.png" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/mumbai_police_black_info_corner.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="4dp" android:layout_above="false" android:layout_centerHorizontal="true" android:onClick="showErrorMessage">
+			<TextView android:textAppearance="{2:16842817}" android:textColor="ffffff" android:id="false" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:text="Waiting for Location" />
+			<ImageView android:id="false" android:padding="4dp" android:layout_width="40dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/mumbai_police_location.png" android:adjustViewBounds="true" />
+		</LinearLayout>
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+			<TextView android:textSize="16sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x10" android:id="false" android:background="res/drawable/destinationbordeer.xml" android:padding="10dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:hint="Enter Incidence Location" android:singleLine="true" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_search_police.png" android:layout_weight="{4:1077936128}" android:layout_alignParentTop="true" android:windowSoftInputMode="0x2" />
+			<ImageView android:id="false" android:visibility="2" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="0dp" android:layout_marginRight="8dp" android:src="res/drawable-xhdpi-v4/facebook_round.png" android:adjustViewBounds="true" android:layout_below="false" android:layout_alignParentRight="true" />
+			<ImageView android:id="false" android:visibility="2" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:src="res/drawable-xhdpi-v4/twitter_round.png" android:adjustViewBounds="true" android:layout_below="false" android:layout_alignParentRight="true" />
+			<RelativeLayout android:id="false" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_below="false" android:layout_centerHorizontal="true" android:onClick="visitCitizenPortal">
+				<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textStyle="0x1" android:textColor="ef4836" android:gravity="0x11" android:id="false" android:background="res/drawable/mumbai_police_call_corner.xml" android:paddingLeft="12dp" android:paddingTop="6dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:text="VISIT CITIZEN PORTAL" android:layout_toRightOf="false" android:layout_centerVertical="true" android:layout_toEndOf="false" />
+				<ImageView android:id="false" android:visibility="2" android:layout_width="56dp" android:layout_height="56dp" android:src="res/drawable-xhdpi-v4/call_hundred.png" android:scaleType="1" />
+			</RelativeLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+	<TextView android:textSize="17sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/mumbai_police_selector.xml" android:clickable="true" android:layout_width="-1" android:layout_height="60dp" android:text="ALL POLICE STATIONS LIST" android:layout_above="false" android:onClick="showAllPoliceStations" />
+	<LinearLayout android:layout_gravity="0x1" android:orientation="1" android:id="false" android:background="ffffff" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/white_selector.xml" android:layout_width="-1" android:layout_height="60dp">
+			<Button android:textSize="18dp" android:textColor="ffffff" android:id="false" android:background="res/drawable/mumbai_police_selector.xml" android:layout_width="60dp" android:layout_height="-1" android:text="ALL" android:onClick="showAllPoliceStations" />
+			<ImageView android:layout_gravity="0x10" android:padding="4dp" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable-xhdpi-v4/policesiren.png" android:scaleType="3" android:adjustViewBounds="true" android:layout_alignBottom="false" android:layout_alignParentRight="true" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:ellipsize="3" android:layout_gravity="0x10" android:id="false" android:padding="4dp" android:layout_width="0dp" android:layout_height="-2" android:text="Police Station Locator" android:maxLines="2" android:layout_weight="{4:1065353216}" android:layout_toLeftOf="false" />
+			<ImageView android:id="false" android:padding="6dp" android:layout_width="56dp" android:layout_height="-1" android:layout_marginRight="4dp" android:src="res/drawable-mdpi-v4/phonecallred.png" android:scaleType="3" android:layout_alignBottom="false" android:layout_alignParentRight="true" />
+		</LinearLayout>
+		<ScrollView android:scrollbarSize="4dp" android:scrollbarThumbVertical="res/drawable/mumbai_police_selector.xml" android:id="false" android:layout_width="-1" android:layout_height="0dp" android:fadeScrollbars="false">
+			<LinearLayout android:orientation="1" android:id="false" android:background="f5f5f5" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:divider="{2:16843564}" android:showDividers="0x2" />
+		</ScrollView>
+	</LinearLayout>
+</RelativeLayout>

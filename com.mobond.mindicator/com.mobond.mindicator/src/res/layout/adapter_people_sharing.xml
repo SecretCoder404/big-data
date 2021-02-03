@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="151515" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_toLeftOf="false" android:layout_alignParentLeft="true">
+		<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="151515" android:id="false" android:background="res/drawable/help_round.xml" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Volunteer" />
+		<RelativeLayout android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="7dp" android:tint="868686" android:layout_alignBottom="false" app:srcCompat="res/drawable/ic_pointing_right.xml" />
+			<TextView android:textSize="17sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="You" android:singleLine="true" android:layout_toRightOf="false" />
+		</RelativeLayout>
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Kharghar to Chembur" />
+		<TextView android:textSize="15sp" android:textColor="ff9c91" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="[ Just Now ] Reached Kalyan, 10 min late" android:singleLine="true" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:paddingLeft="5dp" android:paddingRight="245760unknown unit:0x21" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:tint="868686" app:srcCompat="res/drawable/ic_thumbs_up_hand_symbol.xml" />
+				<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="10" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:paddingLeft="245760unknown unit:0x21" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:tint="868686" app:srcCompat="res/drawable/ic_thumbs_down_silhouette.xml" />
+				<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="8" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+		<ImageView android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable/blessings.png" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="105" />
+	</LinearLayout>
+	<View android:background="202020" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_below="false" />
+</RelativeLayout>

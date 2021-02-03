@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<TableRow android:gravity="0x10" android:background="084bf" android:layout_width="-2" android:layout_height="-2">
+		<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="GORAI JETTY" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable/arrows.png" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="GORAI KHADI" android:layout_weight="{4:1065353216}" />
+	</TableRow>
+	<TableRow android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:weightSum="{4:1073741824}">
+		<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="353535" android:padding="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_marginRight="3dp" android:text="First : 05:00 am
+Last : 08:30 pm" android:layout_weight="{4:1065353216}" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="353535" android:padding="8dp" android:layout_width="0dp" android:layout_height="-1" android:text="First : 05:15 am
+Last : 09:00 pm" android:layout_weight="{4:1065353216}" />
+	</TableRow>
+	<TableRow android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp">
+		<LinearLayout android:gravity="0x10" android:background="494949" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="3dp" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable/frequency.png" />
+			<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Frequency" android:singleLine="true" />
+		</LinearLayout>
+		<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="494949" android:paddingLeft="20dp" android:paddingTop="6dp" android:paddingRight="20dp" android:paddingBottom="6dp" android:layout_width="0dp" android:layout_height="-2" android:text="Depends on Customer" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+	</TableRow>
+	<TableRow android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:background="353535" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="3dp" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable/journeytime.png" />
+			<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Journey Time" android:singleLine="true" />
+		</LinearLayout>
+		<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="353535" android:paddingLeft="20dp" android:paddingTop="6dp" android:paddingRight="20dp" android:paddingBottom="6dp" android:layout_width="0dp" android:layout_height="-2" android:text="10 - 15 min" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+	</TableRow>
+	<TableRow android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:background="494949" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="3dp" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable/rupee.png" />
+			<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Fare" android:singleLine="true" />
+		</LinearLayout>
+		<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="494949" android:paddingLeft="20dp" android:paddingTop="6dp" android:paddingRight="20dp" android:paddingBottom="6dp" android:layout_width="0dp" android:layout_height="-2" android:text="Rs. 10/-" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+	</TableRow>
+	<TableRow android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:background="353535" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="3dp" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable/bike.png" />
+			<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Carry Bike" android:singleLine="true" />
+		</LinearLayout>
+		<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="353535" android:paddingLeft="20dp" android:paddingTop="6dp" android:paddingRight="20dp" android:paddingBottom="6dp" android:layout_width="0dp" android:layout_height="-2" android:text="Rs. 30/-" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+	</TableRow>
+	<TableRow android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:background="494949" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="3dp" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable/availablity.png" />
+			<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Availability" android:singleLine="true" />
+		</LinearLayout>
+		<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="494949" android:paddingLeft="20dp" android:paddingTop="6dp" android:paddingRight="20dp" android:paddingBottom="6dp" android:layout_width="0dp" android:layout_height="-2" android:text="365 days" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+	</TableRow>
+	<TableRow android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:background="494949" android:layout_width="-1" android:layout_height="30dp" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" />
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="resourceId:0x7f110174" android:orientation="1" android:background="353535" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="25dp" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<TextView android:textSize="20sp" android:textColor="ffffff" android:id="false" android:paddingLeft="23dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Mumbai" />
+		<LinearLayout android:orientation="0" android:paddingTop="5dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1082130432}">
+			<ImageView android:gravity="0x11" android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xhdpi-v4/play_store.png" android:layout_weight="{4:1065353216}" />
+			<ImageView android:gravity="0x10" android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-hdpi-v4/facebook.png" android:layout_weight="{4:1065353216}" />
+			<ImageView android:gravity="0x10" android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-hdpi-v4/twitter.png" android:layout_weight="{4:1065353216}" />
+			<ImageView android:gravity="0x10" android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xhdpi-v4/share.png" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+		<TextView android:gravity="0x5" android:id="false" android:paddingTop="5dp" android:paddingRight="25dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:text="m-Indicator v13.1.86" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<View android:orientation="1" android:id="false" android:background="444444" android:layout_width="-1" android:layout_height="10dp" android:layout_below="false" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<View android:orientation="1" android:id="false" android:background="444444" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" android:layout_below="false" />
+</RelativeLayout>

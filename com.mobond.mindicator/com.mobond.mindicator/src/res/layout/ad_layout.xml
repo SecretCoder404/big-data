@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="efefef" android:layout_width="-1" android:layout_height="-1">
+	<WebView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<View android:background="e3e3e3" android:layout_width="-1" android:layout_height="1dp" />
+		<LinearLayout android:orientation="1" android:background="ffffff" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+				<ImageView android:id="false" android:background="{2:2130969015}" android:padding="10dp" android:layout_width="60dp" android:layout_height="60dp" app:srcCompat="res/drawable/ic_mi_star.xml" />
+				<ImageView android:id="false" android:background="{2:2130969015}" android:padding="10dp" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="20dp" app:srcCompat="res/drawable/ic_mi_home.xml" />
+				<ImageView android:id="false" android:background="{2:2130969015}" android:padding="10dp" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="20dp" app:srcCompat="res/drawable/ic_mi_exit.xml" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

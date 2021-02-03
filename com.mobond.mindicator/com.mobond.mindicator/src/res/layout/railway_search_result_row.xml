@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:layout_gravity="0x1" android:orientation="0" android:id="false" android:background="ededed" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1122369536}">
+		<TextView android:textStyle="0x1" android:textColor="000" android:gravity="0x800005" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:singleLine="true" android:layout_weight="{4:1106247680}" />
+		<RelativeLayout android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1092616192}">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}" android:layout_centerInParent="true">
+				<com.mobond.mindicator.ui.train.fastestroute.RailRouteFinderDividerView android:layout_gravity="0x11" android:id="false" android:layout_width="2dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" custom:clr="ff00" custom:dashGap="4dp" custom:dashLength="2dp" custom:dashThickness="5dp" custom:orientation="1" />
+				<com.mobond.mindicator.ui.train.fastestroute.RailRouteFinderDividerView android:layout_gravity="0x11" android:id="false" android:layout_width="2dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" custom:clr="ff00" custom:dashGap="4dp" custom:dashLength="2dp" custom:dashThickness="5dp" custom:orientation="1" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}" android:layout_centerInParent="true">
+				<com.mobond.mindicator.ui.train.fastestroute.RailRouteFinderDividerView android:layout_gravity="0x11" android:id="false" android:layout_width="2dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" custom:clr="ff00" custom:dashGap="0dp" custom:dashLength="2dp" custom:dashThickness="5dp" custom:orientation="1" />
+				<com.mobond.mindicator.ui.train.fastestroute.RailRouteFinderDividerView android:layout_gravity="0x11" android:id="false" android:layout_width="2dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" custom:clr="ff00" custom:dashGap="0dp" custom:dashLength="2dp" custom:dashThickness="5dp" custom:orientation="1" />
+			</LinearLayout>
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<LinearLayout android:layout_gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1114374144}">
+			<View android:id="false" android:background="dadada" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+			<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-1">
+				<ImageView android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+				<View android:layout_width="5dp" android:layout_height="1dp" />
+				<LinearLayout android:layout_gravity="0x10" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+					<TextView android:textStyle="0x1" android:textColor="000" android:ellipsize="3" android:gravity="0x50" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+					<TextView android:textSize="12dp" android:textStyle="0x0" android:ellipsize="3" android:gravity="0x50" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<RelativeLayout android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1088421888}">
+			<com.mobond.mindicator.ui.VerticalTextView android:textSize="10dp" android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable/railway_platform_background.xml" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="-2" android:text="abcd" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<RelativeLayout android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1073741824}">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}" android:layout_centerInParent="true">
+				<com.mobond.mindicator.ui.train.fastestroute.RailRouteFinderDividerView android:layout_gravity="0x11" android:id="false" android:layout_width="2dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" custom:clr="dadada" custom:dashGap="0dp" custom:dashLength="2dp" custom:dashThickness="5dp" custom:orientation="1" />
+				<com.mobond.mindicator.ui.train.fastestroute.RailRouteFinderDividerView android:layout_gravity="0x11" android:id="false" android:layout_width="2dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" custom:clr="dadada" custom:dashGap="0dp" custom:dashLength="2dp" custom:dashThickness="5dp" custom:orientation="1" />
+			</LinearLayout>
+		</RelativeLayout>
+		<RelativeLayout android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1088421888}">
+			<com.mobond.mindicator.ui.VerticalTextView android:textSize="10dp" android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable/railway_platform_background.xml" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

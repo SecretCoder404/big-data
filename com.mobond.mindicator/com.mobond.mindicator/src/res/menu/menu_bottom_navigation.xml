@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable/ic_directions_transit_black_24dp.xml" android:id="false" android:title="My Trains" />
+	<item android:icon="res/drawable/ic_person_black_24dp.xml" android:id="false" android:title="Profile" />
+</menu>

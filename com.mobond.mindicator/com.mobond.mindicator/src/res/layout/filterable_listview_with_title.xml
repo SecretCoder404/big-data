@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="151515" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:numColumns="2" />
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp" android:layout_below="false">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+		<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="2" android:clickable="true" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/favoff.png" />
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="2" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/ic_action_time.png" />
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="0" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/ic_search_white_24dp.png" />
+			</LinearLayout>
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_centerVertical="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x13" android:id="false" android:paddingRight="0dp" android:layout_width="-2" android:layout_height="-1" android:text="Select Station" android:lines="1" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<RelativeLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:src="res/drawable/ic_action_back.png" android:layout_centerVertical="true" />
+			<EditText android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" android:hint="Search" android:lines="1" android:layout_toRightOf="false" android:layout_centerVertical="true" android:inputType="0xb1" android:textCursorDrawable="res/drawable/color_cursor.xml" />
+		</RelativeLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<ListView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" android:layout_above="false" android:layout_below="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+	<LinearLayout android:gravity="0x10" android:orientation="1" android:paddingTop="53dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+		<ImageButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:onClick="button3Action" />
+		<ImageButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="7dp" android:onClick="button4Action" />
+		<ImageButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="7dp" android:onClick="button1Action" />
+		<ImageButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:onClick="button2Action" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:paddingTop="65dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+		<ImageView android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-hdpi-v4/arrow_down_plain.png" />
+		<ImageView android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-hdpi-v4/arrow_down_plain.png" />
+		<ImageView android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-hdpi-v4/arrow_down_plain.png" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:paddingTop="65dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="false" android:layout_centerHorizontal="true">
+		<ImageView android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-hdpi-v4/arrow_up_plain.png" />
+		<ImageView android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-hdpi-v4/arrow_up_plain.png" />
+		<ImageView android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-hdpi-v4/arrow_up_plain.png" />
+	</LinearLayout>
+</RelativeLayout>

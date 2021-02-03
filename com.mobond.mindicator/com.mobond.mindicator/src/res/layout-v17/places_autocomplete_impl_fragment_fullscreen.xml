@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:textDirection="5" android:layoutDirection="3">
+	<LinearLayout android:orientation="0" android:id="false" android:background="{2:2130968730}" android:layout_width="-1" android:layout_height="-2" android:minHeight="{2:2130968579}">
+		<include layout="res/layout/places_autocomplete_impl_search_bar.xml" />
+	</LinearLayout>
+	<View android:background="res/drawable/places_autocomplete_toolbar_shadow.xml" android:layout_width="-1" android:layout_height="4dp" />
+	<View android:id="false" android:layout_width="0dp" android:layout_height="0dp" />
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="0dp" android:cacheColorHint="resourceId:0x106000b" android:layout_weight="{4:1065353216}" android:layout_marginStart="68dp" />
+	<include layout="res/layout/places_autocomplete_impl_error.xml" />
+	<include layout="res/layout/places_autocomplete_impl_powered_by_google.xml" />
+</LinearLayout>

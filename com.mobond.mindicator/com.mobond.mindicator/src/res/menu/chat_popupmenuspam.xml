@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="false" android:title="Copy to Clipboard" />
+	<item android:id="false" android:title="Spam" />
+	<item android:id="false" android:title="Delete" />
+	<item android:id="false" android:title="Notify Reply" />
+	<item android:id="false" android:title="Notify Most Like" />
+</menu>

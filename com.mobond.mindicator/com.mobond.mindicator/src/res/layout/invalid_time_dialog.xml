@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textSize="14dp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:text="Oops..
+
+Looks like train is yet to arrive from source or might have reached destination." />
+	<TextView android:textSize="14dp" android:textColor="ffffff" android:id="false" android:background="res/drawable/red_button_bg.xml" android:paddingLeft="10sp" android:paddingRight="10sp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10sp" android:layout_marginBottom="10dp" android:text="OK" android:layout_below="false" android:layout_alignParentRight="true" />
+</RelativeLayout>

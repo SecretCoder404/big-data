@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:textSize="16sp" android:textColor="c11921" android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="You are already a volunteer." />
+			<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Help to track" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2sp" android:text="Live Train Position." />
+			<RelativeLayout android:background="res/drawable/light_border_line.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="15sp" android:layout_marginRight="15sp">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10sp">
+					<TextView android:textSize="16sp" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:text="What I have to do?" />
+					<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:layout_marginTop="5sp" android:text="- Press &apos;YES&apos;" />
+					<TextView android:textSize="15sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:layout_marginTop="2sp" android:text="After boarding the daily train" />
+					<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:layout_marginTop="10sp" android:text="- Press &apos;NO&apos;" />
+					<TextView android:textSize="15sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:layout_marginTop="2sp" android:text="After getting off the train" />
+				</LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:background="res/drawable/light_border_line.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="15sp" android:layout_marginRight="15sp">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10sp">
+					<TextView android:textSize="16sp" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:text="What will happen?" />
+					<TextView android:textSize="15sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:layout_marginTop="5sp" android:text="m-Indicator will receive live local train location shared by you.
+
+We will share this train location to lakhs of m-Indicator users waiting for that train.
+
+People will reach their offices and colleges on time.
+
+If you become volunteer, we will give priority to the train location shared by you." />
+				</LinearLayout>
+			</RelativeLayout>
+			<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_marginLeft="15sp" android:layout_marginTop="15sp" android:layout_marginRight="15sp" android:text="Next" />
+			<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="c11921" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15sp" android:layout_marginBottom="15sp" android:text="How it works ?" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

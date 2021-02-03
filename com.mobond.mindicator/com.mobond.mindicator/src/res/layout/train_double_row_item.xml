@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x11" android:orientation="1" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_alignBottom="false" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<TextView android:gravity="0x11" android:id="false" android:background="dadada" android:layout_width="1dp" android:layout_height="-1" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" />
+			<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp">
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="50dp" android:layout_height="-1">
+					<TextView android:textSize="10sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="PF" />
+					<TextView android:textSize="20sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true">
+			<View android:id="false" android:background="0af0" android:layout_width="8dp" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x10" android:orientation="1" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="18dp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<TextView android:textColor="adadad" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<TextView android:textColor="ff9c91" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+			</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/train_double_row_ad_bg.xml" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" />
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:background="res/drawable/morning_train_selector.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:text="Morning Trains" android:onClick="onClickMorningTrains" />
+	</LinearLayout>
+</LinearLayout>

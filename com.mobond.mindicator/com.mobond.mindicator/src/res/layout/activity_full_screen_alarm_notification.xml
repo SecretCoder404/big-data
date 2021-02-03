@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="151515" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<ImageView android:id="false" android:padding="5dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="15dp" android:tint="ffffff" android:layout_alignParentRight="true" app:srcCompat="res/drawable-xhdpi-v4/ic_delete_black_24px.png" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+		<ImageView android:layout_gravity="0x11" android:padding="15dp" android:layout_width="90dp" android:layout_height="90dp" android:src="res/drawable-xxxhdpi-v4/icon.png" />
+		<TextView android:textSize="18dp" android:textStyle="0x0" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Hello Srikanth" />
+		<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:layout_marginRight="20dp" android:text="Are you inside 9:12 PM CSMT S leaving from BELAPUR CBD ?" />
+		<RelativeLayout android:id="false" android:background="res/drawable/green_button_bg.xml" android:layout_width="-1" android:layout_height="40sp" android:layout_marginLeft="25dp" android:layout_marginTop="20dp" android:layout_marginRight="25dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="YES" android:layout_centerInParent="true" />
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="5dp" android:tint="ffffff" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="res/drawable/ic_check_black_24dp.xml" />
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="40sp" android:layout_marginLeft="25dp" android:layout_marginTop="10dp" android:layout_marginRight="25dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="NO, WAITING FOR TRAIN" android:layout_centerInParent="true" />
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="5dp" android:tint="ffffff" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="res/drawable/ic_access_time_black_24dp.xml" />
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable/red_button_bg.xml" android:visibility="2" android:layout_width="-1" android:layout_height="40sp" android:layout_marginLeft="25dp" android:layout_marginTop="10dp" android:layout_marginRight="25dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="NOT TRAVELLING" android:layout_centerInParent="true" />
+			<ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="5dp" android:tint="ffffff" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="res/drawable/ic_highlight_off_black_24dp.xml" />
+		</RelativeLayout>
+		<ImageView android:layout_gravity="0x11" android:id="false" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="25dp" android:tint="868686" app:srcCompat="res/drawable/ic_highlight_off_black_24dp.xml" />
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20sp" android:layout_marginRight="20sp" android:text="( Not Travelling )" />
+	</LinearLayout>
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/blessings.png" android:layout_centerInParent="true" android:alpha="{4:0}" />
+</RelativeLayout>

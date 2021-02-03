@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="dddddd" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator - Cabs" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" android:layout_alignParentLeft="true">
+		<ImageView android:layout_width="12dp" android:layout_height="100dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:src="res/drawable-xxhdpi-v4/pickup_drop_layout.png" />
+		<LinearLayout android:layout_gravity="0x10" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:layout_marginBottom="0dp">
+			<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp">
+				<FrameLayout android:id="false" android:background="ececec" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="false">
+					<TextView android:textSize="14sp" android:ellipsize="3" android:gravity="0x10" android:id="false" android:background="{2:2130969014}" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Pickup" android:maxLines="1" />
+				</FrameLayout>
+				<ImageView android:id="false" android:clickable="true" android:layout_width="40dp" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="recentClickedFromPickup" android:contentDescription="Recent Locations" app:srcCompat="res/drawable-xhdpi-v4/ic_history_black_24dp.png" />
+			</RelativeLayout>
+			<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+				<FrameLayout android:background="ececec" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="false">
+					<TextView android:textSize="14sp" android:ellipsize="3" android:gravity="0x10" android:id="false" android:background="{2:2130969014}" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:hint="Enter Drop" android:maxLines="1" />
+				</FrameLayout>
+				<ImageView android:id="false" android:clickable="true" android:layout_width="40dp" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="recentClickedFromDrop" android:contentDescription="Recent Locations" app:srcCompat="res/drawable-xhdpi-v4/ic_history_black_24dp.png" />
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<fragment android:name="com.mobond.mindicator.ui.cabs.util.CustomMapFragment" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		<LinearLayout android:orientation="1" android:background="res/drawable-xhdpi-v4/textstroke.xml" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="2dp" android:layout_marginBottom="2dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+			<TextView android:textSize="14sp" android:textStyle="0x0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Distance: 4 km" />
+			<TextView android:textSize="14sp" android:textStyle="0x0" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Travel Time: 1 hr 20 min" />
+		</LinearLayout>
+	</RelativeLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="290dp" android:layout_alignParentBottom="true">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<HorizontalScrollView android:gravity="0x11" android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="50dp">
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="50dp" />
+			</HorizontalScrollView>
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false" />
+			<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/refresh_selector.xml" android:padding="12dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="REFRESH" android:layout_alignParentBottom="true" />
+			<RelativeLayout android:gravity="0x11" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+					<ProgressBar android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:text="Getting Cabs…" />
+				</LinearLayout>
+			</RelativeLayout>
+		</RelativeLayout>
+		<TextView android:textSize="16sp" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="No Cabs Available…" />
+	</FrameLayout>
+</RelativeLayout>

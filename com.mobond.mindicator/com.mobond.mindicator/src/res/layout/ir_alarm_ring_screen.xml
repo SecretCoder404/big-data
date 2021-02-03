@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="202020" android:layout_width="-1" android:layout_height="-1">
+	<include layout="res/layout/ir_app_bar_indian_railways.xml" />
+	<RelativeLayout android:gravity="0x1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="64dp">
+		<TextView android:textSize="61sp" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="12:31" />
+		<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:paddingLeft="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="PM" android:layout_toRightOf="false" android:layout_alignBottom="false" android:textAllCaps="true" />
+	</RelativeLayout>
+	<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Ratnagiri - 02:00 pm" />
+	<TextView android:textColor="ffffff" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Arriving Soon.." />
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:padding="8dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="202020" android:padding="12dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:text="TURN OFF ALARM" />
+			<ImageView android:background="0000" android:layout_width="-1" android:layout_height="35dp" android:layout_marginTop="4dp" android:src="res/drawable-xhdpi-v4/alarm.png" android:scaleType="3" android:tint="ffffff" android:text="Button" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="202020" android:padding="12dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:text="SEARCH HOTELS" />
+			<ImageView android:background="0000" android:layout_width="-1" android:layout_height="35dp" android:layout_marginTop="4dp" android:src="res/drawable/ic_search_white_24dp.png" android:scaleType="3" android:tint="ffffff" android:text="Button" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+		<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" android:maxLines="1" android:singleLine="true" />
+	</LinearLayout>
+	<HorizontalScrollView android:gravity="0x11" android:id="false" android:background="c11921" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="50dp" android:layout_below="false">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="c11921" android:layout_width="-2" android:layout_height="50dp" />
+	</HorizontalScrollView>
+	<View android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<ScrollView android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<RelativeLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:id="false" android:background="303030" android:padding="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textColor="ffffff" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="New Timetable Available!" />
+				<TextView android:textColor="ffffff" android:id="false" android:background="2e7d32" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="Update Timetable" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:paddingLeft="20dp" android:paddingTop="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+				<Button android:textSize="16sp" android:textColor="757575" android:ellipsize="3" android:gravity="0x13" android:id="false" android:background="ffffff" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginBottom="1dp" android:hint="Source" android:maxLines="1" android:lines="1" android:singleLine="true" />
+				<ImageView android:id="false" android:visibility="2" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="25dp" android:layout_marginRight="25dp" android:src="res/drawable-mdpi-v4/shuffle.png" android:scaleType="3" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_marginEnd="25dp" android:layout_alignEnd="false" />
+				<Button android:textSize="16sp" android:textColor="757575" android:ellipsize="3" android:gravity="0x13" android:id="false" android:background="ffffff" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="50dp" android:hint="Destination" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_below="false" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+			</RelativeLayout>
+			<TextView android:textAppearance="{2:16842817}" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/search_source_destination_selector.xml" android:padding="8dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="20dp" android:layout_marginTop="1dp" android:layout_marginRight="20dp" android:text="Search Buses" android:layout_below="false" />
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:layout_below="false">
+				<RelativeLayout android:gravity="0x11" android:id="false" android:background="res/drawable/multicity_grid_selector.xml" android:layout_width="0dp" android:layout_height="81dp" android:layout_marginRight="1dp" android:layout_weight="{4:1056964608}">
+					<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="SELECT BUS NUMBER" android:layout_centerHorizontal="true" />
+					<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true">
+						<TextView android:textSize="31sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="123" android:layout_centerVertical="true" />
+						<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/clock_rim.xml" android:paddingLeft="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2dp" android:text="∟" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+					</RelativeLayout>
+				</RelativeLayout>
+				<RelativeLayout android:gravity="0x11" android:id="false" android:background="res/drawable/multicity_grid_selector.xml" android:layout_width="0dp" android:layout_height="81dp" android:layout_marginLeft="1dp" android:layout_weight="{4:1056964608}">
+					<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="SELECT BUS STOP" android:layout_centerHorizontal="true" />
+					<ImageView android:background="res/drawable/bus_btn_img.png" android:layout_width="40dp" android:layout_height="40dp" android:layout_below="false" android:layout_centerHorizontal="true" />
+				</RelativeLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="0dp" android:layout_marginRight="20dp" android:layout_marginBottom="25dp" android:layout_below="false" android:layout_centerHorizontal="true" />
+			<RelativeLayout android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="45dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_below="false">
+				<TextView android:textAppearance="{2:16842817}" android:textSize="17sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:paddingLeft="16dp" android:layout_width="-2" android:layout_height="48dp" android:text="" />
+			</RelativeLayout>
+			<com.mobond.mindicator.ui.ExpandableHeightListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" android:layout_below="false" />
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

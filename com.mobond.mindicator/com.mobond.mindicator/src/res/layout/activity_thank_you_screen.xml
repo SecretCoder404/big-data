@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+		<ImageView android:layout_gravity="0x11" android:padding="15dp" android:layout_width="90dp" android:layout_height="90dp" android:src="res/drawable-xxxhdpi-v4/icon.png" android:layout_above="false" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:text="You have got blessings from people viewing this train&apos;s location." android:layout_above="false" android:layout_centerHorizontal="true" />
+		<ImageView android:id="false" android:padding="20dp" android:layout_width="200dp" android:layout_height="200dp" android:tint="ffffff" app:srcCompat="res/drawable/ic_group.xml" />
+		<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:paddingLeft="20sp" android:paddingRight="20sp" android:layout_width="-1" android:layout_height="40sp" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:text="OK" android:layout_below="false" android:layout_centerHorizontal="true" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="resourceId:0x106000b" android:padding="4dp" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="17sp" android:textStyle="0x1" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:text="Are you inside train?" android:layout_toLeftOf="false" android:layout_centerVertical="true" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true">
+			<TextView android:textSize="15sp" android:textColor="resourceId:0x106000c" android:id="false" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="-2" android:layout_height="-2" android:text="NO" />
+			<androidx.appcompat.widget.SwitchCompat android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:textSize="15sp" android:textColor="resourceId:0x106000c" android:id="false" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="-2" android:layout_height="-2" android:text="YES" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RadioGroup android:gravity="0x1" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+		<androidx.appcompat.widget.AppCompatRadioButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" />
+		<androidx.appcompat.widget.AppCompatRadioButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" />
+		<androidx.appcompat.widget.AppCompatRadioButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+	</RadioGroup>
+	<RelativeLayout android:id="false" android:background="d0d0d0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="18sp" android:textColor="ffffff" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="1dp" android:layout_marginLeft="7dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:text="11:37 AM" />
+			<RelativeLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}">
+				<View android:id="false" android:background="b8b8b8" android:layout_width="2dp" android:layout_height="-1" android:layout_margin="4dp" android:layout_centerHorizontal="true" />
+				<View android:layout_width="24dp" android:layout_height="-2" />
+			</RelativeLayout>
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="616161" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2" android:text="ACTUAL / EXPECTED" />
+		</LinearLayout>
+		<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="616161" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2" android:text="SCHEDULED" />
+	</RelativeLayout>
+	<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x11" android:id="false" android:padding="8dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="INFORMATION NOT AVAILABLE" />
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16dp" style="{2:16842874}" />
+	<Button android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:text="RETRY" />
+	<Button android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:text="CHECK VIA SMS (₹3)" />
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="0dp" android:divider="0000" android:layout_weight="{4:1065353216}" />
+	<WebView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

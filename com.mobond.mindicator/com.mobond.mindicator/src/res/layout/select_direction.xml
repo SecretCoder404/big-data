@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_alignParentLeft="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="31dp" android:text="Select Direction" />
+		</LinearLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" android:onClick="onMetroRechargeClick">
+		<ImageView android:layout_gravity="0x11" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/metro_smartcard.png" />
+		<TextView android:textSize="20dp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="Metro Card Recharge" />
+	</LinearLayout>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="303030" android:layout_width="-1" android:layout_height="1dp" android:layout_margin="10dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_below="false" />
+	<TextView android:textSize="20dp" android:textColor="ffffff" android:id="false" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerInParent="true" />
+	<ImageButton android:id="false" android:background="res/drawable-mdpi-v4/up_arrow_image_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_margin="3dp" android:selectAllOnFocus="true" android:layout_below="false" android:layout_centerInParent="true" android:onClick="myClickHandler" />
+	<LinearLayout android:gravity="0x1" android:orientation="0" android:id="false" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="25dp" android:layout_marginRight="2dp" android:weightSum="{4:1082130432}" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+	<TextView android:textSize="20dp" android:textColor="ffffff" android:id="false" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_above="false" android:layout_centerInParent="true" />
+	<ImageButton android:id="false" android:background="res/drawable-mdpi-v4/down_arrow_image_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_margin="3dp" android:selectAllOnFocus="true" android:layout_above="false" android:layout_centerInParent="true" android:onClick="myClickHandler" />
+	<View android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_above="false" />
+	<ImageView android:id="false" android:background="res/drawable-mdpi-v4/rail_repaet.xml" android:layout_width="-2" android:layout_height="-1" android:layout_below="false" android:layout_alignBottom="false" android:layout_centerInParent="true" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<LinearLayout android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1073741824}" android:onClick="myClickHandler">
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		</LinearLayout>
+		<LinearLayout android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1073741824}" android:onClick="myClickHandler">
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

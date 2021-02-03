@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp">
+		<EditText android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="ffffff" android:padding="7dp" android:layout_width="-1" android:layout_height="-2" android:hint="You are at?" android:lines="1" android:layout_toLeftOf="false" android:layout_alignParentTop="true" android:inputType="0xb1" android:textCursorDrawable="res/drawable/color_cursor.xml" />
+		<ImageView android:id="false" android:background="ffffff" android:padding="4dp" android:layout_width="33dp" android:layout_height="36dp" android:src="res/drawable/favon.png" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="showFavouriteTrains" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="1dp" android:layout_marginRight="8dp" android:baselineAligned="false">
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="ALL" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="STATIONS" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="969696" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="W" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="WESTERN" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="969696" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="C" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="CENTRAL" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="969696" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="H" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="HARBOUR" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="969696" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="T" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="TRANS" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="969696" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="U" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="URAN" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector_pune.xml" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="969696" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="P" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="PUNE" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="1dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:weightSum="{4:1090519040}">
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/slow_fast_all_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="ALL" />
+				<TextView android:textSize="8sp" android:textColor="969696" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="STATIONS" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/blue_line_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="B" />
+				<TextView android:textSize="8sp" android:textColor="ffffff" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="BLUE" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/green_line_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="G" />
+				<TextView android:textSize="8sp" android:textColor="ffffff" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="GREEN" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/orange_line_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="O" />
+				<TextView android:textSize="8sp" android:textColor="ffffff" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="ORANGE" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/rapid_line_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="R" />
+				<TextView android:textSize="8sp" android:textColor="ffffff" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="RAPID" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/red_line_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="R" />
+				<TextView android:textSize="8sp" android:textColor="ffffff" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="RED" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/violet_line_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="V" />
+				<TextView android:textSize="8sp" android:textColor="ffffff" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="VIOLET" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/yellow_line_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="18sp" android:textColor="000" android:gravity="0x11" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="Y" />
+				<TextView android:textSize="8sp" android:textColor="000" android:gravity="0x11" android:paddingBottom="2dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="YELLOW" />
+			</LinearLayout>
+		</LinearLayout>
+		<View android:layout_width="-1" android:layout_height="8dp" />
+	</LinearLayout>
+	<ExpandableListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:groupIndicator="resourceId:0x0" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_below="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+		<LinearLayout android:gravity="0x10" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<ImageButton android:id="false" android:background="resourceId:0x0" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="7dp" android:src="res/drawable-xhdpi-v4/lines_button.png" android:onClick="onSelectLine" />
+			<ImageButton android:background="resourceId:0x0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="7dp" android:src="res/drawable-xhdpi-v4/map_button.png" android:onClick="onMapClick" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

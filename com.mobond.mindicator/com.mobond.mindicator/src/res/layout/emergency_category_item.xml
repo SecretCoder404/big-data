@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/checklist_item_selector.xml" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:padding="8dp" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:src="res/drawable-xhdpi-v4/checklist_documents.png" />
+		<TextView android:textSize="19sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="Documents" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+		<ImageView android:id="false" android:layout_width="30dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:src="res/drawable/mticket_arrow.png" android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<TextView android:background="444444" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="75dp" android:layout_marginTop="8dp" android:text="" />
+</LinearLayout>

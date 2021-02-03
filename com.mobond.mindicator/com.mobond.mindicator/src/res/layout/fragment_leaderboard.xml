@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="504f4f" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textColor="d1d1d1" android:gravity="0x11" android:id="false" android:padding="2sp" android:layout_width="50sp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Rank#" />
+		<TextView android:textColor="d1d1d1" android:id="false" android:padding="2sp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="m-Tracker" android:layout_toRightOf="false" />
+		<TextView android:textColor="d1d1d1" android:id="false" android:padding="2sp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="Blessings" android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<TextView android:textSize="20sp" android:textColor="bcbec0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Loading" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" />
+</RelativeLayout>

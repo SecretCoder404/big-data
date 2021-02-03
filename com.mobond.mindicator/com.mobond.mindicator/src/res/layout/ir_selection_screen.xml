@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<include android:id="false" layout="res/layout/ir_app_bar_indian_railways.xml" />
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="{2:2130968579}" android:layout_below="false">
+		<androidx.appcompat.widget.Toolbar android:theme="resourceId:0x7f110152" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:foreground="{2:16842841}" app:titleTextAppearance="resourceId:0x7f110200" />
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="{2:2130968579}">
+			<EditText android:textSize="18sp" android:textColor="212121" android:textColorHint="9e9e9e" android:layout_gravity="0x10" android:id="false" android:background="0000" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_weight="{4:1065353216}" android:imeOptions="0x3">
+				<requestFocus />
+			</EditText>
+			<ImageButton android:id="false" android:padding="12dp" android:visibility="1" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-ldpi-v4/ic_clear_grey600_18dp.png" android:scaleType="3" style="resourceId:0x7f1101fe" />
+			<ImageButton android:id="false" android:padding="12dp" android:visibility="2" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/places_ic_search.png" android:scaleType="3" style="resourceId:0x7f1101fe" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:background="303030" android:padding="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="To automatically detect PNR, Please allow SMS Permission." android:layout_toLeftOf="false" />
+		<FrameLayout android:id="false" android:background="res/drawable/rounded_corner_update_button.xml" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<TextView android:theme="resourceId:0x7f110185" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:background="{2:2130969014}" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Allow" android:textAllCaps="true" />
+		</FrameLayout>
+	</RelativeLayout>
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:divider="0000" android:dividerHeight="0dp" android:layout_below="false" />
+	<TextView android:textSize="21sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="Nearby Hotels" android:singleLine="true" android:layout_below="false" />
+	<View android:textAppearance="{2:16842816}" android:id="false" android:background="res/drawable/grad.xml" android:layout_width="-1" android:layout_height="4dp" android:layout_below="false" />
+</RelativeLayout>

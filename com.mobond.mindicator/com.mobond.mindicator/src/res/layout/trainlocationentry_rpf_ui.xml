@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<Button android:textSize="20dp" android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="Save" android:layout_alignParentBottom="true" android:onClick="onSaveClicked" />
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_above="false">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:layout_gravity="0x3" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="15dp" android:layout_marginRight="8dp" android:layout_marginBottom="20dp">
+				<TextView android:textSize="25dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Date: " />
+				<TextView android:textSize="20dp" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<TextView android:textSize="25dp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="5dp" android:text="Select Compartment" />
+			<Spinner android:id="false" android:background="resourceId:0x1080006" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:spinnerMode="1" />
+			<TextView android:textSize="25dp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="5dp" android:text="Train Boarded" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textSize="25dp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="5dp" android:text="Your Name" />
+			<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:onClick="onNameButtonClicked" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

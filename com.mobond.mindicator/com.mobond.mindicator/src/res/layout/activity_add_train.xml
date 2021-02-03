@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+					<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+					<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+					<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+				</LinearLayout>
+				<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="9dp" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:tint="ffffff" android:layout_centerVertical="true" app:srcCompat="res/drawable/ic_arrow_back_black_24dp.xml" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10sp" android:text="Title" android:layout_toRightOf="false" android:layout_centerInParent="true" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10sp" android:text="0" android:layout_toLeftOf="false" android:layout_centerInParent="true" />
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="10sp" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="res/drawable/blessings.png" />
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="Source" />
+			<AutoCompleteTextView android:textSize="16dp" android:textStyle="0x0" android:textColor="000" android:id="false" android:background="resourceId:0x0" android:scrollbars="0x0" android:longClickable="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:hint="Source Station" android:maxLines="1" android:singleLine="true" android:textIsSelectable="false" />
+			<View android:background="000" android:layout_width="-1" android:layout_height="1677722unknown unit:0x31" android:layout_marginTop="10dp" />
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="Destination" />
+			<AutoCompleteTextView android:textSize="16dp" android:textStyle="0x0" android:textColor="000" android:id="false" android:background="resourceId:0x0" android:scrollbars="0x0" android:longClickable="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:hint="Destination Station" android:maxLines="1" android:singleLine="true" android:textIsSelectable="false" />
+		</LinearLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_margin="10dp">
+			<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:tint="666666" app:srcCompat="res/drawable/ic_add_black_24dp.xml" />
+				<TextView android:textSize="18sp" android:textStyle="0x0" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:text="Add Train" />
+			</LinearLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" />
+	<TextView android:textSize="20sp" android:textColor="bcbec0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp" android:text="Add your regular trains" android:layout_below="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

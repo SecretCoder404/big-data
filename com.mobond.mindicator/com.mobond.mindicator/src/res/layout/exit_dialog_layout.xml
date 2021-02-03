@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable/ad_large_bg.xml" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:paddingLeft="8dp" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:textColor="212121" android:paddingLeft="16dp" android:layout_width="-1" android:layout_height="-2" android:text="Do you want to Exit?" />
+		<RelativeLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+			<FrameLayout android:id="false" android:background="res/drawable/rounded_corner_update_button.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_centerVertical="true">
+				<TextView android:theme="resourceId:0x7f110185" android:textColor="ffffff" android:id="false" android:background="{2:2130969014}" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Rate us" />
+			</FrameLayout>
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="707070" android:gravity="0x11" android:id="false" android:background="{2:2130969014}" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="YES" android:layout_toLeftOf="false" />
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="707070" android:gravity="0x11" android:id="false" android:background="{2:2130969014}" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:text="NO" android:layout_alignParentRight="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

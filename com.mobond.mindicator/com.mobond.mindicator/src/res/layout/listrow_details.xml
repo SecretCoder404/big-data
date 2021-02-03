@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="false" android:paddingLeft="40dp" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xhdpi-v4/train_icon_black.png" android:scaleType="3" />
+	<TextView android:textSize="18sp" android:textStyle="0x0" android:textColor="ffffff" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_marginTop="5dp" android:layout_marginBottom="7dp" android:text="Sub Item" android:singleLine="true" android:drawablePadding="10dp" />
+</LinearLayout>

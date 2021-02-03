@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<com.mobond.mindicator.ui.train.PinchImageView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+		<ImageView android:id="false" android:layout_width="72dp" android:layout_height="72dp" android:layout_margin="8dp" android:src="res/drawable/map_compass.png" />
+	</RelativeLayout>
+	<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="0x800055" android:id="false" android:padding="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:src="resourceId:0x1080029" android:onClick="onFeedbackClicked" app:backgroundTint="222b4f" app:elevation="6dp" app:pressedTranslationZ="12dp" app:rippleColor="bcbec0" />
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

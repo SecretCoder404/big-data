@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="res/drawable/light_grey_selector2.xml" android:layout_width="-1" android:layout_height="50dp">
+	<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:tint="c11921" android:layout_centerVertical="true" app:srcCompat="res/drawable/ic_location_on_black_24dp.xml" />
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="false" android:layout_centerVertical="true">
+		<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:paddingLeft="8dp" android:paddingRight="1dp" android:layout_width="-2" android:layout_height="50dp" android:text="Get Train Alerts" />
+	</LinearLayout>
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/multicity_arrow.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

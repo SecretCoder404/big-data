@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-2" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:padding="8dp" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:clickable="true" android:layout_width="-2" android:layout_height="-2" app:srcCompat="res/drawable-xhdpi-v4/ic_keyboard_arrow_left_black_24dp.png" />
+		<TextView android:textSize="18sp" android:textColor="212121" android:gravity="0x11" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="22 FEB" android:layout_weight="{4:1065353216}" />
+		<ImageView android:id="false" android:clickable="true" android:layout_width="-2" android:layout_height="-2" app:srcCompat="res/drawable-xhdpi-v4/ic_keyboard_arrow_right_black_24dp.png" />
+	</LinearLayout>
+	<TextView android:textSize="15sp" android:textColor="757575" android:ellipsize="3" android:id="false" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:text="CHIPLUN" android:maxLines="1" />
+	<LinearLayout android:orientation="0" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:textColor="757575" android:gravity="0x1" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:text="ALARM" />
+		<ImageView android:id="false" android:padding="8dp" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="3" app:srcCompat="res/drawable-xhdpi-v4/ic_remove_circle_black_24dp.png" />
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="18sp" android:textColor="212121" android:gravity="0x11" android:id="false" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:text="9:45 PM" android:ems="5" />
+			<TextView android:textColor="66bb6a" android:gravity="0x11" android:id="false" android:paddingTop="4dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:text="20 min before" />
+		</LinearLayout>
+		<ImageView android:id="false" android:padding="8dp" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="3" app:srcCompat="res/drawable-xhdpi-v4/ic_add_circle_black_24dp.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:paddingLeft="16dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="35dp">
+		<TextView android:textColor="757575" android:id="false" android:paddingRight="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="1 day 23 hours and 47 hours left" android:layout_weight="{4:1065353216}" />
+		<Button android:textSize="10sp" android:textColor="616161" android:ellipsize="3" android:id="false" android:padding="0dp" android:visibility="2" android:layout_width="70dp" android:layout_height="35dp" android:text="REMOVE" android:maxLines="1" />
+	</LinearLayout>
+	<Button android:textColor="ffffff" android:id="false" android:background="2196f3" android:layout_width="-1" android:layout_height="-2" android:text="SET ALARM" />
+</LinearLayout>

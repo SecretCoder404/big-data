@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="10dp" android:layout_marginRight="15sp" android:layout_centerHorizontal="true">
+		<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginRight="15sp" android:text="Loading.." />
+		<ProgressBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="{2:16842872}" />
+	</LinearLayout>
+	<WebView android:id="false" android:focusable="false" android:focusableInTouchMode="false" android:visibility="1" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="10dp" android:layout_below="false" />
+	<LinearLayout android:gravity="0x5" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginRight="15sp" android:layout_marginBottom="10dp" android:layout_below="false">
+		<TextView android:textStyle="0x1" android:textColor="1b83d6" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Cancel" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+		<TextView android:textStyle="0x1" android:textColor="1b83d6" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="CHECK VIA SMS (₹3)" android:layout_centerHorizontal="true" />
+	</LinearLayout>
+</RelativeLayout>

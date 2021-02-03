@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:padding="8dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/ic_alarm_add_white_24dp.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:layout_toLeftOf="false" android:layout_centerInParent="true">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="10dp" android:src="res/drawable/white_dot.xml" />
+			<RelativeLayout android:gravity="0x1" android:id="false" android:paddingLeft="8dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-1">
+				<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/circle_down_arrow.xml" android:layout_centerInParent="true" />
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}" android:layout_centerInParent="true">
+					<View android:id="false" android:background="ffffff" android:layout_width="2dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+					<View android:id="false" android:background="ffffff" android:layout_width="2dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:minHeight="45dp">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="9.30" />
+				<TextView android:textColor="adadad" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="2222" />
+				<TextView android:textColor="adadad" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="3333" />
+			</LinearLayout>
+			<ImageView android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" />
+		</LinearLayout>
+	</LinearLayout>
+	<View android:id="false" android:background="res/drawable/express_gradient.xml" android:visibility="2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:layout_alignLeft="false" android:layout_alignRight="false" android:layout_alignParentBottom="true" />
+</RelativeLayout>

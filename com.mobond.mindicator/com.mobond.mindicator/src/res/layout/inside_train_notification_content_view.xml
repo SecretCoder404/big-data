@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:background="333333" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:paddingLeft="14dp" android:paddingTop="8dp" android:paddingRight="14dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-xxxhdpi-v4/icon.png" android:adjustViewBounds="true" />
+	<LinearLayout android:gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+		<TextView android:textAppearance="{2:16842818}" android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Next → Panvel → 7km → 7 min" android:singleLine="true" />
+		<TextView android:textSize="14sp" android:textColor="eeeeee" android:ellipsize="3" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Passed: Kalamboli" android:maxLines="1" android:singleLine="true" />
+		<TextView android:textAppearance="{2:16842818}" android:textSize="14sp" android:textColor="eeeeee" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Delay: 3hr 40 min" />
+	</LinearLayout>
+	<LinearLayout android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xhdpi-v4/close.png" />
+	</LinearLayout>
+</LinearLayout>

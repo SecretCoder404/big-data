@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:layout_above="false">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="25dp" android:textStyle="0x1" android:textColor="ff00" android:layout_gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="20dp" android:text="" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="NAME" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="EDUCATION" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="TOTAL YEARS OF EXPERIENCE" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="WHICH TYPE OF EXPERIENCE" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:hint="e.g. Accountant, Call Center, Sales" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="BIRTH YEAR" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="HOME LOCATION" />
+			<EditText android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:hint="e.g. Vashi" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="EXPECTED SALARY" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="EMAIL ID" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="PHONE NUMBER" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:inputType="0x1" />
+			<TextView android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="GENDER" />
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x3" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp">
+				<RadioGroup android:gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+					<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp">
+							<RadioButton android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:text="Male" android:onClick="onGenderMaleButtonClicked" />
+						</LinearLayout>
+						<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+							<RadioButton android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Female" android:onClick="onGenderFemaleButtonClicked" />
+						</LinearLayout>
+					</LinearLayout>
+				</RadioGroup>
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+				<Button android:textStyle="0x1" android:id="false" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Attach Resume   " android:drawableLeft="res/drawable-mdpi-v4/attach.png" android:layout_alignParentBottom="true" android:onClick="onAttachResumeButtonClicked" />
+				<Button android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Remove" android:layout_alignParentBottom="true" android:onClick="onRemoveResumeButtonClicked" />
+			</LinearLayout>
+			<TextView android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:text="(.doc, .docx, .pdf, .txt, .rtf)" />
+			<TextView android:textColor="00ff" android:layout_gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="15dp" android:text="Not compulsory" />
+		</LinearLayout>
+	</ScrollView>
+	<Button android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="Apply" android:layout_alignParentBottom="true" android:onClick="onApplyButtonClicked" />
+</RelativeLayout>

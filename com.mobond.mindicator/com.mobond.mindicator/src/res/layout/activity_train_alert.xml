@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentTop="true">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+			<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		</LinearLayout>
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="9dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="2" android:clickable="true" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/favoff.png" />
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="2" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/ic_action_time.png" />
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="2" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable/ic_search_white_24dp.png" />
+			</LinearLayout>
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_centerVertical="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x13" android:id="false" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:text="Select Station" android:lines="1" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<RelativeLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:src="res/drawable/ic_action_back.png" android:layout_centerVertical="true" />
+			<EditText android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" android:hint="Search" android:lines="1" android:layout_toRightOf="false" android:layout_centerVertical="true" android:inputType="0xb1" android:textCursorDrawable="res/drawable/color_cursor.xml" />
+		</RelativeLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<TextView android:textSize="25dp" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Loading..." android:layout_centerInParent="true" />
+		<WebView android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</RelativeLayout>
+	<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="c11921" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="CLOSE" android:drawableRight="res/drawable/ic_close_circle_outline_6.xml" android:layout_alignParentBottom="true" />
+</RelativeLayout>

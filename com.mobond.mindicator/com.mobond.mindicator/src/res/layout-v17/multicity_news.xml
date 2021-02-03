@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="000" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<ImageView android:id="false" android:paddingLeft="8dp" android:paddingTop="9dp" android:paddingRight="8dp" android:paddingBottom="9dp" android:visibility="0" android:layout_width="45dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/multicity_news_refresh.png" />
+			</LinearLayout>
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="8dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_centerVertical="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x13" android:id="false" android:paddingRight="0dp" android:layout_width="-2" android:layout_height="-1" android:text="NEWS" android:lines="1" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<RelativeLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:src="res/drawable/ic_action_back.png" android:layout_centerVertical="true" />
+			<EditText android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" android:hint="Search" android:lines="1" android:layout_toRightOf="false" android:layout_centerVertical="true" android:inputType="0xb1" android:textCursorDrawable="res/drawable/color_cursor.xml" />
+		</RelativeLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:textAppearance="{2:16842817}" android:background="30000" android:layout_width="-1" android:layout_height="1dp" android:layout_alignBottom="false" />
+	<LinearLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="false" android:layout_below="false" android:layout_toEndOf="false">
+		<LinearLayout android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="12dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:background="res/drawable/newschat_selector.xml" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="1dp" android:layout_marginBottom="0dp" android:text="WESTERN" android:maxLines="1" android:layout_weight="{4:1065353216}" android:onClick="onClickWestern" />
+			<TextView android:textSize="12dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:background="res/drawable/newschat_selector.xml" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="1dp" android:layout_marginBottom="0dp" android:text="CENTRAL" android:maxLines="1" android:layout_weight="{4:1065353216}" android:onClick="onClickCentral" />
+			<TextView android:textSize="12dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:background="res/drawable/newschat_selector.xml" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="1dp" android:layout_marginBottom="0dp" android:text="HARBOUR" android:maxLines="1" android:layout_weight="{4:1065353216}" android:onClick="onClickHarbour" />
+			<TextView android:textSize="12dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:background="res/drawable/newschat_selector.xml" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="1dp" android:layout_marginBottom="0dp" android:text="TRANS" android:maxLines="1" android:layout_weight="{4:1065353216}" android:onClick="onClickTransharbour" />
+			<TextView android:textSize="12dp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:background="res/drawable/newschat_selector.xml" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="0dp" android:layout_marginBottom="0dp" android:text="URAN" android:maxLines="1" android:layout_weight="{4:1065353216}" android:onClick="onClickUran" />
+		</LinearLayout>
+	</LinearLayout>
+	<View android:textAppearance="{2:16842817}" android:background="30000" android:layout_width="-1" android:layout_height="1dp" android:layout_alignBottom="false" />
+	<Spinner android:id="false" android:background="eeeeee" android:visibility="2" android:layout_width="-1" android:layout_height="48dp" />
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<ListView android:id="false" android:background="212121" android:paddingLeft="6dp" android:paddingTop="6dp" android:paddingRight="6dp" android:paddingBottom="5dp" android:visibility="2" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2" android:divider="0000" android:dividerHeight="7dp" />
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+	<WebView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" />
+	<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+	<ImageView android:id="false" android:padding="16dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/icon_collapsed.png" android:scaleType="3" android:layout_alignBottom="false" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

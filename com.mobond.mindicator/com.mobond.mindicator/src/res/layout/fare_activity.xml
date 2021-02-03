@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:id="false" android:background="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginRight="8dp" android:layout_centerVertical="true" />
+				<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="31dp" android:text="Railway Ticket Fare" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+			</RelativeLayout>
+		</FrameLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<ScrollView android:background="151515" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+				<Button android:textAppearance="{2:16842816}" android:textSize="17sp" android:gravity="0x10" android:id="false" android:background="res/drawable/station_btn_selector.xml" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:hint="Source" />
+				<Button android:textAppearance="{2:16842816}" android:textSize="17sp" android:gravity="0x10" android:id="false" android:background="res/drawable/station_btn_selector.xml" android:paddingLeft="15dp" android:layout_width="-2" android:layout_height="40dp" android:layout_marginTop="1dp" android:layout_marginBottom="0dp" android:hint="Destination" android:layout_below="false" android:layout_alignLeft="false" android:layout_alignRight="false" />
+				<Button android:textSize="15sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/search_source_destination_selector.xml" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text="Search" android:layout_below="false" />
+			</RelativeLayout>
+			<TableLayout android:id="false" android:background="666667" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="0dp" android:layout_below="false" android:layout_alignParentLeft="true" />
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:layout_below="false" android:layout_centerHorizontal="true" />
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

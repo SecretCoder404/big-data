@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="212121" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:background="212121" android:layout_width="-1" android:layout_height="-1">
+		<include android:id="false" layout="res/layout/ir_app_bar_indian_railways.xml" />
+		<LinearLayout android:orientation="0" android:background="2196f3" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:layout_gravity="0x10" android:id="false" android:padding="12dp" android:focusable="true" android:clickable="true" android:layout_width="56dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/share.png" />
+			<TextView android:textAppearance="{2:16842817}" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="48dp" android:text="∞" android:maxLines="1" android:layout_weight="{4:1065353216}" />
+			<LinearLayout android:orientation="0" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:onClick="openIrctcBooking">
+				<View android:background="5baff0" android:layout_width="1dp" android:layout_height="-1" />
+				<ImageView android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/book_btn.png" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:layout_width="24dp" android:layout_height="-1" android:scaleType="3" app:srcCompat="res/drawable-xhdpi-v4/ic_keyboard_arrow_left_black_24dp.png" />
+			<HorizontalScrollView android:scrollbars="0x0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1" />
+			</HorizontalScrollView>
+			<ImageView android:layout_width="24dp" android:layout_height="-1" android:scaleType="3" app:srcCompat="res/drawable-xhdpi-v4/ic_keyboard_arrow_right_black_24dp.png" />
+		</LinearLayout>
+		<se.emilsjolander.stickylistheaders.StickyListHeadersListView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" />
+	</LinearLayout>
+	<ImageButton android:id="false" android:background="res/drawable/map_fab_selector.xml" android:clickable="true" android:layout_width="75dp" android:layout_height="75dp" android:layout_margin="13dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+	<ProgressBar android:id="false" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="4dp" android:progress="75" android:progressDrawable="res/drawable/customprogressbar.xml" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Horizontal" />
+	<TextView android:textSize="20dp" android:textColor="555555" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Finding Trains.." android:layout_below="false" android:layout_centerHorizontal="true" />
+	<Button android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="SEARCH OFFLINE" android:layout_below="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

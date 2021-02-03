@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="15sp" android:layout_marginRight="15sp" android:layout_marginBottom="15sp">
+		<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:text="Mobile Number" />
+		<EditText android:textSize="16sp" android:id="false" android:layout_width="-1" android:layout_height="50sp" android:hint="Mobile Number" android:maxLength="10" android:inputType="0x2" />
+		<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="c11921" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15sp" android:text="Enter OTP" />
+			<EditText android:textSize="16sp" android:id="false" android:layout_width="-1" android:layout_height="50sp" android:hint="OTP" android:maxLength="6" android:inputType="0x2" />
+		</LinearLayout>
+		<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="25sp" android:text="VERIFY" />
+		<TextView android:textColor="ca3c2c" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15sp" android:text="This information will be kept private." />
+	</LinearLayout>
+</RelativeLayout>

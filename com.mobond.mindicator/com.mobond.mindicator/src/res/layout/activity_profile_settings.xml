@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentTop="true">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="How it works ?" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="9dp" android:text="Logout" />
+		</LinearLayout>
+	</RelativeLayout>
+	<com.google.android.material.bottomnavigation.BottomNavigationView android:id="false" android:background="b71c1c" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" app:itemIconTint="res/drawable/bottom_navigation_color_selector.xml" app:itemTextColor="res/drawable/bottom_navigation_color_selector.xml" app:menu="res/menu/menu_bottom_navigation.xml" />
+	<androidx.viewpager.widget.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+</RelativeLayout>

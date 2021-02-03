@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:visibility="0" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+	</LinearLayout>
+	<FrameLayout android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<TextView android:theme="resourceId:0x7f11000a" android:textSize="15sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="{2:2130969014}" android:padding="16dp" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="SUBMIT" />
+	</FrameLayout>
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+			<com.google.android.material.textfield.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp">
+				<EditText android:textSize="20sp" android:textColorHint="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Email ID" android:maxLines="1" android:inputType="0x21" />
+			</com.google.android.material.textfield.TextInputLayout>
+			<com.google.android.material.textfield.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp">
+				<EditText android:textSize="20sp" android:textColorHint="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Mobile Number" android:maxLines="1" android:maxLength="10" android:inputType="0x3" />
+			</com.google.android.material.textfield.TextInputLayout>
+			<com.google.android.material.textfield.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp">
+				<EditText android:textSize="20sp" android:textColorHint="resourceId:0x106000c" android:gravity="0x800003" android:id="false" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-2" android:hint="Feedback" android:maxLines="10" android:lines="8" android:minLines="6" android:inputType="0x20001" />
+			</com.google.android.material.textfield.TextInputLayout>
+			<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Errors related to train timings, platform no.s, bus routes etc. can be reported here." />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

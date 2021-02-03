@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="ebe4d9" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:background="ebe4d9" android:layout_width="-1" android:layout_height="-1" android:layout_above="false">
+		<include android:id="false" layout="res/layout/ir_app_bar_indian_railways.xml" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<androidx.appcompat.widget.Toolbar android:theme="resourceId:0x7f110144" android:id="false" android:background="2196f3" android:layout_width="-1" android:layout_height="-2" />
+			<ImageView android:id="false" android:padding="12dp" android:layout_width="{2:2130968579}" android:layout_height="{2:2130968579}" android:layout_marginLeft="56dp" android:src="res/drawable-xxxhdpi-v4/noti_icon_material.png" android:scaleType="3" android:adjustViewBounds="true" android:layout_alignParentLeft="true" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="PNR" android:layout_toRightOf="false" android:layout_centerVertical="true" style="resourceId:0x7f110200" />
+		</RelativeLayout>
+		<ScrollView android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp">
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:padding="8dp" android:layout_width="64dp" android:layout_height="-2" android:text="PNR" />
+					<TextView android:textSize="18sp" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/card.xml" android:paddingBottom="2dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp" android:layout_marginBottom="12dp" android:onClick="openTrainSchedule">
+					<RelativeLayout android:orientation="0" android:background="res/drawable/ir_selector_white_bg.xml" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="64dp" android:layout_height="-2" android:text="TRAIN" android:layout_alignParentLeft="true" />
+						<TextView android:textSize="18sp" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_toLeftOf="false" android:layout_toRightOf="false" />
+						<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/ic_keyboard_arrow_right_black_24dp.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+					</RelativeLayout>
+				</LinearLayout>
+				<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="388e3c" android:gravity="0x11" android:id="false" android:background="e8f5e9" android:padding="8dp" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:text="CHART PREPARED" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:padding="8dp" android:layout_width="64dp" android:layout_height="-2" android:text="Sr." />
+					<TextView android:textSize="16sp" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Current Status" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:text="Remark" android:layout_weight="{4:1065353216}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="64dp" android:layout_height="-2" android:text="Date" />
+					<TextView android:textSize="18sp" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="" android:layout_weight="{4:1065353216}" />
+					<LinearLayout android:gravity="0x10" android:orientation="0" android:paddingLeft="4dp" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:onClick="getDepartureTime">
+						<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="DEP" />
+						<TextView android:textSize="18sp" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="" />
+						<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" app:srcCompat="res/drawable-xxhdpi-v4/refresh.png" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:padding="8dp" android:layout_width="64dp" android:layout_height="-2" android:text="From" />
+					<TextView android:textSize="18sp" android:textColor="212121" android:ellipsize="3" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="" android:maxLines="1" android:layout_weight="{4:1065353216}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:padding="8dp" android:layout_width="64dp" android:layout_height="-2" android:text="To" />
+					<TextView android:textSize="18sp" android:textColor="212121" android:ellipsize="3" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="" android:maxLines="1" android:layout_weight="{4:1065353216}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/card.xml" android:paddingLeft="8dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="212121" android:padding="8dp" android:layout_width="64dp" android:layout_height="-2" android:text="Class" />
+					<TextView android:textSize="18sp" android:textColor="212121" android:id="false" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="SAMPLE" android:layout_weight="{4:1065353216}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Symbol" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Description" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<TextView android:background="e6e7e8" android:layout_width="-1" android:layout_height="2dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="DEP" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Departure" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="CAN / MOD " android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Cancelled or Modified Passenger" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="CNF / Confirmed" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Confirmed (Coach/Berth number will be available after chart preparation)" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="RAC" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Reservation Against Cancellation. Seating accommodation. Two people on single berth" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="WL #" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Waiting List Number" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="RLWL" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Remote Location Wait List" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="GNWL" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="General Wait List" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="PQWL" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Pooled Quota Wait List" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="REGRET/WL" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="No More Booking Permitted" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="ffffff" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="RELEASED" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="Ticket Not Cancelled but Alternative Accommodation Provided" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<View android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<LinearLayout android:orientation="0" android:background="res/drawable/card.xml" android:paddingLeft="8dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+					<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="R# #" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="16sp" android:textColor="acacac" android:padding="8dp" android:layout_width="0dp" android:layout_height="-2" android:text="RAC Coach Number Berth Number" android:layout_weight="{4:1073741824}" />
+				</LinearLayout>
+				<TextView android:background="e6e7e8" android:layout_width="-1" android:layout_height="1dp" android:text="" />
+				<View android:layout_width="-1" android:layout_height="10dp" android:layout_marginTop="5dp" android:text="" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

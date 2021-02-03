@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="444444" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+		<ImageView android:textStyle="0x1" android:gravity="0x10" android:id="false" android:layout_width="30dp" android:layout_height="30dp" />
+	</RelativeLayout>
+	<TextView android:textSize="16sp" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingLeft="8dp" android:paddingRight="1dp" android:layout_width="-2" android:layout_height="50dp" android:text="Mumbai Map" android:lines="1" android:singleLine="true" android:layout_toLeftOf="false" android:layout_toRightOf="false" />
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/multicity_arrow.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="{4:1060320051}" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="151515" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:background="ffeb3b" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="-10dp" android:layout_alignBottom="false" android:layout_alignParentTop="true" />
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:layout_toLeftOf="false" android:layout_centerVertical="true">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="10dp" android:textStyle="0x1" android:textColor="151515" android:id="false" android:background="res/drawable/help_round.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Volunteer" android:backgroundTint="ffeb3b" />
+				<TextView android:textSize="18dp" android:textStyle="0x0" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="02:08 PM CSMT S" />
+				<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp">
+					<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="0af0" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="55dp" android:layout_height="-2" android:text="START" />
+					<TextView android:textColor="aca9a9" android:id="false" android:paddingLeft="7dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="BELAPUR CBD" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp">
+					<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="c11921" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="55dp" android:layout_height="-2" android:text="END" />
+					<TextView android:textColor="aca9a9" android:id="false" android:paddingLeft="7dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="NERUL" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp">
+				<ImageView android:layout_width="30dp" android:layout_height="30dp" android:tint="aca9a9" app:srcCompat="res/drawable/ic_access_alarm_black_24dp.xml" />
+				<TextView android:textColor="aca9a9" android:layout_gravity="0x11" android:id="false" android:paddingLeft="7dp" android:paddingTop="2dp" android:paddingRight="5dp" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:text="Give alert 20 min before" />
+				<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="10dp" android:tint="aca9a9" app:srcCompat="res/drawable-xhdpi-v4/ic_remove_circle_black_24dp.png" />
+				<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:tint="aca9a9" app:srcCompat="res/drawable-xhdpi-v4/ic_add_circle_black_24dp.png" />
+			</LinearLayout>
+			<HorizontalScrollView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp">
+				<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+					<TextView android:textColor="868686" android:gravity="0x11" android:id="false" android:background="res/drawable/weekday_selected_bg.xml" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="40dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="MON" />
+					<TextView android:textColor="868686" android:gravity="0x11" android:id="false" android:background="res/drawable/weekday_selected_bg.xml" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="40dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="TUE" />
+					<TextView android:textColor="868686" android:gravity="0x11" android:id="false" android:background="res/drawable/weekday_selected_bg.xml" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="40dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="WED" />
+					<TextView android:textColor="868686" android:gravity="0x11" android:id="false" android:background="res/drawable/weekday_selected_bg.xml" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="40dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="THU" />
+					<TextView android:textColor="868686" android:gravity="0x11" android:id="false" android:background="res/drawable/weekday_selected_bg.xml" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="40dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="FRI" />
+					<TextView android:textColor="868686" android:gravity="0x11" android:id="false" android:background="res/drawable/weekday_selected_bg.xml" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="40dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="SAT" />
+					<TextView android:textColor="868686" android:gravity="0x11" android:id="false" android:background="res/drawable/weekday_unselected_bg.xml" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="40dp" android:layout_height="-2" android:text="SUN" />
+				</LinearLayout>
+			</HorizontalScrollView>
+			<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp">
+				<CheckBox android:textColor="aca9a9" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="Ring " android:buttonTint="aca9a9" />
+				<CheckBox android:textColor="aca9a9" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="Vibrate " android:buttonTint="aca9a9" />
+				<CheckBox android:textColor="aca9a9" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Voice" android:buttonTint="aca9a9" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+				<RadioButton android:textColor="aca9a9" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="मराठी" android:buttonTint="aca9a9" />
+				<RadioButton android:textColor="aca9a9" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="हिंदी" android:buttonTint="aca9a9" />
+				<RadioButton android:textColor="aca9a9" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="English" android:buttonTint="aca9a9" />
+			</LinearLayout>
+		</LinearLayout>
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:tint="aca9a9" android:layout_alignParentRight="true" app:srcCompat="res/drawable-xhdpi-v4/ic_delete_black_24px.png" />
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="303030" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:gravity="0x10" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="22dp" android:layout_marginLeft="9dp" android:text="m-Indicator" android:layout_alignParentLeft="true" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="22dp" android:layout_toRightOf="false" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:background="c11921" android:visibility="0" android:layout_width="-1" android:layout_height="45dp" android:layout_below="false">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50dp">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="res/drawable-xhdpi-v4/multicity_emergency.png" android:layout_alignParentLeft="true" />
+			<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x10" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Emergency" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<ScrollView android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</ScrollView>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+</LinearLayout>

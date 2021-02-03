@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="000" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="00ff" android:visibility="0" android:layout_width="-1" android:layout_height="-2" />
+	<RelativeLayout android:orientation="0" android:id="false" android:background="2c2c2c" android:paddingLeft="12dp" android:paddingTop="6dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="cccc0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="03:40 VASAI" android:layout_toLeftOf="false" />
+				<TextView android:textAppearance="{2:16842817}" android:textSize="12sp" android:textColor="bdbdbd" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="MON TUE WED FRI" android:maxLines="1" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="false">
+					<TextView android:textColor="0ff0" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="TextView" />
+					<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="10103" />
+					<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="MANDOVI EXPRESS" android:maxLines="1" android:layout_weight="{4:1065353216}" />
+				</LinearLayout>
+				<TextView android:textAppearance="{2:16842817}" android:textSize="12sp" android:textColor="bdbdbd" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="CSTM - MAO" android:maxLines="1" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout android:orientation="0" android:paddingLeft="12dp" android:paddingTop="4dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+		<RelativeLayout android:layout_gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<RelativeLayout android:gravity="0x50" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp">
+				<TextView android:textAppearance="{2:16842817}" android:textSize="10sp" android:textColor="bdbdbd" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="18 DEC SUN" android:layout_alignParentTop="true" />
+				<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textColor="bdbdbd" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="03:40" android:layout_below="false" />
+				<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textColor="bdbdbd" android:gravity="0x50" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" android:text=" - " android:layout_toRightOf="false" android:layout_alignBottom="false" />
+				<TextView android:textAppearance="{2:16842817}" android:textSize="10sp" android:textColor="bdbdbd" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="18 DEC SUN" android:layout_toRightOf="false" android:layout_alignBottom="false" />
+				<TextView android:textAppearance="{2:16842817}" android:textSize="16sp" android:textColor="bdbdbd" android:id="false" android:paddingTop="1dp" android:layout_width="-2" android:layout_height="-2" android:text="11:58" android:layout_alignTop="false" android:layout_alignRight="false" />
+				<TextView android:textAppearance="{2:16842817}" android:textSize="11sp" android:textColor="bdbdbd" android:layout_gravity="0x50" android:id="false" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6dp" android:text="04h 48m" android:layout_toRightOf="false" android:layout_alignBottom="false" />
+			</RelativeLayout>
+			<TextView android:textAppearance="{2:16842817}" android:textSize="11sp" android:textColor="bdbdbd" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="MUMBAI CSMT - CHIPLUN" android:maxLines="2" android:layout_below="false" />
+		</RelativeLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item_gn_no_margin.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+			<include android:id="false" android:visibility="2" layout="res/layout/ir_seat_status_item.xml" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

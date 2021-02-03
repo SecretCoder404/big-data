@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:title="share" app:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="100" android:title="Feedback" app:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="100" android:title="About us" app:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="100" android:title="Rate" app:showAsAction="0x0" />
+</menu>

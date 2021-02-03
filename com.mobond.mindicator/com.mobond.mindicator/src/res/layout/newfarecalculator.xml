@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:gravity="0x10" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="22dp" android:layout_marginLeft="9dp" android:text="m-Indicator" android:layout_alignParentLeft="true" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="22dp" android:layout_toRightOf="false" />
+	</RelativeLayout>
+	<RelativeLayout android:orientation="1" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="1dp">
+			<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/left_rounded_corder.xml" android:layout_width="60dp" android:layout_height="40dp" android:text="From" />
+			<TextView android:textSize="16sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:id="false" android:tag="-1" android:background="res/drawable/right_rounded_corner.xml" android:paddingLeft="16dp" android:layout_width="-1" android:layout_height="40dp" android:hint="Source" android:lines="1" android:singleLine="true" android:layout_toRightOf="false" />
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="0dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_below="false">
+			<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/left_rounded_corder.xml" android:layout_width="60dp" android:layout_height="40dp" android:text="To" />
+			<TextView android:textSize="16sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:id="false" android:tag="-1" android:background="res/drawable/right_rounded_corner.xml" android:paddingLeft="16dp" android:layout_width="-1" android:layout_height="40dp" android:hint="Destination" android:lines="1" android:singleLine="true" android:layout_toRightOf="false" />
+		</RelativeLayout>
+		<View android:background="res/drawable/farecalculatorshadow.xml" android:layout_width="-1" android:layout_height="2dp" android:layout_below="false" />
+	</RelativeLayout>
+	<fragment android:name="com.mobond.policestationlocator.util.CustomMapFragment" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false" />
+	<LinearLayout android:orientation="1" android:id="false" android:background="444444" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1082130432}" android:layout_alignParentBottom="true">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}">
+			<TextView android:textColor="ffffff" android:id="false" android:background="232323" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Total Distance" android:layout_weight="{4:1065353216}" />
+			<TextView android:textColor="ffffff" android:gravity="0x5" android:id="false" android:background="232323" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Day fare" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x1" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="AUTO" />
+				<ImageView android:layout_gravity="0x1" android:padding="1dp" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xhdpi-v4/multicity_auto.png" />
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="₹ 50" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x1" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="TAXI" />
+				<ImageView android:layout_gravity="0x1" android:padding="1dp" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xhdpi-v4/multicity_cab.png" />
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="₹ 50" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x1" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="COOL CAB" />
+				<ImageView android:layout_gravity="0x1" android:padding="1dp" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xhdpi-v4/multicity_cab.png" />
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="₹ 50" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

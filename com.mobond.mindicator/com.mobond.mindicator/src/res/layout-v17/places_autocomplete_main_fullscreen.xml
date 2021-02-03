@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-1" android:textDirection="5" android:layoutDirection="3">
+	<androidx.appcompat.widget.Toolbar android:id="false" android:background="{2:2130968730}" android:layout_width="-1" android:layout_height="-2" android:minHeight="{2:2130968579}" app:contentInsetEnd="0dp" app:contentInsetLeft="72dp" app:contentInsetRight="0dp" app:contentInsetStart="72dp">
+		<include layout="res/layout/places_autocomplete_search_bar.xml" />
+	</androidx.appcompat.widget.Toolbar>
+	<View android:background="res/drawable/places_autocomplete_toolbar_shadow.xml" android:layout_width="-1" android:layout_height="4dp" android:layout_below="false" />
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+	<RelativeLayout android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+			<ImageView android:layout_width="192dp" android:layout_height="120dp" app:srcCompat="res/drawable/quantum_ic_cloud_off_vd_theme_24.xml" />
+			<include layout="res/layout/places_autocomplete_error_text.xml" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator - Cabs" />
+	</LinearLayout>
+	<com.google.android.material.appbar.AppBarLayout android:theme="resourceId:0x7f110007" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<androidx.appcompat.widget.Toolbar android:id="false" android:layout_width="-1" android:layout_height="{2:2130968579}" app:title="Recent" app:titleTextColor="resourceId:0x106000b" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<View android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<TextView android:textSize="18sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="No data available." android:layout_centerInParent="true" />
+		<View android:background="resourceId:0x106000d" android:layout_width="-1" android:layout_height="1dp" />
+		<LinearLayout android:orientation="1" android:id="false" android:background="fff7e5" android:layout_width="-1" android:layout_height="-2" android:animateLayoutChanges="true">
+			<RelativeLayout android:id="false" android:background="{2:2130969014}" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="starOneClicked">
+				<ImageView android:id="false" android:background="{2:2130969014}" android:padding="18dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" app:srcCompat="res/drawable-xhdpi-v4/ic_star_yellow_24dp.png" />
+				<TextView android:textSize="16sp" android:textColor="000" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Palm Beach Road, Sector- 32, C.B.D. Belapur, Navi Mumbai" android:maxLines="2" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:lineSpacingExtra="2dp" />
+				<ImageView android:id="false" android:background="{2:2130969014}" android:padding="18dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:contentDescription="Delete Recent Location" app:srcCompat="res/drawable-xhdpi-v4/ic_delete_black_24px.png" />
+			</RelativeLayout>
+			<View android:background="e6e6e6" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="35dp" />
+			<RelativeLayout android:id="false" android:background="{2:2130969014}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="starTwoClicked">
+				<ImageView android:id="false" android:padding="18dp" android:layout_width="-2" android:layout_height="-2" app:srcCompat="res/drawable-xhdpi-v4/ic_star_yellow_24dp.png" />
+				<TextView android:textSize="16sp" android:textColor="000" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Palm Beach Road, Sector- 32, C.B.D. Belapur, Navi Mumbai" android:maxLines="2" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:lineSpacingExtra="2dp" />
+				<ImageView android:id="false" android:background="{2:2130969014}" android:padding="18dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:contentDescription="Delete Recent Location" app:srcCompat="res/drawable-xhdpi-v4/ic_delete_black_24px.png" />
+			</RelativeLayout>
+			<View android:background="e6e6e6" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="35dp" />
+		</LinearLayout>
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+	</RelativeLayout>
+</RelativeLayout>

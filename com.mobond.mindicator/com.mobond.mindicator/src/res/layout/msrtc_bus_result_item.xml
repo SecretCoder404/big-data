@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="8dp" android:layout_width="-1" android:layout_height="-1" android:layout_margin="0dp">
+	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/msrtc_white_card_view.xml" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:background="res/drawable/msrtc_chat_button_selector.xml" android:layout_width="-1" android:layout_height="-2">
+			<View android:id="false" android:background="0ff0" android:layout_width="8dp" android:layout_height="-1" android:layout_above="false" />
+			<LinearLayout android:orientation="1" android:id="false" android:paddingLeft="13dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="false">
+				<TextView android:textStyle="0x1" android:id="false" android:paddingTop="12dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:text="DADAR TO PUNE STN." />
+				<TextView android:textSize="13sp" android:id="false" android:paddingTop="0dp" android:paddingBottom="12dp" android:layout_width="-2" android:layout_height="-2" android:text="Maitri Park - --:-- AM" />
+			</LinearLayout>
+		</LinearLayout>
+		<RelativeLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+			<TextView android:textColor="ffffff" android:gravity="0x1" android:id="false" android:background="066ff" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Non AC" />
+			<FrameLayout android:id="false" android:background="res/drawable/msrtc_busresult_icons_selector.xml" android:layout_width="50dp" android:layout_height="-2" android:layout_toLeftOf="false" android:layout_alignTop="false" android:layout_alignBottom="false">
+				<ImageView android:layout_gravity="0x15" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xhdpi-v4/chat_st.png" android:tint="ffffff" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:background="res/drawable/msrtc_busresult_icons_selector.xml" android:layout_width="50dp" android:layout_height="-2" android:layout_alignTop="false" android:layout_alignBottom="false" android:layout_alignParentRight="true" android:onClick="openCallDepot">
+				<ImageView android:layout_gravity="0x15" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="10dp" android:src="res/drawable-xhdpi-v4/call_white.png" />
+			</FrameLayout>
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

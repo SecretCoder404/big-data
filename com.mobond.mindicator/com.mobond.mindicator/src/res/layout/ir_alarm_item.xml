@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/ir_selector_white_bg.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:paddingLeft="8dp" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="616161" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="NERAL JUNCTION" android:maxLines="1" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="616161" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="5 MAR" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x50" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="36sp" android:typeface="3" android:textStyle="0x1" android:textColor="616161" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="9:35" />
+			<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="616161" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:text="AM" />
+			<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="bdbdbd" android:gravity="0x5" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="STATION ALARM" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

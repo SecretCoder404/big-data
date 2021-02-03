@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="25sp" android:layout_marginRight="15sp">
+				<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="0af0" android:layout_gravity="0x5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+				<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:text="Mobile Number" />
+				<RelativeLayout android:layout_width="-1" android:layout_height="50sp">
+					<EditText android:textSize="16sp" android:id="false" android:layout_width="-1" android:layout_height="50sp" android:layout_marginRight="15dp" android:hint="Mobile Number" android:maxLength="10" android:layout_toLeftOf="false" android:inputType="0x2" />
+					<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+						<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="35sp" android:text="VERIFY" />
+						<TextView android:textColor="0af0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Verified" />
+					</RelativeLayout>
+				</RelativeLayout>
+				<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15sp" android:text="Display Name" />
+				<EditText android:textSize="16sp" android:id="false" android:layout_width="-1" android:layout_height="50sp" android:hint="Display Name" android:inputType="0x61" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="35sp" android:text="UPDATE" />
+				<TextView android:textColor="ca3c2c" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15sp" android:text="This information will be kept private." />
+			</LinearLayout>
+			<View android:background="868686" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginTop="15sp" />
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="15sp" android:layout_marginRight="15sp">
+				<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="c11921" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Share Your Journey to :" />
+				<EditText android:textSize="16sp" android:id="false" android:layout_width="-1" android:layout_height="50sp" android:layout_marginTop="15sp" android:hint="Mobile Number" android:maxLength="10" android:digits="0123456789" android:inputType="0x2" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="35sp" android:layout_marginBottom="35sp" android:text="GIVE ACCESS" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,72 @@
+{
+  "version":"2017052701",
+  "latlon":"19.0759840,72.8776560",
+  "minversion":"92",
+  "facilites": [
+    "metro",
+    "bus",
+    "express",
+    "auto",
+    "metro chat",
+    "taxi",
+    "penalty",
+    "map"
+  ],
+  "other": [
+    "jobs",
+    "property",
+    "picnic",
+    "emergency",
+    "safety"
+  ],
+  "bus": [
+    {
+      "name": "DELHI",
+      "fullname": "DTC + FEEDER Buses",
+      "selected": "1"
+    },
+    {
+      "name": "FARIDABAD",
+      "fullname": "Faridabad Bus",
+      "selected": "0"
+    }
+  ],
+  "local": [
+    "DL_BLUE",
+    "DL_GREEN",
+    "DL_ORANGE",
+    "DL_RAPID",
+    "DL_RED",
+    "DL_VIOLET",
+    "DL_YELLOW"
+  ],
+  "metro": [
+    {
+      "name": "RL",
+      "fullname": "Red Line",
+      "selected": "1"
+    }
+  ],
+  "auto": {
+    "info": "FARES W.E.F - 08/05/2013\n\nFare:\nRs 25/- for first fall of 2 Kilometer (upon downing the meter) and thereafter Rs. 8/- per Kilometer for every additional Kilometer.\n\nNight Charges:\n25% of the fare (11:00 PM to 5:00 AM)\n\nWaiting Charges:\nRs 30/- per hour or part thereof (Subject to a minimum of 15 minutes stay)\n\nLuggage:\nRs. 7.50/- shall be charged as extra luggage charges whereas the driver/ operator shall not charge and money for a shopping bag or a small suitcase",
+    "bound1": "28.4767591, 77.1581083",
+    "bound2": "28.7877403, 77.1883207",
+    "complaint": [
+      {
+        "name":"Complaint",
+        "no":"56767"
+      },{
+        "name":"Traffic Helpline",
+        "no":"011-25844444"
+      },{
+        "name":"Traffic Helpline",
+        "no":"1095"
+      }
+    ]
+  },
+  "taxi": {
+    "info": "Taxi (Black &Yellow Top)\nFARES W.E.F - 08/05/2013\n\nFare:\nRs 25/- for first Kilometer (upon downing the meter) and thereafter Rs. 14.00/- per Kilometer for Non-AC taxis and Rs . 16.00/ per Kilometer for AC taxis for every additional Kilometer\n\nNight Charges:\n25% of the fare (11:00 PM to 5:00 AM)ss\nWaiting Charges:\nRs 30/- per hour or part thereof (Subject to a minimum of 15 minutes stay)\n\nLuggage:\nRs. 10/- shall be charged as extra luggage charges whereas the driver/ operator shall not charge and money for a shopping bag or a small suitcase.",
+    "bound1": "28.4767591, 77.1581083",
+    "bound2": "28.7877403, 77.1883207"
+  }
+}

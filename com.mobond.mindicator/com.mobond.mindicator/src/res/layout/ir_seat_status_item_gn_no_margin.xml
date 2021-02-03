@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp">
+	<TextView android:textAppearance="{2:16842817}" android:textSize="11sp" android:textStyle="0x1" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" />
+	<RelativeLayout android:orientation="1" android:id="false" android:background="2196f3" android:paddingLeft="4dp" android:paddingTop="1dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2">
+		<TextView android:textAppearance="{2:16842817}" android:textSize="4sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:padding="1dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:minWidth="20dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="9sp" android:gravity="0x11" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="12sp" android:gravity="0x11" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:minWidth="20dp" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<ImageView android:id="false" android:visibility="1" android:layout_width="20dp" android:layout_height="2dp" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:adjustViewBounds="true" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="4sp" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:minWidth="20dp" android:layout_alignBottom="false" android:layout_centerHorizontal="true" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:minWidth="20dp" android:text="GN" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<TextView android:textAppearance="{2:16842817}" android:textSize="9sp" android:textColor="e0e0e0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="₹800" />
+</LinearLayout>

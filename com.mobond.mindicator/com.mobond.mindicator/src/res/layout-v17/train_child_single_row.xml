@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+		<TextView android:textSize="21sp" android:textColor="000" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:ems="3" android:layout_alignParentLeft="true" />
+		<ImageView android:id="false" android:padding="5dp" android:layout_width="55dp" android:layout_height="35dp" android:tint="868686" android:layout_centerInParent="true" app:srcCompat="res/drawable/ic_access_alarm_black_24dp.xml" />
+	</RelativeLayout>
+	<RelativeLayout android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_toRightOf="false" android:layout_alignTop="false" android:layout_alignBottom="false" android:layout_toEndOf="false">
+		<RelativeLayout android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true">
+			<include layout="res/layout/train_layout.xml" />
+		</RelativeLayout>
+		<View android:id="false" android:background="3f4970" android:layout_width="1dp" android:layout_height="-2" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="false">
+		<TextView android:textSize="18sp" android:textStyle="0x0" android:textColor="666666" android:ellipsize="3" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7dp" android:layout_marginBottom="7dp" android:text="Destination" android:singleLine="true" android:drawablePadding="10dp" />
+	</LinearLayout>
+</RelativeLayout>

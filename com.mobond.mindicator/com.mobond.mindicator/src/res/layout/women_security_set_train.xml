@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Mumbai" />
+	</LinearLayout>
+	<ScrollView android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x30" android:orientation="1" android:padding="16dp" android:layout_width="-1" android:layout_height="510dp">
+			<TextView android:textSize="20dp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:layout_marginBottom="20dp" android:text="Set Train Details" />
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Coach Position" />
+			<LinearLayout android:layout_gravity="0x3" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="15dp">
+				<RadioGroup android:gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+					<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp">
+							<RadioButton android:textSize="16dp" android:textStyle="0x0" android:textColor="565656" android:id="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="Start" android:onClick="onCoachStartClicked" />
+						</LinearLayout>
+						<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+							<RadioButton android:textSize="16dp" android:textStyle="0x0" android:textColor="565656" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Midle" android:onClick="onCoachMiddleClicked" />
+						</LinearLayout>
+						<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+							<RadioButton android:textSize="16dp" android:textStyle="0x0" android:textColor="565656" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="End" android:onClick="onCoachEndClicked" />
+						</LinearLayout>
+					</LinearLayout>
+				</RadioGroup>
+			</LinearLayout>
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Train Destination" />
+			<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			<Button android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="d32f2f" android:layout_width="-1" android:layout_height="-2" android:layout_margin="4dp" android:text="Save" android:onClick="onSave" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

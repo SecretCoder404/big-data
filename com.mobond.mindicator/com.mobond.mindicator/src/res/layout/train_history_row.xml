@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="202020" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/nearbyselector.xml" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" android:layout_alignParentTop="true">
+		<Button android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/white_delete_icon.png" android:layout_width="45dp" android:layout_height="45dp" />
+		<ImageView android:id="false" android:padding="12dp" android:visibility="2" android:layout_width="48dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/train_icon.png" android:scaleType="3" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="15sp" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2" android:text="CSMT" />
+	</LinearLayout>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="202020" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentTop="true" />
+</RelativeLayout>

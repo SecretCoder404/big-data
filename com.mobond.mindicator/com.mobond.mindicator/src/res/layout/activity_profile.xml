@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="22dp" android:layout_alignParentTop="true">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+			<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="c17778" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		</LinearLayout>
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="9dp" android:text="Logout" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15sp" android:layout_marginTop="50sp" android:layout_marginRight="15sp">
+			<TextView android:textSize="25sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="PROFILE" />
+			<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="35sp" android:text="Display Name" />
+			<EditText android:textSize="16sp" android:id="false" android:layout_width="-1" android:layout_height="50sp" android:inputType="0x61" />
+			<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="c11921" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15sp" android:text="Mobile Number" />
+			<EditText android:textSize="16sp" android:id="false" android:layout_width="-1" android:layout_height="50sp" android:hint="Mobile Number" android:maxLength="10" android:inputType="0x2" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/red_button_bg.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="35sp" android:text="SAVE" />
+			<TextView android:textStyle="0x1" android:textColor="ca3c2c" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15sp" android:text="This information will be kept private." />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

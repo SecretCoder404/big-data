@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="151515" android:layout_width="-1" android:layout_height="-1">
+	<include android:id="false" layout="res/layout/common_toolbar.xml" />
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" />
+	<TextView android:textSize="20sp" android:textColor="bcbec0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Add your regular trains" android:layout_below="false" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

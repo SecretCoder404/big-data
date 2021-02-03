@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="15dp" android:id="false" android:background="res/drawable-mdpi-v4/rect_border_thin.xml" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Get advertisements relevant to you.Submit button is at the bottom." />
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp">
+			<TextView android:textSize="25dp" android:gravity="0x10" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="10dp" android:text="Gender" />
+			<RadioGroup android:gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp">
+						<RadioButton android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="Male" android:onClick="onRadioButtonMaleClicked" />
+					</LinearLayout>
+					<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+						<RadioButton android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Female" android:onClick="onRadioButtonFemaleClicked" />
+					</LinearLayout>
+				</LinearLayout>
+			</RadioGroup>
+		</LinearLayout>
+		<View android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="2dp" />
+		<TextView android:textSize="25dp" android:gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="Birth Date" />
+		<DatePicker android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<View android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="2dp" />
+		<TextView android:textSize="25dp" android:gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Area Pincode" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:textSize="25dp" android:gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Email id" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+</ScrollView>

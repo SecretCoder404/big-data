@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="22dp">
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9dp" android:text="m-Indicator" />
+		<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+	</LinearLayout>
+	<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="45dp" android:minHeight="{2:2130968579}" android:layout_below="false" app:popupTheme="resourceId:0x7f110178" app:subtitleTextAppearance="{2:16842818}" app:theme="resourceId:0x7f110175" app:title=" " app:titleTextAppearance="{2:16842817}">
+		<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:id="false" android:background="res/drawable-xhdpi-v4/back_icon_white.png" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginRight="8dp" android:layout_centerVertical="true" />
+				<TextView android:textSize="21sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="31dp" android:text="AUTO" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="12dp" android:layout_toLeftOf="false">
+					<TextView android:textSize="12sp" android:textColor="c14f51" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/left_switch.xml" android:padding="5dp" android:focusable="true" android:clickable="true" android:layout_width="60dp" android:layout_height="30dp" android:text="AC" android:onClick="actaxi" />
+					<TextView android:textSize="12sp" android:textColor="151515" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable-ldpi-v4/right_switch_selected.xml" android:padding="5dp" android:focusable="true" android:clickable="true" android:layout_width="60dp" android:layout_height="30dp" android:layout_marginLeft="1dp" android:text="NON AC" android:onClick="noactaxi" />
+				</LinearLayout>
+				<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="12dp" android:src="res/drawable-xhdpi-v4/call_white.png" android:layout_toLeftOf="false" android:onClick="callComplainButtonHandler" />
+				<ImageView android:id="false" android:layout_width="25dp" android:layout_height="-1" android:layout_marginRight="8dp" android:src="res/drawable-xhdpi-v4/info_icon.png" android:layout_alignParentRight="true" android:onClick="moreInfoButtonHandler" />
+			</RelativeLayout>
+		</FrameLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:textAppearance="{2:16842817}" android:id="false" android:background="30000" android:layout_width="-1" android:layout_height="2dp" android:layout_alignBottom="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="981c1e" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}" android:layout_below="false">
+		<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x1" android:layout_gravity="0x11" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="KM" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x1" android:layout_gravity="0x11" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="DAY FARE" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x1" android:layout_gravity="0x11" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="NIGHT FARE" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="151515" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<RadioGroup android:gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp">
+					<RadioButton android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:text="DAY" android:onClick="onDayRadioButtonClicked" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+					<RadioButton android:textStyle="0x1" android:textColor="ffffd80" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="NIGHT" android:onClick="onNightRadioButtonClicked" />
+				</LinearLayout>
+			</LinearLayout>
+		</RadioGroup>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="c11921" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="c11921" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1082130432}">
+			<LinearLayout android:gravity="0x1" android:orientation="0" android:background="res/drawable/red_selector.xml" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="{4:1073741824}" android:onClick="onFareCalculator">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/calculator.png" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="FARE CALCULATOR" android:layout_toRightOf="false" />
+			</LinearLayout>
+			<View android:background="981c1e" android:visibility="2" android:layout_width="1dp" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="{4:0}" />
+			<LinearLayout android:gravity="0x1" android:orientation="0" android:background="res/drawable/red_selector.xml" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="{4:1073741824}" android:onClick="submitComplaint">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/star_icon.png" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="res/drawable/red_selector.xml" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="DRIVER RATING" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<ListView android:id="resourceId:0x102000a" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="0000" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:layout_above="false" android:layout_below="false" android:layout_alignParentLeft="true" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

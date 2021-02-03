@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="64dp">
+	<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:layout_marginBottom="6dp" android:src="res/drawable-xxxhdpi-v4/icon.png" android:adjustViewBounds="true" />
+	<LinearLayout android:gravity="0x10" android:layout_gravity="0x10" android:orientation="1" android:paddingLeft="6dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<TextView android:textAppearance="{2:16842818}" android:textSize="15sp" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="PNR 8560386209" android:singleLine="true" />
+		<TextView android:textSize="12sp" android:textColor="757575" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="11.30 KMBL-MMCY Train no. 22946" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:layout_gravity="0x10" android:orientation="1" android:id="false" android:background="res/drawable/train_schedule_selector.xml" android:paddingLeft="8dp" android:paddingTop="6dp" android:paddingRight="8dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp">
+		<TextView android:textSize="10sp" android:textColor="757575" android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="SCHEDULE" />
+	</LinearLayout>
+	<ImageView android:layout_gravity="0x10" android:id="false" android:padding="6dp" android:focusable="true" android:clickable="true" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" android:src="res/drawable-xhdpi-v4/close.png" />
+</LinearLayout>

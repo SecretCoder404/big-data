@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.UnifiedNativeAdView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="e3e3e3" android:layout_width="-1" android:layout_height="-1">
+		<ScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<com.mobond.mindicator.ui.AnimatedGifImageView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" />
+				<ImageView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:adjustViewBounds="true" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	<include android:id="false" layout="res/layout/ad_attribution_text_layout.xml" />
+</com.google.android.gms.ads.formats.UnifiedNativeAdView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginTop="5dp" android:layout_marginRight="2dp" android:layout_marginBottom="5dp" android:text="10:29 AM" android:ems="4" />
+		<RelativeLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}" android:layout_centerHorizontal="true">
+				<View android:id="false" android:background="ffffff" android:layout_width="2dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+				<View android:id="false" android:background="ffffff" android:layout_width="2dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/circle_down_arrow.xml" android:layout_centerInParent="true" />
+			<ImageView android:id="false" android:visibility="1" android:layout_width="24dp" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/running_status_arrow.png" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:minHeight="45dp">
+			<TextView android:textSize="18sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:singleLine="true" />
+			<TextView android:textColor="adadad" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textColor="adadad" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<TextView android:textColor="ff00" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:text="No Halt" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="2dp" android:ems="4" />
+		<RelativeLayout android:gravity="0x11" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-1">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true">
+				<View android:background="ffffff" android:layout_width="2dp" android:layout_height="-1" />
+			</LinearLayout>
+			<ImageView android:visibility="1" android:layout_width="24dp" android:layout_height="-2" />
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="2dp" android:ems="4" />
+		<RelativeLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true">
+				<View android:background="ffffff" android:layout_width="2dp" android:layout_height="-1" />
+			</LinearLayout>
+			<ImageView android:id="false" android:padding="7dp" android:visibility="0" android:layout_width="24dp" android:layout_height="-2" android:src="res/drawable/yellow_circle.xml" android:adjustViewBounds="true" />
+		</RelativeLayout>
+		<TextView android:textColor="ffeb3b" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="Ukshi - No Halt" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<FrameLayout android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="18sp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="2dp" android:ems="4" />
+			<TextView android:textColor="ffeb3b" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Next Station" />
+		</FrameLayout>
+		<RelativeLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1073741824}">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true">
+				<View android:background="ffffff" android:layout_width="2dp" android:layout_height="-1" />
+			</LinearLayout>
+			<ImageView android:id="false" android:visibility="0" android:layout_width="24dp" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/running_status_arrow.png" android:adjustViewBounds="true" />
+		</RelativeLayout>
+		<FrameLayout android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp">
+			<TextView android:textColor="ffeb3b" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Mangaon is 16 kms away" />
+		</FrameLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="2dp" android:ems="4" />
+		<RelativeLayout android:gravity="0x11" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-1">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true">
+				<View android:background="ffffff" android:layout_width="2dp" android:layout_height="-1" />
+			</LinearLayout>
+			<ImageView android:visibility="1" android:layout_width="24dp" android:layout_height="-2" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

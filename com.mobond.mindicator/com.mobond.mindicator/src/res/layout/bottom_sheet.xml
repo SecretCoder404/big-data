@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:background="res/drawable/round_bottom_sheetbg.xml" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="20dp" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-2" app:behavior_hideable="true" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+	<ImageView android:layout_gravity="0x800005" android:id="false" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" app:srcCompat="res/drawable/ic_clear_black_24dp.xml" />
+	<include layout="res/layout/more_option.xml" />
+</LinearLayout>

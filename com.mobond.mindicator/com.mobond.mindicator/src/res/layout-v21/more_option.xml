@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:weightSum="{4:1077936128}">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<androidx.cardview.widget.CardView android:layout_gravity="0x10" android:id="false" android:background="res/drawable-hdpi-v4/yellow_line_selector.xml" android:clickable="true" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:foreground="{2:16843534}" android:layout_centerInParent="true" android:backgroundTint="ffeb3b" app:cardCornerRadius="7dp" app:cardElevation="0dp">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:tint="868686" app:srcCompat="res/drawable/ic_chat_outline.xml" />
+					<TextView android:textSize="12dp" android:textColor="000" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Chat" android:lines="1" />
+				</LinearLayout>
+			</androidx.cardview.widget.CardView>
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<androidx.cardview.widget.CardView android:layout_gravity="0x10" android:id="false" android:background="res/drawable-hdpi-v4/yellow_line_selector.xml" android:padding="5dp" android:clickable="true" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:foreground="{2:16843534}" android:layout_centerInParent="true" android:backgroundTint="ffeb3b" app:cardCornerRadius="7dp" app:cardElevation="0dp">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" app:srcCompat="res/drawable/train_border_icon2.xml" />
+					<TextView android:textSize="12dp" android:textColor="000" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Train Cancelled" android:lines="1" />
+				</LinearLayout>
+			</androidx.cardview.widget.CardView>
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<androidx.cardview.widget.CardView android:layout_gravity="0x10" android:id="false" android:background="res/drawable-hdpi-v4/yellow_line_selector.xml" android:clickable="true" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:foreground="{2:16843534}" android:layout_centerInParent="true" android:backgroundTint="ffeb3b" app:cardCornerRadius="7dp" app:cardElevation="0dp">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:tint="868686" app:srcCompat="res/drawable/ic_error_outline_grey_24dp.xml" />
+					<TextView android:textSize="12dp" android:textColor="000" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Error" android:lines="1" />
+				</LinearLayout>
+			</androidx.cardview.widget.CardView>
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<androidx.cardview.widget.CardView android:layout_gravity="0x10" android:id="false" android:background="res/drawable-hdpi-v4/yellow_line_selector.xml" android:clickable="true" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:foreground="{2:16843534}" android:layout_centerInParent="true" android:backgroundTint="ffeb3b" app:cardCornerRadius="7dp" app:cardElevation="0dp">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:tint="868686" app:srcCompat="res/drawable/ic_access_alarm_black_24dp.xml" />
+					<TextView android:textSize="12dp" android:textColor="000" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Daily Alerts" android:lines="1" />
+				</LinearLayout>
+			</androidx.cardview.widget.CardView>
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<androidx.cardview.widget.CardView android:layout_gravity="0x10" android:background="res/drawable/white_selector.xml" android:visibility="1" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_weight="{4:1065353216}" android:layout_centerInParent="true" android:elevation="5dp" android:backgroundTint="ffeb3b" app:cardCornerRadius="7dp">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" />
+					<TextView android:textSize="12dp" android:textColor="000" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Train Cancelled" android:lines="1" />
+				</LinearLayout>
+			</androidx.cardview.widget.CardView>
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<androidx.cardview.widget.CardView android:layout_gravity="0x10" android:background="res/drawable/white_selector.xml" android:visibility="1" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_weight="{4:1065353216}" android:layout_centerInParent="true" android:elevation="5dp" android:backgroundTint="ffeb3b" app:cardCornerRadius="7dp">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" />
+					<TextView android:textSize="12dp" android:textColor="000" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Error" android:lines="1" />
+				</LinearLayout>
+			</androidx.cardview.widget.CardView>
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

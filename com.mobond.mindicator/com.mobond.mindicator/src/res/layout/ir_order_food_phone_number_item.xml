@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/ir_selector_white_bg.xml" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:id="false" android:background="cccccc" android:padding="8dp" android:layout_width="-1" android:layout_height="1dp" />
+	<ImageView android:id="false" android:layout_width="28dp" android:layout_height="28dp" android:layout_margin="16dp" android:src="res/drawable-xhdpi-v4/black_phone.png" android:layout_below="false" />
+	<TextView android:textSize="14sp" android:textColor="888888" android:id="false" android:paddingLeft="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="IRCTC" android:layout_toRightOf="false" android:layout_below="false" />
+	<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="333333" android:id="false" android:paddingLeft="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="8dp" android:text="1323" android:layout_toRightOf="false" android:layout_below="false" />
+</RelativeLayout>

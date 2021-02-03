@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<View android:id="false" android:background="1f000" android:layout_width="-1" android:layout_height="1dp" android:layout_marginStart="68dp" />
+	<FrameLayout android:layout_width="-1" android:layout_height="-2">
+		<ProgressBar android:layout_gravity="0x10" android:id="false" android:padding="3dp" android:layout_width="24dp" android:layout_height="24dp" android:indeterminate="true" android:layout_marginStart="16dp" android:indeterminateTint="4184f3" android:indeterminateTintMode="9" style="resourceId:0x7f1101be" />
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="40dp" android:src="res/drawable-xxxhdpi-v4/places_powered_by_google_light.png" android:scaleType="5" android:contentDescription="Powered by Google" android:layout_marginStart="68dp" />
+	</FrameLayout>
+</merge>

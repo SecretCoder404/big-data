@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-1">
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<include layout="res/layout/places_autocomplete_search_bar.xml" />
+			<View android:background="1f000" android:layout_width="-1" android:layout_height="1dp" />
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:cacheColorHint="resourceId:0x106000b" />
+			<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:layout_width="192dp" android:layout_height="120dp" android:layout_marginTop="48dp" app:srcCompat="res/drawable/quantum_ic_cloud_off_vd_theme_24.xml" />
+				<include layout="res/layout/places_autocomplete_error_text.xml" />
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+</FrameLayout>

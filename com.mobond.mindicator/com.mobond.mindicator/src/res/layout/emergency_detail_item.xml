@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/checklist_item_selector.xml" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:src="res/drawable-xhdpi-v4/call_white.png" />
+		<TextView android:textSize="17sp" android:textColor="ffffff" android:id="false" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginTop="8dp" android:text="21.Chemotherapy may temporarily lead to loss of appetite, bloating of the abdomen, nausea, and constipation. But let that not lead to loss of weight or nutrition. Consult your doctor or dietician on what foods you can have to " android:layout_toRightOf="false" />
+		<TextView android:textSize="14sp" android:textColor="b2b2b2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginTop="4dp" android:text="3/9 Remaining" android:layout_toRightOf="false" android:layout_below="false" />
+	</RelativeLayout>
+	<TextView android:background="444444" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="8dp" android:text="" />
+</LinearLayout>

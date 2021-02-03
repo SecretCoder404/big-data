@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="{2:2130969014}" android:padding="8dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:padding="4dp" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable-xhdpi-v4/uber.png" android:contentDescription="Cab Icon" />
+	<TextView android:textSize="15sp" android:ellipsize="3" android:id="false" android:paddingTop="2dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:text="Display Name" android:maxLines="1" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_marginStart="16dp" />
+	<TextView android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:text="200 only" android:layout_toRightOf="false" android:layout_below="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:layout_alignBottom="false" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+		<TextView android:textSize="12sp" android:textStyle="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Expected in" />
+		<TextView android:textSize="20sp" android:id="false" android:paddingTop="2dp" android:layout_width="-2" android:layout_height="-2" android:text="7 min" />
+	</LinearLayout>
+</RelativeLayout>
