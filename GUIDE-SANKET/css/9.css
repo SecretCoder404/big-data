@@ -153,7 +153,12 @@
 }
 
 ._1_M9wxW9 {
-    width: 100%
+    width: 111px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 ._1JOGv2rJ._3fiJJkxX {

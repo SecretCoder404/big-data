@@ -145,68 +145,6 @@
     <script src=".js" async="" crossorigin=""></script>
 
     <style>
-        .one379 {
-            margin-bottom: 30px;
-        }
-        
-        ._3to6 {
-            margin-bottom: 0px;
-        }
-        
-        ._odd {
-            color: grey;
-            background-color: #ffffff;
-            /* border: 1px solid var(--secondaryButtonStroke); */
-            /* border-radius: 12px; */
-            cursor: pointer;
-            box-sizing: border-box;
-            height: 100%;
-            min-height: 48px;
-            width: 100%;
-            min-width: 150px;
-            overflow: hidden;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-align-items: stretch;
-            -ms-flex-align: stretch;
-            align-items: stretch;
-            padding: 11px 13px 11px 14px;
-            position: relative;
-            transition: background-color .2s, color .2s;
-        }
-        
-        ._even {
-            color: grey;
-            background-color: #e6d7d7;
-            /* border: 1px solid var(--secondaryButtonStroke); */
-            /* border-radius: 12px; */
-            cursor: pointer;
-            box-sizing: border-box;
-            height: 100%;
-            min-height: 48px;
-            width: 100%;
-            min-width: 150px;
-            overflow: hidden;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-align-items: stretch;
-            -ms-flex-align: stretch;
-            align-items: stretch;
-            padding: 11px 13px 11px 14px;
-            position: relative;
-            transition: background-color .2s, color .2s;
-        }
-        
-        . .mapalert {}
-        
         .appname {
             color: white;
             height: 20px;
@@ -239,15 +177,11 @@
         
         @media (max-width: 768px) {
             .mobile-alert {
-                display: -webkit-flex;
-                display: -ms-flexbox;
-                display: inline;
+                display: block;
                 height: 46px;
                 margin-top: 10px;
                 margin-right: 10px;
                 padding: 0 10px;
-                -webkit-align-items: center;
-                -ms-flex-align: center;
                 align-items: center;
                 border: 2px solid rgba(0, 0, 0, 0);
                 background: none;
@@ -459,153 +393,66 @@
         }
         /* ---------------------------------------- */
         
-        body {
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
+        .one379 {
+            margin-bottom: 30px;
         }
         
-        a {
-            text-decoration: none;
-            color: #f8f8ff;
-            opacity: 1;
-            font-family: 'work sans', sans serif;
-            font-size: 1.5em;
-            font-weight: 400;
-            transition: 200ms;
+        ._3to6 {
+            margin-bottom: 0px;
         }
         
-        a:hover {
-            opacity: 0.5;
-        }
-        
-        ul {
-            padding: 0;
-            list-style-type: none;
-        }
-        /* .container {
-            margin-top: 50px;
-            Display: flex;
-            justify-content: center;
-            align-items: center;
-        } */
-        /*         
-        .phone {
-            background-color: #36383F;
-            border-radius: 40px;
-            width: 300px;
-            height: 600px;
-            Display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 30px 50px 100px #85888C;
-        } */
-        /* .content {
-             border: 1px solid #36383F;
-            border-radius: 20px;
-            width: 94%;
-            height: 91%;
-            background-color: #F5F6FA;
-            overflow: hidden; 
-        } */
-        
-        nav {
-            /* background-color: #1E1E23; */
-            height: 65px;
-        }
-        
-        #menuToggle {
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            top: 25px;
-            left: 25px;
-            z-index: 1;
-            -webkit-user-select: none;
-            user-select: none;
-        }
-        
-        #menuToggle input {
-            display: flex;
-            width: 40px;
-            height: 32px;
-            position: absolute;
+        ._odd {
+            color: grey;
+            background-color: #ffffff;
+            /* border: 1px solid var(--secondaryButtonStroke); */
+            /* border-radius: 12px; */
             cursor: pointer;
-            opacity: 0;
-            z-index: 2;
-        }
-        
-        #menuToggle span {
+            box-sizing: border-box;
+            height: 100%;
+            min-height: 48px;
+            width: 100%;
+            min-width: 150px;
+            overflow: hidden;
+            display: -webkit-flex;
+            display: -ms-flexbox;
             display: flex;
-            width: 29px;
-            height: 2px;
-            margin-bottom: 5px;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-align-items: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            padding: 11px 13px 11px 14px;
             position: relative;
-            background: #ffffff;
-            border-radius: 3px;
-            z-index: 1;
-            transform-origin: 5px 0px;
-            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+            transition: background-color .2s, color .2s;
         }
         
-        #menuToggle span:first-child {
-            transform-origin: 0% 0%;
+        ._even {
+            color: grey;
+            background-color: #e6d7d7;
+            /* border: 1px solid var(--secondaryButtonStroke); */
+            /* border-radius: 12px; */
+            cursor: pointer;
+            box-sizing: border-box;
+            height: 100%;
+            min-height: 48px;
+            width: 100%;
+            min-width: 150px;
+            overflow: hidden;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-align-items: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            padding: 11px 13px 11px 14px;
+            position: relative;
+            transition: background-color .2s, color .2s;
         }
-        
-        #menuToggle span:nth-last-child(2) {
-            transform-origin: 0% 100%;
-        }
-        
-        #menuToggle input:checked~span {
-            opacity: 1;
-            transform: rotate(45deg) translate(-3px, -1px);
-            background: #ffffff;
-        }
-        
-        #menuToggle input:checked~span:nth-last-child(3) {
-            opacity: 1;
-            transform: rotate(0deg) scale(0.2, 0.2);
-        }
-        
-        #menuToggle input:checked~span:nth-last-child(2) {
-            transform: rotate(-45deg) translate(0, -1px);
-        }
-        
-        #menu {
-            position: absolute;
-            width: 250px;
-            height: 687px;
-            box-shadow: 0 0 10px #ff0000;
-            margin: -52px 0 0 -50px;
-            padding: 50px;
-            padding-top: 125px;
-            background-color: #1c1d1f;
-            -webkit-font-smoothing: antialiased;
-            transform-origin: 0% 0%;
-            transform: translate(-100%, 0);
-            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-        }
-        
-        #menu li {
-            padding: 10px 0;
-            transition-delay: 2s;
-        }
-        
-        #menuToggle input:checked~ul {
-            transform: none;
-        }
-        
-        .menubar {
-            margin: -15px;
-            padding: 0;
-            width: 50px;
-        }
-        
-        .exit {
-            margin: -15px;
-            padding: 0;
-            width: 50px;
-        }
+        /* //////////////////////////////////////////// */
     </style>
 
     <!-- <script type="text/javascript" src="//c.evidon.com/sitenotice/evidon-sitenotice-tag.js" async=""></script>
@@ -654,11 +501,16 @@
     <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.tripadvisor.in"></script> -->
 
 
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <title>CampusGuide Official Site</title>
+    <link rel="stylesheet" href="sidebar/style.css">
+    <script src="sidebar/style.js"></script>
+
 
 </head>
 
@@ -671,7 +523,10 @@
 
 
         <div class="_1anKb-nl">
-            <nav class="c35hjqC_">
+
+            <nav class="nav c35hjqC_">
+
+
                 <!-- <button class="_3tKR4Vlr" title="Menu" aria-label="Menu">
                     <a href="/index2.html" title=""><svg viewBox="0 0 24 24" width="1em" height="1em" class="_2HBN-k68 _2JndpOur">
                         <path
@@ -680,33 +535,36 @@
                     </svg></a>
                    
                 </button> -->
-                <!-- <div class="container">
-                    <div class="phone">
-                        <div class="content">
 
-                            <nav role="navigation">
-                                <div id="menuToggle">
-                                     <img class="menubar" src="icon/menubar.png" alt=""> 
-
-                                    <input type="checkbox" />
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <ul id="menu">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Info</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div> -->
-                <a href="/new.html"><button class="_3tKR4Vlr" title="new" aria-label="Menu"><svg viewBox="0 0 24 24" width="1em" height="1em" class="_2HBN-k68 _2JndpOur"><path d="M2.038 4.511H22v2.496H2.038zM2 10.752h19.962v2.497H2zM2.014 16.992h19.962v2.496H2.014z"></path></svg></button></a>
+                <!-- <a href="/new.html"><button class="_3tKR4Vlr" title="new" aria-label="Menu"><svg viewBox="0 0 24 24" width="1em" height="1em" class="_2HBN-k68 _2JndpOur"><path d="M2.038 4.511H22v2.496H2.038zM2 10.752h19.962v2.497H2zM2.014 16.992h19.962v2.496H2.014z"></path></svg></button></a> -->
                 <!-- <div class="_1Hzf3Xci"></div> -->
-
-
+                <button class="header__button" id="btnNav" type="button">
+                    <i class="material-icons">menu</i>
+                </button>
+                <div class="nav__links">
+                    <a class="_1JOGv2rJ _1_M9wxW9 _1qMtXLO6 _3yBiBka1" href="/"><span class="HLvj7Lh5 _9RPF_Kg6">Sign in</span></a>
+                    <hr>
+                    <a class="nav__link " href="#">
+                        <i class="material-icons ">dashboard</i> Dashboard
+                    </a>
+                    <a class="nav__link " href="# ">
+                        <i class="material-icons ">person</i> Profile
+                    </a>
+                    <a class="nav__link " href="# ">
+                        <i class="material-icons ">source</i> Projects
+                    </a>
+                    <a class="nav__link " href="# ">
+                        <i class="material-icons ">lock</i> Security
+                    </a>
+                    <a class="nav__link " href="# ">
+                        <i class="material-icons ">history</i> History
+                    </a>
+                    </a>
+                    <a class="nav__link " href="# ">
+                        <i class="material-icons ">settings</i> Settings
+                    </a>
+                </div>
+                <div class="nav__overlay "></div>
 
 
 
@@ -723,6 +581,11 @@
                                 </path>
                             </svg></button></div>
                 </div>
+                <button type="button " class="mobile-alert " href="/ ">
+                    <a href="# " class="nav--alert">
+                        <i class="material-icons ">notifications</i> 
+                    </a>
+                    </svg><span class="_1aNd_1k8 ">Alerts</span></button>
                 <div class="_1_6Nwle6 ">
                     <button type="button " class="_6zkbCr5n " aria-label="Post " aria-expanded="false "><svg
                             viewBox="0 0 24 24 " width="24px " height="24px " class="_2HBN-k68 _2JndpOur ">
@@ -739,14 +602,7 @@
                             </path>
                         </svg> <span class="_1aNd_1k8 ">Search</span></button>
 
-                    <button type="button " class="_6zkbCr5n mobile-alert " href="/ ">
-                        <svg viewBox="0 0 24 24 " width="24px " height="24px " class="_2HBN-k68 _2JndpOur ">
-                            <path
-                                d="M12 2c.539 0 .976.437.976.976v1.032c1.779.21 3.268 1 4.356 2.222 1.271 1.426 1.937 3.372 1.97 5.512.013.755.016 3.706.016 5.381h1.463v1.951H15.77a4.4 4.4 0 01-.336.924 3.545 3.545 0 01-1.2 1.382c-.589.391-1.332.62-2.234.62s-1.645-.229-2.233-.621a3.538
-                        3.538 0 01-1.2-1.382 4.4 4.4 0 01-.336-.924H3.22v-1.951h1.463c0-1.669.002-4.602.015-5.372-.007-2.149.663-4.098 1.944-5.523 1.098-1.222 2.601-2.009 4.383-2.219V2.976A.975.975 0 0112 2zM6.634 17.122h10.732c0-1.675-.003-4.611-.016-5.351-.026-1.763-.573-3.232-1.475-4.245-.891-1-2.187-1.625-3.876-1.625-1.692
-                        0-3.007.627-3.906 1.627-.909 1.012-1.452 2.473-1.444 4.223 0 .001-.015 3.696-.015 5.371zm3.653 1.951l.024.052c.125.249.297.471.538.63.234.156.59.294 1.151.294.562 0 .917-.138 1.151-.294a1.601 1.601 0 00.561-.682h-3.425z ">
-                            </path>
-                        </svg><span class="_1aNd_1k8 ">Alerts</span></button>
+
                     <button type="button " class="_6zkbCr5n " href="/ ">
                         <svg viewBox="0 0 24 24 " width="24px " height="24px " class="_2HBN-k68 _2JndpOur ">
                             <path
