@@ -137,16 +137,21 @@ body {
     color: #009578;
 }
 
-.nav__share {
+#nav__share {
     margin-left: 40px;
+}
+
+.nav__share:active {
+    -webkit-tap-highlight-color: transparent !important;
+    background: blue;
 }
 
 .sharelink {
     color: white;
     margin-right: 30px;
     font-size: 25px;
-    height: 40px;
-    width: 27px;
+    height: 0px;
+    width: 0px;
 }
 
 .blue:hover {
